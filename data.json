@@ -406,6 +406,20 @@
       "tawkeelDate": "",
       "tawkeelImg": "",
       "createdAt": "2026-06-20T10:25:08.030Z"
+    },
+    {
+      "id": "_ef33qc0qpmqm7pwsb",
+      "name": "داليا رفعت عبدالعزيز",
+      "phone": "",
+      "email": "",
+      "idNum": "7006009",
+      "address": "",
+      "notes": "توثيق اسر العدل",
+      "photo": "",
+      "tawkeelNum": "13735",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "createdAt": "2026-06-20T10:26:12.923Z"
     }
   ],
   "staff": [
@@ -580,6 +594,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة موكل: داليا رفعت عبدالعزيز",
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٣:٢٦:١٢ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٣:٢٥:١٤ ص"
+    },
     {
       "action": "إضافة موكل: خالد عبدالشافي محمد ابرهيم",
       "time": "٢٠‏/٦‏/٢٠٢٦، ٣:٢٥:٠٨ ص"

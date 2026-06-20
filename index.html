@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-   <title>  للمحاماة والاستشارات القانونية</title>
+   <title>AMG للمحاماة - النظام المتكامل</title>
    <script src="https://cdn.tailwindcss.com">
    </script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
@@ -373,6 +372,24 @@
            align-items: center;
            gap: 7px;
        }
+       .btn-report {
+           background: rgba(139, 92, 246, .12);
+           color: #8B5CF6;
+           border: 1px solid rgba(139, 92, 246, .3);
+           padding: 8px 18px;
+           border-radius: 9px;
+           font-family: 'Cairo', sans-serif;
+           font-weight: 600;
+           font-size: 13px;
+           cursor: pointer;
+           transition: all .2s;
+           display: inline-flex;
+           align-items: center;
+           gap: 7px;
+       }
+       .btn-report:hover {
+           background: rgba(139, 92, 246, .2);
+       }
 
        /* BADGES */
        .badge {
@@ -424,6 +441,16 @@
            border-radius: 20px;
            font-size: 10px;
            font-weight: 700;
+       }
+       .badge-tawkeel-general {
+           background: rgba(59, 130, 246, .13);
+           color: #3B82F6;
+           border: 1px solid rgba(59, 130, 246, .25);
+       }
+       .badge-tawkeel-special {
+           background: rgba(139, 92, 246, .13);
+           color: #8B5CF6;
+           border: 1px solid rgba(139, 92, 246, .25);
        }
 
        /* TABLE */
@@ -507,7 +534,7 @@
            border-radius: 18px;
            padding: 24px;
            width: 100%;
-           max-width: 680px;
+           max-width: 800px;
            max-height: 92vh;
            overflow-y: auto;
            position: relative;
@@ -1125,6 +1152,9 @@
            .client-print-card {
                page-break-inside: avoid;
            }
+           .report-print-area {
+               page-break-inside: avoid;
+           }
        }
 
        /* CLIENT PRINT CARD */
@@ -1227,6 +1257,37 @@
            color: rgba(255, 255, 255, .5);
        }
 
+       /* REPORT PRINT AREA */
+       .report-print-area {
+           background: var(--card-bg);
+           border: 1px solid var(--glass-border);
+           border-radius: 12px;
+           padding: 20px;
+           margin-bottom: 16px;
+       }
+       .report-print-area h3 {
+           color: var(--gold);
+           font-weight: 800;
+           font-size: 16px;
+           margin-bottom: 12px;
+           border-bottom: 1px solid var(--glass-border);
+           padding-bottom: 8px;
+       }
+       .report-print-area .report-row {
+           display: flex;
+           justify-content: space-between;
+           padding: 6px 0;
+           border-bottom: 1px solid rgba(201, 168, 76, .06);
+           font-size: 12px;
+       }
+       .report-print-area .report-row .label {
+           color: var(--text-muted);
+       }
+       .report-print-area .report-row .value {
+           font-weight: 700;
+           color: var(--gold);
+       }
+
        /* LIGHT MODE */
        body.light .ai-bubble {
            background: linear-gradient(135deg, rgba(59, 130, 246, .07), rgba(201, 168, 76, .04));
@@ -1257,7 +1318,8 @@
                padding: 10px 14px;
            }
            .topbar .search-wrap {
-               display: none;
+               display: block;
+               width: 160px !important;
            }
            #contentArea {
                padding: 12px 10px !important;
@@ -1274,10 +1336,13 @@
                gap: 6px;
            }
            .section-header .btn-gold,
-           .section-header .btn-outline {
+           .section-header .btn-outline,
+           .section-header .btn-report {
                flex: 1;
                justify-content: center;
-               min-width: 120px;
+               min-width: 100px;
+               font-size: 11px;
+               padding: 7px 12px;
            }
            .modal-box {
                padding: 16px;
@@ -1303,7 +1368,7 @@
                height: 0;
            }
            .stats-row .stat-card {
-               min-width: 150px;
+               min-width: 130px;
                flex-shrink: 0;
                scroll-snap-align: start;
            }
@@ -1346,6 +1411,20 @@
            }
            #attendSummary {
                grid-template-columns: repeat(2, 1fr) !important;
+           }
+           .search-results-dropdown {
+               position: fixed;
+               top: 60px;
+               left: 10px;
+               right: 10px;
+               max-height: 60vh;
+               z-index: 500;
+           }
+           .case-card .cc-top {
+               flex-wrap: wrap;
+           }
+           .case-card .cc-actions {
+               flex-wrap: wrap;
            }
        }
        @media(min-width:769px) {
@@ -1514,6 +1593,78 @@
            background: rgba(16, 185, 129, .12);
            color: #10B981;
        }
+
+       /* TAWKEEL PARTIES */
+       .tawkeel-party-item {
+           background: var(--dark3);
+           border-radius: 8px;
+           padding: 8px 12px;
+           margin-bottom: 6px;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           border-right: 3px solid var(--gold);
+       }
+       .tawkeel-party-item .party-name {
+           font-weight: 600;
+           font-size: 12px;
+       }
+       .tawkeel-party-item .party-type {
+           font-size: 10px;
+           color: var(--text-muted);
+       }
+
+       /* PAYROLL DAILY */
+       .daily-rate-input {
+           display: flex;
+           align-items: center;
+           gap: 8px;
+           background: var(--dark3);
+           padding: 8px 12px;
+           border-radius: 8px;
+           margin-bottom: 8px;
+       }
+       .daily-rate-input label {
+           font-size: 11px;
+           font-weight: 600;
+           color: var(--gold);
+       }
+       .daily-rate-input input {
+           width: 80px;
+           background: var(--input-bg);
+           border: 1px solid var(--glass-border);
+           border-radius: 6px;
+           padding: 4px 8px;
+           color: var(--text);
+           font-family: 'Cairo', sans-serif;
+           font-size: 12px;
+       }
+
+       .deduction-item {
+           display: flex;
+           align-items: center;
+           gap: 8px;
+           padding: 6px 10px;
+           background: var(--dark3);
+           border-radius: 6px;
+           margin-bottom: 4px;
+       }
+       .deduction-item select,
+       .deduction-item input {
+           background: var(--input-bg);
+           border: 1px solid var(--glass-border);
+           border-radius: 4px;
+           padding: 3px 6px;
+           color: var(--text);
+           font-family: 'Cairo', sans-serif;
+           font-size: 11px;
+       }
+       .deduction-item .deduct-days {
+           width: 60px;
+       }
+       .deduction-item .deduct-amount {
+           width: 70px;
+       }
    </style>
 </head>
 <body>
@@ -1569,6 +1720,8 @@
            <div class="nav-item" onclick="showPage('staff')"><span class="icon"><i class="fas fa-user-tie"></i></span>الموظفون</div>
            <div class="nav-item" onclick="showPage('attendance')"><span class="icon"><i class="fas fa-clipboard-check"></i></span>الحضور والغياب</div>
            <div class="nav-item" onclick="showPage('tasks')"><span class="icon"><i class="fas fa-tasks"></i></span>المهام</div>
+           <p class="nav-section-title">التقارير</p>
+           <div class="nav-item" onclick="showPage('reports')"><span class="icon"><i class="fas fa-file-alt"></i></span>التقارير</div>
            <p class="nav-section-title">المالية</p>
            <div class="nav-item" onclick="showPage('finance')"><span class="icon"><i class="fas fa-coins"></i></span>النظام المالي</div>
            <div class="nav-item" onclick="showPage('payroll')"><span class="icon"><i class="fas fa-money-bill-wave"></i></span>الرواتب والمكافآت</div>
@@ -1582,8 +1735,8 @@
            <div style="display:flex;align-items:center;gap:10px;">
                <div class="avatar" style="width:36px;height:36px;font-size:14px;">م</div>
                <div>
-                   <div style="font-size:12px;font-weight:700;">AMG </div>
-                   <div style="font-size:10px;color:var(--gold);font-weight:600;"> </div>
+                   <div style="font-size:12px;font-weight:700;">AMG</div>
+                   <div style="font-size:10px;color:var(--gold);font-weight:600;">المدير</div>
                </div>
                <div style="margin-right:auto;width:7px;height:7px;background:var(--success);border-radius:50%;box-shadow:0 0 6px var(--success);"></div>
            </div>
@@ -1631,7 +1784,7 @@
                        <p class="section-sub">مجموعة المصطفى للمحاماة والاستشارات القانونية</p>
                    </div>
                    <div style="display:flex;gap:8px;" class="no-print">
-                       <button class="btn-outline" onclick="exportPDF()"><i class="fas fa-print"></i> طباعة</button>
+                       <button class="btn-outline" onclick="window.print()"><i class="fas fa-print"></i> طباعة</button>
                        <button class="btn-gold" onclick="showPage('cases');setTimeout(()=>openModal('addCaseModal'),100)"><i class="fas fa-plus"></i> قضية جديدة</button>
                    </div>
                </div>
@@ -1759,17 +1912,22 @@
            <!-- ATTENDANCE -->
            <div class="page-section fade-in" id="page-attendance">
                <div class="section-header">
-                   <div><h1 class="section-title gold-text">الحضور والغياب</h1><p class="section-sub">تسجيل ومتابعة الحضور اليومي</p></div>
-                   <div style="display:flex;gap:8px;">
+                   <div><h1 class="section-title gold-text">الحضور والغياب</h1><p class="section-sub">تسجيل ومتابعة الحضور اليومي مع حساب الخصومات</p></div>
+                   <div style="display:flex;gap:8px;flex-wrap:wrap;">
                        <input class="form-input" type="date" id="attendDate" style="width:160px;padding:7px 11px;font-size:12px;" onchange="renderAttendance()">
                        <button class="btn-gold" onclick="openModal('addAttendModal')"><i class="fas fa-plus"></i> تسجيل</button>
                    </div>
+               </div>
+               <div class="daily-rate-input">
+                   <label><i class="fas fa-money-bill-wave" style="color:var(--gold);margin-left:5px;"></i> قيمة اليوم الواحد (ج.م):</label>
+                   <input type="number" id="dailyRate" value="200" onchange="renderAttendance()" style="width:100px;">
+                   <span style="font-size:11px;color:var(--text-muted);margin-right:8px;">تستخدم لحساب خصومات الغياب</span>
                </div>
                <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px;" id="attendSummary"></div>
                <div class="glass-card" style="border-radius:14px;overflow:hidden;">
                    <div style="overflow-x:auto;">
                        <table class="data-table">
-                           <thead><tr><th>الموظف</th><th>الوظيفة</th><th>التاريخ</th><th>وقت الحضور</th><th>وقت الانصراف</th><th>الساعات</th><th>الحالة</th><th>ملاحظة</th><th>إجراءات</th></tr></thead>
+                           <thead><tr><th>الموظف</th><th>الوظيفة</th><th>التاريخ</th><th>وقت الحضور</th><th>وقت الانصراف</th><th>الساعات</th><th>الحالة</th><th>نوع الخصم</th><th>قيمة الخصم</th><th>ملاحظة</th><th>إجراءات</th></tr></thead>
                            <tbody id="attendBody"></tbody>
                        </table>
                    </div>
@@ -1849,6 +2007,52 @@
                </div>
            </div>
 
+           <!-- REPORTS -->
+           <div class="page-section fade-in" id="page-reports">
+               <div class="section-header">
+                   <div><h1 class="section-title gold-text">التقارير</h1><p class="section-sub">تقارير متنوعة قابلة للطباعة</p></div>
+               </div>
+               <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;">
+                   <div class="glass-card" style="border-radius:14px;padding:16px;cursor:pointer;" onclick="generateReport('staff')">
+                       <div style="display:flex;align-items:center;gap:12px;">
+                           <div style="width:40px;height:40px;background:rgba(201,168,76,.15);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--gold);"><i class="fas fa-user-tie"></i></div>
+                           <div><div style="font-weight:700;font-size:13px;">تقرير الموظفين</div><div style="font-size:10px;color:var(--text-muted);">بيانات جميع الموظفين مع الرواتب</div></div>
+                       </div>
+                   </div>
+                   <div class="glass-card" style="border-radius:14px;padding:16px;cursor:pointer;" onclick="generateReport('attendance')">
+                       <div style="display:flex;align-items:center;gap:12px;">
+                           <div style="width:40px;height:40px;background:rgba(16,185,129,.15);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;color:#10B981;"><i class="fas fa-clipboard-check"></i></div>
+                           <div><div style="font-weight:700;font-size:13px;">تقرير الحضور والغياب</div><div style="font-size:10px;color:var(--text-muted);">سجل الحضور مع الخصومات</div></div>
+                       </div>
+                   </div>
+                   <div class="glass-card" style="border-radius:14px;padding:16px;cursor:pointer;" onclick="generateReport('finance')">
+                       <div style="display:flex;align-items:center;gap:12px;">
+                           <div style="width:40px;height:40px;background:rgba(139,92,246,.15);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;color:#8B5CF6;"><i class="fas fa-coins"></i></div>
+                           <div><div style="font-weight:700;font-size:13px;">تقرير المالية</div><div style="font-size:10px;color:var(--text-muted);">الإيرادات والمصروفات والأرباح</div></div>
+                       </div>
+                   </div>
+                   <div class="glass-card" style="border-radius:14px;padding:16px;cursor:pointer;" onclick="generateReport('cases')">
+                       <div style="display:flex;align-items:center;gap:12px;">
+                           <div style="width:40px;height:40px;background:rgba(245,158,11,.15);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;color:#F59E0B;"><i class="fas fa-gavel"></i></div>
+                           <div><div style="font-weight:700;font-size:13px;">تقرير القضايا</div><div style="font-size:10px;color:var(--text-muted);">جميع القضايا مع التفاصيل والأتعاب</div></div>
+                       </div>
+                   </div>
+                   <div class="glass-card" style="border-radius:14px;padding:16px;cursor:pointer;" onclick="generateReport('payroll')">
+                       <div style="display:flex;align-items:center;gap:12px;">
+                           <div style="width:40px;height:40px;background:rgba(59,130,246,.15);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;color:#3B82F6;"><i class="fas fa-money-bill-wave"></i></div>
+                           <div><div style="font-weight:700;font-size:13px;">تقرير الرواتب</div><div style="font-size:10px;color:var(--text-muted);">سجل الرواتب والمكافآت</div></div>
+                       </div>
+                   </div>
+                   <div class="glass-card" style="border-radius:14px;padding:16px;cursor:pointer;" onclick="generateReport('clients')">
+                       <div style="display:flex;align-items:center;gap:12px;">
+                           <div style="width:40px;height:40px;background:rgba(201,168,76,.15);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--gold);"><i class="fas fa-users"></i></div>
+                           <div><div style="font-weight:700;font-size:13px;">تقرير الموكلين</div><div style="font-size:10px;color:var(--text-muted);">بيانات الموكلين مع التوكيلات</div></div>
+                       </div>
+                   </div>
+               </div>
+               <div id="reportDisplay" style="margin-top:18px;"></div>
+           </div>
+
            <!-- FINANCE -->
            <div class="page-section fade-in" id="page-finance">
                <div class="section-header">
@@ -1873,7 +2077,6 @@
                        <div style="font-size:18px;font-weight:900;color:#8B5CF6;" id="netProfit">0 ج.م</div>
                    </div>
                </div>
-               <!-- Case Fees Summary -->
                <div class="glass-card" style="border-radius:14px;padding:16px;margin-bottom:18px;">
                    <h3 style="font-size:13px;font-weight:700;color:var(--gold);margin-bottom:12px;"><i class="fas fa-gavel" style="margin-left:6px;"></i>أتعاب القضايا</h3>
                    <div style="overflow-x:auto;">
@@ -2013,7 +2216,6 @@
                        <button class="btn-outline" onclick="loadAllFilesData()"><i class="fas fa-sync"></i> تحميل الكل</button>
                    </div>
                </div>
-               <!-- Create New File Form -->
                <div class="glass-card" style="border-radius:14px;padding:18px;margin-bottom:18px;">
                    <div style="display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap;">
                        <div style="flex:1;min-width:200px;">
@@ -2024,12 +2226,10 @@
                    </div>
                    <div style="font-size:11px;color:var(--text-muted);margin-top:8px;">⚠️ سيتم حفظ البيانات الحالية في الملف الجديد تلقائياً</div>
                </div>
-               <!-- File List -->
                <div class="glass-card" style="border-radius:14px;padding:18px;">
                    <h3 style="font-size:14px;font-weight:700;color:var(--gold);margin-bottom:14px;"><i class="fas fa-list"></i> ملفات البيانات المتوفرة</h3>
                    <div id="fileListContainer"></div>
                </div>
-               <!-- All Files Combined Data -->
                <div class="glass-card" style="border-radius:14px;padding:18px;margin-top:18px;">
                    <h3 style="font-size:14px;font-weight:700;color:var(--gold);margin-bottom:14px;"><i class="fas fa-database"></i> البيانات المجمعة من جميع الملفات</h3>
                    <div style="overflow-x:auto;">
@@ -2078,6 +2278,7 @@
            <div class="drawer-item" onclick="showPage('staff');closeDrawer()"><i class="fas fa-user-tie"></i>الموظفون</div>
            <div class="drawer-item" onclick="showPage('attendance');closeDrawer()"><i class="fas fa-clipboard-check"></i>الحضور</div>
            <div class="drawer-item" onclick="showPage('tasks');closeDrawer()"><i class="fas fa-tasks"></i>المهام</div>
+           <div class="drawer-item" onclick="showPage('reports');closeDrawer()"><i class="fas fa-file-alt"></i>التقارير</div>
            <div class="drawer-item" onclick="showPage('finance');closeDrawer()"><i class="fas fa-coins"></i>المالية</div>
            <div class="drawer-item" onclick="showPage('payroll');closeDrawer()"><i class="fas fa-money-bill-wave"></i>الرواتب</div>
            <div class="drawer-item" onclick="showPage('documents');closeDrawer()"><i class="fas fa-folder-open"></i>المستندات</div>
@@ -2107,7 +2308,7 @@
 
    <!-- Add/Edit Case -->
    <div class="modal-overlay" id="addCaseModal">
-       <div class="modal-box" style="max-width:680px;">
+       <div class="modal-box" style="max-width:780px;">
            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;">
                <h2 class="gold-text" style="font-size:17px;font-weight:800;" id="caseModalTitle">إضافة قضية جديدة</h2>
                <button onclick="closeModal('addCaseModal')" style="background:none;border:none;color:var(--text-muted);font-size:20px;cursor:pointer;">×</button>
@@ -2115,7 +2316,13 @@
            <input type="hidden" id="editCaseId">
            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;" class="grid">
                <div><label class="form-label">رقم القضية</label><input class="form-input" id="caseNum" placeholder="2024-001"></div>
-               <div><label class="form-label">نوع القضية</label><select class="form-input" id="caseType"><option>مدني</option><option>جنائي</option><option>تجاري</option><option>عمالي</option><option>أسري</option><option>عقاري</option><option>إداري</option></select></div>
+               <div><label class="form-label">نوع القضية</label><select class="form-input" id="caseType">
+                   <option>أسرة</option><option>عمال</option><option>مدني جزئي</option><option>مدني كلي</option>
+                   <option>إيجارات</option><option>استئناف مدني</option><option>جنح</option><option>معارضات</option>
+                   <option>جنيات</option><option>قضاء إداري</option><option>تأسيس شركات</option><option>مكافحة الإنترنت</option>
+                   <option>أموال عامة</option><option>أمن دولة طوارئ</option><option>جنح أمن دولة العليا</option>
+                   <option>الأموال العامة العليا</option><option>مكافحة الإرهاب</option><option>اغتلاث</option>
+               </select></div>
                <div style="grid-column:span 2;">
                    <label class="form-label">الموكل</label>
                    <div style="position:relative;">
@@ -2124,7 +2331,10 @@
                        <div id="clientSearchResults" style="position:absolute;top:100%;left:0;right:0;background:var(--dark2);border:1px solid var(--glass-border);border-radius:8px;max-height:200px;overflow-y:auto;z-index:10;display:none;margin-top:4px;box-shadow:0 8px 30px rgba(0,0,0,.4);"></div>
                    </div>
                </div>
+               <div><label class="form-label">المدعي (مين ضد مين)</label><input class="form-input" id="casePlaintiff" placeholder="المدعي"></div>
+               <div><label class="form-label">المدعى عليه</label><input class="form-input" id="caseDefendant" placeholder="المدعى عليه"></div>
                <div><label class="form-label">رقم التوكيل</label><input class="form-input" id="caseTawkeelNum" placeholder="رقم التوكيل (يُملأ تلقائياً)" readonly style="background:rgba(201,168,76,.05);color:var(--gold);font-weight:700;"></div>
+               <div><label class="form-label">نوع التوكيل</label><select class="form-input" id="caseTawkeelType"><option value="عام">عام</option><option value="خاص">خاص</option></select></div>
                <div><label class="form-label">المحامي المسؤول</label><select class="form-input" id="caseLawyer"><option value="">-- اختر --</option></select></div>
                <div><label class="form-label">المحكمة</label><input class="form-input" id="caseCourt" placeholder="المحكمة الابتدائية"></div>
                <div><label class="form-label">الدائرة</label><input class="form-input" id="caseDivision" placeholder="الدائرة المدنية"></div>
@@ -2162,6 +2372,7 @@
                <div><label class="form-label">الاسم الكامل</label><input class="form-input" id="clientName" placeholder="الاسم"></div>
                <div><label class="form-label">رقم الهاتف (واتساب)</label><input class="form-input" id="clientPhone" placeholder="+201234567890"></div>
                <div><label class="form-label">رقم التوكيل</label><input class="form-input" id="clientTawkeelNum" placeholder="مثال: 2024/123" style="color:var(--gold);font-weight:700;"></div>
+               <div><label class="form-label">نوع التوكيل</label><select class="form-input" id="clientTawkeelType"><option value="عام">عام</option><option value="خاص">خاص</option></select></div>
                <div><label class="form-label">تاريخ التوكيل</label><input class="form-input" id="clientTawkeelDate" type="date"></div>
                <div><label class="form-label">رقم الهوية</label><input class="form-input" id="clientID" placeholder="1xxxxxxxxx"></div>
                <div><label class="form-label">البريد الإلكتروني</label><input class="form-input" id="clientEmail" type="email" placeholder="email@example.com"></div>
@@ -2223,7 +2434,7 @@
 
    <!-- Add Attendance -->
    <div class="modal-overlay" id="addAttendModal">
-       <div class="modal-box" style="max-width:520px;">
+       <div class="modal-box" style="max-width:560px;">
            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;">
                <h2 class="gold-text" style="font-size:17px;font-weight:800;">تسجيل الحضور</h2>
                <button onclick="closeModal('addAttendModal')" style="background:none;border:none;color:var(--text-muted);font-size:20px;cursor:pointer;">×</button>
@@ -2236,7 +2447,23 @@
                    <div><label class="form-label">وقت الانصراف</label><input class="form-input" id="attendTimeOut" type="time"></div>
                </div>
                <div><label class="form-label">الحالة</label><select class="form-input" id="attendStatus"><option value="حاضر">حاضر</option><option value="غائب">غائب</option><option value="إجازة">إجازة</option><option value="متأخر">متأخر</option></select></div>
-               <div><label class="form-label">خصم الغياب (ج.م)</label><input class="form-input" id="attendDeduct" type="number" placeholder="0" value="0"></div>
+               <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+                   <div><label class="form-label">نوع الخصم</label>
+                       <select class="form-input" id="attendDeductType">
+                           <option value="none">لا يوجد خصم</option>
+                           <option value="day">يوم كامل</option>
+                           <option value="half">نصف يوم</option>
+                           <option value="days">عدد أيام</option>
+                           <option value="custom">قيمة مخصصة</option>
+                       </select>
+                   </div>
+                   <div><label class="form-label">قيمة الخصم</label>
+                       <div style="display:flex;gap:4px;align-items:center;">
+                           <input class="form-input" id="attendDeductValue" type="number" placeholder="0" style="flex:1;">
+                           <span id="attendDeductLabel" style="font-size:10px;color:var(--text-muted);">ج.م</span>
+                       </div>
+                   </div>
+               </div>
                <div><label class="form-label">ملاحظة</label><input class="form-input" id="attendNote" placeholder="ملاحظة اختيارية"></div>
            </div>
            <div style="display:flex;gap:8px;margin-top:18px;justify-content:flex-end;">
@@ -2457,6 +2684,7 @@
                    <button onclick="setWATemplate('reminder')" class="btn-outline" style="font-size:11px;padding:5px 10px;"><i class="fas fa-bell"></i> تذكير جلسة</button>
                    <button onclick="setWATemplate('payment')" class="btn-outline" style="font-size:11px;padding:5px 10px;"><i class="fas fa-money-bill"></i> تذكير دفع</button>
                    <button onclick="setWATemplate('greeting')" class="btn-outline" style="font-size:11px;padding:5px 10px;"><i class="fas fa-star"></i> تحية</button>
+                   <button onclick="setWATemplate('clientdata')" class="btn-outline" style="font-size:11px;padding:5px 10px;"><i class="fas fa-id-card"></i> بيانات الموكل</button>
                </div>
            </div>
            <div style="display:flex;gap:8px;margin-top:18px;justify-content:flex-end;">
@@ -3222,6 +3450,7 @@
            sessions: 'الجلسات',
            sessionHistory: 'تاريخ الجلسات',
            tasks: 'المهام',
+           reports: 'التقارير',
            finance: 'النظام المالي',
            payroll: 'الرواتب',
            documents: 'المستندات',
@@ -3254,6 +3483,7 @@
                sessions: renderCalendar,
                sessionHistory: renderSessionHistory,
                tasks: renderTasks,
+               reports: () => {},
                finance: renderFinance,
                payroll: renderPayroll,
                documents: renderDocs,
@@ -3305,7 +3535,6 @@
            document.getElementById(id).classList.add('active');
            if (id === 'addCaseModal') { 
                populateSel('caseLawyer', DB.staff, 'name'); 
-               // Initialize client search
                const searchInput = document.getElementById('clientSearchInput');
                if (searchInput) {
                    searchInput.value = '';
@@ -3361,7 +3590,6 @@
            const query = input.value.trim().toLowerCase();
            resultsDiv.innerHTML = '';
            
-           // Populate select for compatibility
            populateSel('caseClient', DB.clients, 'name');
            
            if (!query) {
@@ -3424,7 +3652,7 @@
            
            const filtered = DB.cases.filter(c => {
                const clientName = getClientName(c.clientId);
-               const searchText = (c.num + ' ' + clientName + ' ' + c.type + ' ' + c.court + ' ' + (c.tawkeelNum || '')).toLowerCase();
+               const searchText = (c.num + ' ' + clientName + ' ' + c.type + ' ' + c.court + ' ' + (c.tawkeelNum || '') + ' ' + (c.plaintiff || '') + ' ' + (c.defendant || '')).toLowerCase();
                return searchText.includes(query);
            });
            
@@ -3443,6 +3671,7 @@
                    <div style="flex:1;min-width:0;">
                        <div style="font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--gold);">${c.num}</div>
                        <div style="font-size:10px;color:var(--text-muted);">${client ? client.name : 'غير محدد'} • ${c.court || ''} • ${statusBadge(c.status)}</div>
+                       ${c.plaintiff ? `<div style="font-size:9px;color:var(--gold);">${c.plaintiff} ضد ${c.defendant || '...'}</div>` : ''}
                    </div>
                    <span class="badge badge-active" style="font-size:9px;">اختيار</span>
                `;
@@ -3463,6 +3692,9 @@
            const clientId = document.getElementById('caseClient').value;
            const client = DB.clients.find(x => x.id === clientId);
            document.getElementById('caseTawkeelNum').value = client ? (client.tawkeelNum || '') : '';
+           if (client) {
+               document.getElementById('caseTawkeelType').value = client.tawkeelType || 'عام';
+           }
        }
 
        function previewTawkeel(event) {
@@ -3567,7 +3799,7 @@
          <div class="card-print-avatar">${avatarHtml}</div>
          <div class="card-print-info">
            <div class="name">${client.name}</div>
-           ${client.tawkeelNum ? `<div class="row"><i class="fas fa-file-contract"></i><span>توكيل: <strong style="color:#C9A84C;">${client.tawkeelNum}</strong></span></div>` : ''}
+           ${client.tawkeelNum ? `<div class="row"><i class="fas fa-file-contract"></i><span>توكيل: <strong style="color:#C9A84C;">${client.tawkeelNum}</strong> <span class="badge ${client.tawkeelType==='خاص'?'badge-tawkeel-special':'badge-tawkeel-general'}" style="font-size:8px;">${client.tawkeelType||'عام'}</span></span></div>` : ''}
            ${client.phone ? `<div class="row"><i class="fas fa-phone"></i><span>${client.phone}</span></div>` : ''}
            ${client.idNum ? `<div class="row"><i class="fas fa-id-card"></i><span>${client.idNum}</span></div>` : ''}
            ${cases.length ? `<div class="row" style="margin-top:4px;flex-direction:column;align-items:flex-start;gap:1px;"><span style="color:#C9A84C;font-weight:700;font-size:9px;margin-bottom:2px;">القضايا:</span>${caseDetails}</div>` : ''}
@@ -3686,7 +3918,7 @@
                .target) && !e.target.closest('[onclick="toggleNotif()"]')) p.classList.remove('active'); });
 
        // ============================================================
-       // GLOBAL SEARCH - NEW CARD-BASED
+       // GLOBAL SEARCH - Card based navigation
        // ============================================================
        function globalSearchFn(query) {
            const dropdown = document.getElementById('searchResultsDropdown');
@@ -3695,20 +3927,20 @@
                return;
            }
 
-           const q = query.toLowerCase().trim();
+           const q = query.trim().toLowerCase();
            let results = [];
 
            DB.cases.forEach(c => {
                const clientName = getClientName(c.clientId);
-               const text = (c.num + ' ' + clientName + ' ' + c.court + ' ' + c.type + ' ' + c.status + ' ' + (c.tawkeelNum || '') + ' ' + (c.notes || '')).toLowerCase();
+               const text = (c.num + ' ' + clientName + ' ' + c.court + ' ' + c.type + ' ' + c.status + ' ' + (c.tawkeelNum || '') + ' ' + (c.notes || '') + ' ' + (c.plaintiff || '') + ' ' + (c.defendant || '')).toLowerCase();
                if (text.includes(q)) results.push({ type: 'قضية', title: c.num, subtitle: clientName + ' • ' + c.court, 
-                   extra: c.type, id: c.id, page: 'cases', icon: '⚖️', badge: 'قضية', badgeClass: 'case' });
+                   extra: c.type + (c.plaintiff ? ' | ' + c.plaintiff + ' ضد ' + (c.defendant || '') : ''), id: c.id, page: 'cases', icon: '⚖️', badge: 'قضية', badgeClass: 'case' });
            });
 
            DB.clients.forEach(c => {
                const text = (c.name + ' ' + (c.phone || '') + ' ' + (c.idNum || '') + ' ' + (c.tawkeelNum || '') + ' ' + (c.notes || '')).toLowerCase();
                if (text.includes(q)) results.push({ type: 'موكل', title: c.name, subtitle: c.phone || c.idNum || '',
-                   extra: c.tawkeelNum ? 'توكيل: ' + c.tawkeelNum : '', id: c.id, page: 'clients', icon: '👤', badge: 'موكل', badgeClass: 'client' });
+                   extra: c.tawkeelNum ? 'توكيل: ' + c.tawkeelNum + ' (' + (c.tawkeelType || 'عام') + ')' : '', id: c.id, page: 'clients', icon: '👤', badge: 'موكل', badgeClass: 'client' });
            });
 
            DB.staff.forEach(s => {
@@ -3732,7 +3964,6 @@
                return;
            }
 
-           // Limit results for performance
            const showResults = results.slice(0, 10);
            dropdown.innerHTML = showResults.map(r => `
                <div class="search-result-item" onclick="navigateSearchResult('${r.page}','${r.id}')">
@@ -3792,7 +4023,8 @@
            const templates = {
                reminder: `السلام عليكم ${name}،\n\nتذكير بموعد جلسة قضيتكم القادمة.\nيُرجى التواصل معنا لمزيد من التفاصيل.\n\nمؤسسة AMG للمحاماة ⚖️`,
                payment: `السلام عليكم ${name}،\n\nنود التذكير بالدفعة المستحقة لقضيتكم.\nيُرجى التواصل مع المؤسسة لترتيب السداد.\n\nمع تحيات مؤسسة AMG ⚖️`,
-               greeting: `السلام عليكم ${name}،\n\nيسعدنا دائماً خدمتكم في مؤسسة AMG للمحاماة والاستشارات القانونية.\n\nنحن هنا لخدمتكم على مدار الساعة. ⚖️`
+               greeting: `السلام عليكم ${name}،\n\nيسعدنا دائماً خدمتكم في مؤسسة AMG للمحاماة والاستشارات القانونية.\n\nنحن هنا لخدمتكم على مدار الساعة. ⚖️`,
+               clientdata: `السلام عليكم ${name}،\n\nهذه بياناتكم المسجلة لدينا في مؤسسة AMG للمحاماة والاستشارات القانونية:\n- الاسم: ${name}\n- رقم التوكيل: ${document.getElementById('clientTawkeelNum')?.value || 'غير مسجل'}\n- النوع: ${document.getElementById('clientTawkeelType')?.value || 'عام'}\n- الهاتف: ${waCurrentPhone}\n\nيرجى التأكد من صحتها.\nمع تحيات مؤسسة AMG ⚖️`
            };
            document.getElementById('waMessage').value = templates[type] || '';
        }
@@ -3885,12 +4117,24 @@
            if (!num || !clientId) { showToast('الرجاء إدخال رقم القضية والموكل', 'error'); return; }
            if (!editId && DB.cases.find(c => c.num === num)) { showToast('رقم القضية موجود مسبقاً', 'error'); return; }
            const client = DB.clients.find(x => x.id === clientId);
-           const data = { num, type: document.getElementById('caseType').value, clientId, lawyerId: document.getElementById(
-                   'caseLawyer').value, court: document.getElementById('caseCourt').value.trim(), division: document
-                   .getElementById('caseDivision').value.trim(), date: document.getElementById('caseDate').value,
-               status: document.getElementById('caseStatus').value, notes: document.getElementById('caseNotes').value
-               .trim(), fee: +document.getElementById('caseFee').value || 0, paid: +document.getElementById(
-                   'casePaid').value || 0, tawkeelNum: client ? client.tawkeelNum : '', archived: false };
+           const data = { 
+               num, 
+               type: document.getElementById('caseType').value, 
+               clientId, 
+               plaintiff: document.getElementById('casePlaintiff').value.trim(),
+               defendant: document.getElementById('caseDefendant').value.trim(),
+               lawyerId: document.getElementById('caseLawyer').value, 
+               court: document.getElementById('caseCourt').value.trim(), 
+               division: document.getElementById('caseDivision').value.trim(), 
+               date: document.getElementById('caseDate').value,
+               status: document.getElementById('caseStatus').value, 
+               notes: document.getElementById('caseNotes').value.trim(), 
+               fee: +document.getElementById('caseFee').value || 0, 
+               paid: +document.getElementById('casePaid').value || 0, 
+               tawkeelNum: client ? client.tawkeelNum : '',
+               tawkeelType: document.getElementById('caseTawkeelType').value || 'عام',
+               archived: false 
+           };
            if (editId) { const c = DB.cases.find(x => x.id === editId); if (c) Object.assign(c, data);
                logActivity('تعديل قضية: ' + num); } else { DB.cases.push({ id: genId(), ...data, createdAt: new Date()
                    .toISOString() });
@@ -3903,7 +4147,7 @@
            document.getElementById('caseModalTitle').textContent = 'إضافة قضية جديدة';
            document.getElementById('caseSaveBtn').textContent = 'حفظ القضية';
            ['caseNum', 'caseCourt', 'caseDivision', 'caseDate', 'caseNotes', 'caseFee', 'casePaid', 'caseTawkeelNum',
-               'clientSearchInput'
+               'clientSearchInput', 'casePlaintiff', 'caseDefendant'
            ].forEach(id => { const el = document.getElementById(id); if (el) el.value = ''; });
            document.getElementById('clientSearchResults').style.display = 'none';
            autoSync();
@@ -3923,6 +4167,9 @@
                const client = DB.clients.find(x => x.id === c.clientId);
                document.getElementById('clientSearchInput').value = client ? client.name + (client.tawkeelNum ? ' (' + client.tawkeelNum + ')' : '') : '';
                document.getElementById('caseTawkeelNum').value = c.tawkeelNum || '';
+               document.getElementById('caseTawkeelType').value = c.tawkeelType || 'عام';
+               document.getElementById('casePlaintiff').value = c.plaintiff || '';
+               document.getElementById('caseDefendant').value = c.defendant || '';
                document.getElementById('caseLawyer').value = c.lawyerId;
                document.getElementById('caseCourt').value = c.court;
                document.getElementById('caseDivision').value = c.division || '';
@@ -3937,14 +4184,17 @@
        const caseAccents = { نشطة: 'linear-gradient(90deg,#10B981,#059669)', معلقة: 'linear-gradient(90deg,#F59E0B,#D97706)',
            مغلقة: 'linear-gradient(90deg,#6B7280,#4B5563)', عاجلة: 'linear-gradient(90deg,#EF4444,#DC2626)',
            مؤرشفة: 'linear-gradient(90deg,#8B5CF6,#6D28D9)' };
-       const typeIcons = { مدني: '⚖️', جنائي: '🔒', تجاري: '💼', عمالي: '👷', أسري: '👨‍👩‍👧', عقاري: '🏠', إداري: '📋' };
+       const typeIcons = { أسرة: '👨‍👩‍👧', عمال: '👷', 'مدني جزئي': '⚖️', 'مدني كلي': '⚖️', إيجارات: '🏠', 'استئناف مدني': '📋',
+           جنح: '🔒', معارضات: '⚡', جنيات: '⚔️', 'قضاء إداري': '📜', 'تأسيس شركات': '🏢', 'مكافحة الإنترنت': '💻',
+           'أموال عامة': '💰', 'أمن دولة طوارئ': '🛡️', 'جنح أمن دولة العليا': '🛡️', 'الأموال العامة العليا': '💰',
+           'مكافحة الإرهاب': '⚔️', اغتلاث: '🔱' };
 
        function renderCases() {
            const search = (document.getElementById('caseSearch')?.value || '').toLowerCase();
            const filter = document.getElementById('caseFilter')?.value || '';
            let cases = DB.cases.filter(c => {
                const searchText = (c.num + ' ' + getClientName(c.clientId) + ' ' + c.court + ' ' + c.type + ' ' + c
-                   .status + ' ' + (c.tawkeelNum || '') + ' ' + (c.division || '') + ' ' + (c.notes || '')).toLowerCase();
+                   .status + ' ' + (c.tawkeelNum || '') + ' ' + (c.division || '') + ' ' + (c.notes || '') + ' ' + (c.plaintiff || '') + ' ' + (c.defendant || '')).toLowerCase();
                const match = !search || searchText.includes(search);
                const filt = !filter || c.status === filter;
                return match && filt;
@@ -3971,7 +4221,8 @@
                <div>
                  <div class="cc-num gold-text">${c.num}</div>
                  <div style="font-size:11px;color:var(--text-muted);margin-top:2px;">${typeIcons[c.type]||'⚖️'} ${c.type}</div>
-                 ${c.tawkeelNum||client?.tawkeelNum ? `<div style="font-size:10px;color:rgba(201,168,76,.7);margin-top:1px;"><i class="fas fa-file-contract" style="margin-left:3px;"></i>توكيل: ${c.tawkeelNum||client?.tawkeelNum}</div>` : ''}
+                 ${c.tawkeelNum||client?.tawkeelNum ? `<div style="font-size:10px;color:rgba(201,168,76,.7);margin-top:1px;"><i class="fas fa-file-contract" style="margin-left:3px;"></i>توكيل: ${c.tawkeelNum||client?.tawkeelNum} <span class="badge ${c.tawkeelType==='خاص'?'badge-tawkeel-special':'badge-tawkeel-general'}" style="font-size:8px;">${c.tawkeelType||'عام'}</span></div>` : ''}
+                 ${c.plaintiff ? `<div style="font-size:10px;color:var(--text-muted);">${c.plaintiff} ضد ${c.defendant || '...'}</div>` : ''}
                </div>
                <div style="display:flex;flex-direction:column;align-items:flex-end;gap:5px;">${statusBadge(c.status)}${sessionAlert}</div>
              </div>
@@ -4003,7 +4254,7 @@
            document.getElementById('casesBody').innerHTML = cases.map(c => {
                const remaining = (c.fee || 0) - (c.paid || 0);
                return `<tr>
-             <td><div style="font-size:11px;"><span style="color:var(--gold);font-weight:700;">${c.num}</span>${c.tawkeelNum?`<br><span style="color:rgba(201,168,76,.6);font-size:10px;">توكيل: ${c.tawkeelNum}</span>`:''}</div></td>
+             <td><div style="font-size:11px;"><span style="color:var(--gold);font-weight:700;">${c.num}</span>${c.tawkeelNum?`<br><span style="color:rgba(201,168,76,.6);font-size:10px;">توكيل: ${c.tawkeelNum} ${c.tawkeelType||'عام'}</span>`:''}${c.plaintiff?`<br><span style="font-size:9px;color:var(--text-muted);">${c.plaintiff} ضد ${c.defendant||''}</span>`:''}</div></td>
              <td><div style="display:flex;align-items:center;gap:7px;">${renderAvatar(getClientPhoto(c.clientId),getClientName(c.clientId),26,10)}${getClientName(c.clientId)}</div></td>
              <td>${c.type}</td><td>${c.court}</td><td>${getStaffName(c.lawyerId)}</td>
              <td>${c.date?formatDate(c.date):'-'}</td><td>${statusBadge(c.status)}</td>
@@ -4058,6 +4309,7 @@
            const casePayments = DB.payments.filter(p => p.caseId === id);
            const caseLogs = DB.sessionLogs.filter(l => l.caseId === id);
            const tawkeelNum = c.tawkeelNum || client?.tawkeelNum || 'غير مسجل';
+           const tawkeelType = c.tawkeelType || client?.tawkeelType || 'عام';
            const tawkeelDate = client?.tawkeelDate || '';
            document.getElementById('caseDetailContent').innerHTML = `
            <div style="display:grid;grid-template-columns:1fr 1fr;gap:11px;font-size:12px;margin-bottom:14px;">
@@ -4065,8 +4317,10 @@
              <div><span style="color:var(--text-muted);">النوع:</span> <strong>${c.type}</strong></div>
              <div><span style="color:var(--text-muted);">الموكل:</span> <strong>${getClientName(c.clientId)}</strong></div>
              <div><span style="color:var(--text-muted);">المحامي:</span> <strong>${getStaffName(c.lawyerId)}</strong></div>
-             <div><span style="color:var(--text-muted);">رقم التوكيل:</span> <strong style="color:var(--gold);">${tawkeelNum}</strong></div>
+             <div><span style="color:var(--text-muted);">رقم التوكيل:</span> <strong style="color:var(--gold);">${tawkeelNum} <span class="badge ${tawkeelType==='خاص'?'badge-tawkeel-special':'badge-tawkeel-general'}" style="font-size:9px;">${tawkeelType}</span></strong></div>
              <div><span style="color:var(--text-muted);">تاريخ التوكيل:</span> <strong>${formatDate(tawkeelDate)}</strong></div>
+             <div><span style="color:var(--text-muted);">المدعي:</span> <strong>${c.plaintiff || '-'}</strong></div>
+             <div><span style="color:var(--text-muted);">المدعى عليه:</span> <strong>${c.defendant || '-'}</strong></div>
              <div><span style="color:var(--text-muted);">المحكمة:</span> <strong>${c.court}</strong></div>
              <div><span style="color:var(--text-muted);">الجلسة القادمة:</span> <strong>${formatDate(c.date)}</strong></div>
              <div><span style="color:var(--text-muted);">الحالة:</span> ${statusBadge(c.status)}</div>
@@ -4098,6 +4352,7 @@
                notes: document.getElementById('clientNotes').value.trim(),
                photo: document.getElementById('clientPhotoData').value || '',
                tawkeelNum: document.getElementById('clientTawkeelNum').value.trim(),
+               tawkeelType: document.getElementById('clientTawkeelType').value || 'عام',
                tawkeelDate: document.getElementById('clientTawkeelDate').value,
                tawkeelImg: document.getElementById('tawkeelImgData').value || ''
            };
@@ -4137,6 +4392,7 @@
                document.getElementById('clientAddress').value = c.address || '';
                document.getElementById('clientNotes').value = c.notes || '';
                document.getElementById('clientTawkeelNum').value = c.tawkeelNum || '';
+               document.getElementById('clientTawkeelType').value = c.tawkeelType || 'عام';
                document.getElementById('clientTawkeelDate').value = c.tawkeelDate || '';
                if (c.photo) { document.getElementById('clientPhotoPreview').innerHTML =
                        `<img src="${c.photo}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">`;
@@ -4161,7 +4417,7 @@
              <div class="card-avatar">${c.photo?`<img src="${c.photo}" style="width:100%;height:100%;object-fit:cover;">`:'<span style="font-size:26px;">'+c.name[0]+'</span>'}</div>
              <div class="card-body">
                <div style="font-size:14px;font-weight:800;margin-bottom:3px;">${c.name}</div>
-               ${c.tawkeelNum?`<div style="font-size:10px;background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.25);border-radius:6px;padding:2px 8px;display:inline-block;margin-bottom:8px;color:var(--gold);font-weight:700;"><i class="fas fa-file-contract" style="margin-left:4px;"></i>توكيل: ${c.tawkeelNum}</div>`:'<div style="font-size:10px;color:var(--text-muted);margin-bottom:8px;">موكل مسجل</div>'}
+               ${c.tawkeelNum?`<div style="font-size:10px;background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.25);border-radius:6px;padding:2px 8px;display:inline-block;margin-bottom:8px;color:var(--gold);font-weight:700;"><i class="fas fa-file-contract" style="margin-left:4px;"></i>توكيل: ${c.tawkeelNum} <span class="badge ${c.tawkeelType==='خاص'?'badge-tawkeel-special':'badge-tawkeel-general'}" style="font-size:8px;">${c.tawkeelType||'عام'}</span></div>`:'<div style="font-size:10px;color:var(--text-muted);margin-bottom:8px;">موكل مسجل</div>'}
                ${c.tawkeelDate?`<div style="font-size:10px;color:var(--text-muted);margin-bottom:4px;"><i class="fas fa-calendar" style="color:var(--gold);margin-left:5px;width:14px;"></i>تاريخ التوكيل: ${formatDate(c.tawkeelDate)}</div>`:''}
                ${c.phone?`<div style="font-size:11px;color:var(--text-muted);margin-bottom:4px;"><i class="fas fa-phone" style="color:var(--gold);margin-left:5px;width:14px;"></i>${c.phone}</div>`:''}
                ${c.idNum?`<div style="font-size:11px;color:var(--text-muted);margin-bottom:4px;"><i class="fas fa-id-card" style="color:var(--gold);margin-left:5px;width:14px;"></i>${c.idNum}</div>`:''}
@@ -4290,19 +4546,38 @@
        }
 
        // ============================================================
-       // ATTENDANCE
+       // ATTENDANCE with Deductions
        // ============================================================
        function addAttendance() {
            const staffId = document.getElementById('attendStaff').value;
            const date = document.getElementById('attendDateIn').value;
            if (!staffId || !date) { showToast('الرجاء اختيار الموظف والتاريخ', 'error'); return; }
+           
+           const deductType = document.getElementById('attendDeductType').value;
+           let deductValue = parseFloat(document.getElementById('attendDeductValue').value) || 0;
+           const dailyRate = parseFloat(document.getElementById('dailyRate').value) || 200;
+           
+           // Calculate deduction based on type
+           if (deductType === 'day') deductValue = dailyRate;
+           else if (deductType === 'half') deductValue = dailyRate / 2;
+           else if (deductType === 'days') deductValue = deductValue * dailyRate;
+           // custom: value is already the amount
+           
            DB.attendance = DB.attendance.filter(a => !(a.staffId === staffId && a.date === date));
-           DB.attendance.push({ id: genId(), staffId, date, timeIn: document.getElementById('attendTimeIn').value,
-               timeOut: document.getElementById('attendTimeOut').value, status: document.getElementById(
-                   'attendStatus').value, deduct: +document.getElementById('attendDeduct').value || 0, note: document
-                   .getElementById('attendNote').value.trim() });
+           DB.attendance.push({ 
+               id: genId(), 
+               staffId, 
+               date, 
+               timeIn: document.getElementById('attendTimeIn').value,
+               timeOut: document.getElementById('attendTimeOut').value, 
+               status: document.getElementById('attendStatus').value,
+               deductType: deductType,
+               deductDays: deductType === 'days' ? parseFloat(document.getElementById('attendDeductValue').value) || 0 : 0,
+               deductAmount: deductValue,
+               note: document.getElementById('attendNote').value.trim() 
+           });
            saveDB();
-           logActivity('تسجيل حضور');
+           logActivity('تسجيل حضور: ' + getStaffName(staffId));
            closeModal('addAttendModal');
            renderAttendance();
            showToast('تم تسجيل الحضور');
@@ -4317,7 +4592,7 @@
            const present = records.filter(a => a.status === 'حاضر' || a.status === 'متأخر').length;
            const absent = records.filter(a => a.status === 'غائب').length;
            const leave = records.filter(a => a.status === 'إجازة').length;
-           const totalDeduct = records.reduce((a, b) => a + (+b.deduct || 0), 0);
+           const totalDeduct = records.reduce((a, b) => a + (+b.deductAmount || 0), 0);
            document.getElementById('attendSummary').innerHTML = [
                { label: 'حاضرون', val: present, color: 'var(--success)', icon: 'fa-user-check' },
                { label: 'غائبون', val: absent, color: 'var(--danger)', icon: 'fa-user-times' },
@@ -4329,6 +4604,15 @@
            if (!records.length) { tbody.innerHTML = '';
                empty.style.display = 'block'; return; }
            empty.style.display = 'none';
+           
+           const deductTypeMap = {
+               'day': 'يوم كامل',
+               'half': 'نصف يوم',
+               'days': 'عدد أيام',
+               'custom': 'قيمة مخصصة',
+               'none': 'لا يوجد'
+           };
+           
            tbody.innerHTML = records.map(a => {
                const s = DB.staff.find(x => x.id === a.staffId);
                const hrs = calcHours(a.timeIn, a.timeOut);
@@ -4338,13 +4622,16 @@
              <td>${s?s.role:'-'}</td><td>${formatDate(a.date)}</td><td>${a.timeIn||'-'}</td><td>${a.timeOut||'-'}</td>
              <td>${hrs>0?hrs+' ساعة':'-'}</td>
              <td><span class="badge ${sc[a.status]||'badge-pending'}">${a.status}</span></td>
+             <td style="font-size:10px;color:var(--text-muted);">${deductTypeMap[a.deductType] || 'لا يوجد'}</td>
+             <td style="font-weight:700;color:${a.deductAmount>0?'var(--danger)':'var(--text-muted)'};">${a.deductAmount>0?fmt(a.deductAmount):'-'}</td>
              <td>${a.note||'-'}</td>
-             <td><div style="display:flex;gap:4px;align-items:center;">${a.deduct?`<span style="color:var(--danger);font-size:11px;">-${a.deduct}</span>`:''}<button onclick="deleteAttend('${a.id}')" class="btn-danger btn-sm"><i class="fas fa-trash"></i></button></div></td>
+             <td><button onclick="deleteAttend('${a.id}')" class="btn-danger btn-sm"><i class="fas fa-trash"></i></button></td>
            </tr>`;
            }).join('');
        }
 
        function deleteAttend(id) {
+           if (!confirm('حذف سجل الحضور هذا نهائياً؟')) return;
            DB.attendance = DB.attendance.filter(a => a.id !== id);
            saveDB();
            renderAttendance();
@@ -4563,6 +4850,156 @@
                saveDB();
                renderDashboard();
                autoSync(); } }
+
+       // ============================================================
+       // REPORTS
+       // ============================================================
+       function generateReport(type) {
+           const container = document.getElementById('reportDisplay');
+           let html = '';
+           
+           if (type === 'staff') {
+               html = `<div class="report-print-area">
+                   <h3><i class="fas fa-user-tie"></i> تقرير الموظفين - ${new Date().toLocaleDateString('ar-EG')}</h3>
+                   ${DB.staff.map(s => `
+                       <div class="report-row">
+                           <span class="label">${s.name} - ${s.role}</span>
+                           <span class="value">${fmt(s.salary)}</span>
+                       </div>
+                   `).join('')}
+                   <div class="report-row" style="border-top:2px solid var(--gold);margin-top:8px;padding-top:10px;">
+                       <span class="label" style="font-weight:700;color:var(--gold);">إجمالي الرواتب</span>
+                       <span class="value" style="font-size:16px;">${fmt(DB.staff.reduce((a,b)=>a+(+b.salary||0),0))}</span>
+                   </div>
+                   <div class="report-row">
+                       <span class="label">عدد الموظفين</span>
+                       <span class="value">${DB.staff.length}</span>
+                   </div>
+                   <button class="btn-gold" style="margin-top:12px;" onclick="window.print()"><i class="fas fa-print"></i> طباعة التقرير</button>
+               </div>`;
+           }
+           else if (type === 'attendance') {
+               const today = new Date().toISOString().split('T')[0];
+               const records = DB.attendance.filter(a => a.date === today);
+               const totalDeduct = records.reduce((a,b) => a+(+b.deductAmount||0),0);
+               html = `<div class="report-print-area">
+                   <h3><i class="fas fa-clipboard-check"></i> تقرير الحضور والغياب - ${formatDate(today)}</h3>
+                   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px;">
+                       <div class="stat-card" style="--accent:linear-gradient(90deg,#10B981,#059669);padding:12px;">
+                           <div style="font-size:9px;color:var(--text-muted);">حاضرون</div>
+                           <div style="font-size:18px;font-weight:900;color:#10B981;">${records.filter(a=>a.status==='حاضر'||a.status==='متأخر').length}</div>
+                       </div>
+                       <div class="stat-card" style="--accent:linear-gradient(90deg,#EF4444,#DC2626);padding:12px;">
+                           <div style="font-size:9px;color:var(--text-muted);">غائبون</div>
+                           <div style="font-size:18px;font-weight:900;color:#EF4444;">${records.filter(a=>a.status==='غائب').length}</div>
+                       </div>
+                       <div class="stat-card" style="--accent:linear-gradient(90deg,#F59E0B,#D97706);padding:12px;">
+                           <div style="font-size:9px;color:var(--text-muted);">إجمالي الخصومات</div>
+                           <div style="font-size:18px;font-weight:900;color:#F59E0B;">${fmt(totalDeduct)}</div>
+                       </div>
+                   </div>
+                   ${records.map(a => {
+                       const s = DB.staff.find(x => x.id === a.staffId);
+                       return `<div class="report-row">
+                           <span class="label">${s?s.name:'غير معروف'} - ${a.status}</span>
+                           <span class="value">${a.deductAmount>0?'خصم: '+fmt(a.deductAmount):'لا يوجد خصم'}</span>
+                       </div>`;
+                   }).join('')}
+                   ${!records.length ? '<p style="color:var(--text-muted);text-align:center;padding:12px;">لا توجد سجلات حضور اليوم</p>' : ''}
+                   <button class="btn-gold" style="margin-top:12px;" onclick="window.print()"><i class="fas fa-print"></i> طباعة التقرير</button>
+               </div>`;
+           }
+           else if (type === 'finance') {
+               const income = DB.payments.filter(p => p.type === 'إيراد').reduce((a,b) => a+(+b.amount),0);
+               const expense = DB.payments.filter(p => p.type === 'مصروف').reduce((a,b) => a+(+b.amount),0);
+               const totalFee = DB.cases.reduce((a,b) => a+(+b.fee||0),0);
+               html = `<div class="report-print-area">
+                   <h3><i class="fas fa-coins"></i> التقرير المالي - ${new Date().toLocaleDateString('ar-EG')}</h3>
+                   <div class="report-row"><span class="label">إجمالي الإيرادات</span><span class="value" style="color:#10B981;">${fmt(income)}</span></div>
+                   <div class="report-row"><span class="label">إجمالي المصروفات</span><span class="value" style="color:#EF4444;">${fmt(expense)}</span></div>
+                   <div class="report-row"><span class="label">صافي الربح</span><span class="value" style="color:#8B5CF6;">${fmt(income-expense)}</span></div>
+                   <div class="report-row"><span class="label">إجمالي أتعاب القضايا</span><span class="value" style="color:var(--gold);">${fmt(totalFee)}</span></div>
+                   <div class="report-row" style="border-top:2px solid var(--gold);margin-top:8px;padding-top:10px;">
+                       <span class="label" style="font-weight:700;color:var(--gold);">عدد المعاملات</span>
+                       <span class="value">${DB.payments.length}</span>
+                   </div>
+                   <button class="btn-gold" style="margin-top:12px;" onclick="window.print()"><i class="fas fa-print"></i> طباعة التقرير</button>
+               </div>`;
+           }
+           else if (type === 'cases') {
+               const totalFees = DB.cases.reduce((a,b) => a+(+b.fee||0),0);
+               const totalPaid = DB.cases.reduce((a,b) => a+(+b.paid||0),0);
+               html = `<div class="report-print-area">
+                   <h3><i class="fas fa-gavel"></i> تقرير القضايا - ${new Date().toLocaleDateString('ar-EG')}</h3>
+                   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px;">
+                       <div class="stat-card" style="--accent:linear-gradient(90deg,#C9A84C,#8B6914);padding:12px;">
+                           <div style="font-size:9px;color:var(--text-muted);">إجمالي القضايا</div>
+                           <div style="font-size:18px;font-weight:900;" class="gold-text">${DB.cases.length}</div>
+                       </div>
+                       <div class="stat-card" style="--accent:linear-gradient(90deg,#10B981,#059669);padding:12px;">
+                           <div style="font-size:9px;color:var(--text-muted);">نشطة</div>
+                           <div style="font-size:18px;font-weight:900;color:#10B981;">${DB.cases.filter(c=>c.status==='نشطة').length}</div>
+                       </div>
+                       <div class="stat-card" style="--accent:linear-gradient(90deg,#EF4444,#DC2626);padding:12px;">
+                           <div style="font-size:9px;color:var(--text-muted);">عاجلة</div>
+                           <div style="font-size:18px;font-weight:900;color:#EF4444;">${DB.cases.filter(c=>c.status==='عاجلة').length}</div>
+                       </div>
+                   </div>
+                   <div class="report-row"><span class="label">إجمالي الأتعاب</span><span class="value" style="color:var(--gold);">${fmt(totalFees)}</span></div>
+                   <div class="report-row"><span class="label">المدفوع</span><span class="value" style="color:#10B981;">${fmt(totalPaid)}</span></div>
+                   <div class="report-row"><span class="label">المتبقي</span><span class="value" style="color:#EF4444;">${fmt(totalFees-totalPaid)}</span></div>
+                   ${DB.cases.slice(0,10).map(c => `
+                       <div class="report-row">
+                           <span class="label">${c.num} - ${getClientName(c.clientId)}</span>
+                           <span class="value">${statusBadge(c.status)} ${fmt(c.fee)}</span>
+                       </div>
+                   `).join('')}
+                   ${DB.cases.length > 10 ? `<div style="font-size:11px;color:var(--text-muted);text-align:center;">... و ${DB.cases.length-10} قضية أخرى</div>` : ''}
+                   <button class="btn-gold" style="margin-top:12px;" onclick="window.print()"><i class="fas fa-print"></i> طباعة التقرير</button>
+               </div>`;
+           }
+           else if (type === 'payroll') {
+               const totalSalaries = DB.salaries.reduce((a,b) => a+(+b.base||0),0);
+               const totalBonuses = DB.salaries.reduce((a,b) => a+(+b.bonus||0),0);
+               const totalDeductions = DB.salaries.reduce((a,b) => a+(+b.deduct||0),0);
+               html = `<div class="report-print-area">
+                   <h3><i class="fas fa-money-bill-wave"></i> تقرير الرواتب والمكافآت - ${new Date().toLocaleDateString('ar-EG')}</h3>
+                   <div class="report-row"><span class="label">إجمالي الرواتب</span><span class="value" style="color:#8B5CF6;">${fmt(totalSalaries)}</span></div>
+                   <div class="report-row"><span class="label">إجمالي المكافآت</span><span class="value" style="color:#10B981;">${fmt(totalBonuses)}</span></div>
+                   <div class="report-row"><span class="label">إجمالي الخصومات</span><span class="value" style="color:#EF4444;">${fmt(totalDeductions)}</span></div>
+                   <div class="report-row" style="border-top:2px solid var(--gold);margin-top:8px;padding-top:10px;">
+                       <span class="label" style="font-weight:700;color:var(--gold);">صافي المدفوع</span>
+                       <span class="value" style="font-size:16px;color:var(--gold);">${fmt(totalSalaries + totalBonuses - totalDeductions)}</span>
+                   </div>
+                   ${DB.salaries.slice(0,15).map(sal => {
+                       const s = DB.staff.find(x => x.id === sal.staffId);
+                       return `<div class="report-row">
+                           <span class="label">${sal.month||''} - ${s?s.name:'غير معروف'}</span>
+                           <span class="value">${fmt((+sal.base||0)+(+sal.bonus||0)-(+sal.deduct||0))}</span>
+                       </div>`;
+                   }).join('')}
+                   <button class="btn-gold" style="margin-top:12px;" onclick="window.print()"><i class="fas fa-print"></i> طباعة التقرير</button>
+               </div>`;
+           }
+           else if (type === 'clients') {
+               html = `<div class="report-print-area">
+                   <h3><i class="fas fa-users"></i> تقرير الموكلين - ${new Date().toLocaleDateString('ar-EG')}</h3>
+                   <div class="report-row"><span class="label">إجمالي الموكلين</span><span class="value">${DB.clients.length}</span></div>
+                   ${DB.clients.slice(0,20).map(c => {
+                       const caseCount = DB.cases.filter(x => x.clientId === c.id).length;
+                       return `<div class="report-row">
+                           <span class="label">${c.name} ${c.tawkeelNum ? '📜'+c.tawkeelNum : ''}</span>
+                           <span class="value">${caseCount} قضية ${c.phone ? '| '+c.phone : ''}</span>
+                       </div>`;
+                   }).join('')}
+                   ${DB.clients.length > 20 ? `<div style="font-size:11px;color:var(--text-muted);text-align:center;">... و ${DB.clients.length-20} موكل آخر</div>` : ''}
+                   <button class="btn-gold" style="margin-top:12px;" onclick="window.print()"><i class="fas fa-print"></i> طباعة التقرير</button>
+               </div>`;
+           }
+           
+           container.innerHTML = html;
+           showToast('✅ تم إنشاء التقرير', 'success');
+       }
 
        // ============================================================
        // FINANCE

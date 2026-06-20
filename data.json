@@ -128,12 +128,12 @@
       "court": "",
       "division": "",
       "date": "",
-      "status": "نشطة",
+      "status": "مؤرشفة",
       "notes": "",
       "fee": 35000,
       "paid": 15000,
       "tawkeelNum": "6149",
-      "archived": false,
+      "archived": true,
       "createdAt": "2026-06-20T14:18:04.396Z"
     },
     {
@@ -145,12 +145,12 @@
       "court": "",
       "division": "",
       "date": "",
-      "status": "نشطة",
+      "status": "مؤرشفة",
       "notes": "",
       "fee": 65000,
       "paid": 15000,
       "tawkeelNum": "1833\\2025",
-      "archived": false,
+      "archived": true,
       "createdAt": "2026-06-20T14:19:42.559Z"
     }
   ],

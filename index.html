@@ -1413,6 +1413,106 @@
            color: var(--text-muted);
            margin-left: 10px;
        }
+
+       /* SEARCH RESULTS */
+       .search-results-dropdown {
+           display: none;
+           position: absolute;
+           top: 100%;
+           left: 0;
+           right: 0;
+           background: var(--dark2);
+           border: 1px solid var(--glass-border);
+           border-radius: 12px;
+           box-shadow: 0 20px 60px rgba(0, 0, 0, .5);
+           z-index: 400;
+           max-height: 400px;
+           overflow-y: auto;
+           margin-top: 8px;
+           padding: 8px;
+       }
+       .search-results-dropdown.active {
+           display: block;
+       }
+       .search-result-item {
+           display: flex;
+           align-items: center;
+           gap: 10px;
+           padding: 8px 12px;
+           border-radius: 8px;
+           cursor: pointer;
+           transition: all .2s;
+           border-bottom: 1px solid var(--glass-border);
+       }
+       .search-result-item:hover {
+           background: rgba(201, 168, 76, .08);
+       }
+       .search-result-item .result-icon {
+           width: 32px;
+           height: 32px;
+           border-radius: 8px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-size: 14px;
+           flex-shrink: 0;
+       }
+       .search-result-item .result-icon.case {
+           background: rgba(201, 168, 76, .15);
+           color: var(--gold);
+       }
+       .search-result-item .result-icon.client {
+           background: rgba(59, 130, 246, .15);
+           color: #3B82F6;
+       }
+       .search-result-item .result-icon.staff {
+           background: rgba(139, 92, 246, .15);
+           color: #8B5CF6;
+       }
+       .search-result-item .result-icon.session {
+           background: rgba(16, 185, 129, .15);
+           color: #10B981;
+       }
+       .search-result-item .result-info {
+           flex: 1;
+           min-width: 0;
+       }
+       .search-result-item .result-info .title {
+           font-size: 12px;
+           font-weight: 600;
+           white-space: nowrap;
+           overflow: hidden;
+           text-overflow: ellipsis;
+       }
+       .search-result-item .result-info .sub {
+           font-size: 10px;
+           color: var(--text-muted);
+           white-space: nowrap;
+           overflow: hidden;
+           text-overflow: ellipsis;
+       }
+       .search-result-item .result-badge {
+           font-size: 9px;
+           padding: 2px 8px;
+           border-radius: 12px;
+           flex-shrink: 0;
+       }
+       .search-result-item .result-badge.case {
+           background: rgba(201, 168, 76, .12);
+           color: var(--gold);
+       }
+       .search-result-item .result-badge.client {
+           background: rgba(59, 130, 246, .12);
+           color: #3B82F6;
+       }
+       .search-result-item .result-badge.staff {
+           background: rgba(139, 92, 246, .12);
+           color: #8B5CF6;
+       }
+       .search-result-item .result-badge.session {
+           background: rgba(16, 185, 129, .12);
+           color: #10B981;
+       }
    </style>
 </head>
 <body>
@@ -1494,9 +1594,10 @@
        <div class="topbar">
            <div style="display:flex;align-items:center;gap:12px;">
                <button onclick="toggleSidebar()" style="background:none;border:none;color:var(--text);font-size:18px;cursor:pointer;padding:4px;"><i class="fas fa-bars"></i></button>
-               <div class="search-wrap" style="width:220px;">
-                   <input class="form-input" type="text" placeholder="بحث سريع..." id="globalSearch" oninput="globalSearchFn()" style="padding:8px 36px 8px 12px;font-size:12px;">
+               <div class="search-wrap" style="width:280px;position:relative;">
+                   <input class="form-input" type="text" placeholder="بحث سريع (قضايا، موكلون، جلسات...)" id="globalSearch" oninput="globalSearchFn(this.value)" style="padding:8px 36px 8px 12px;font-size:12px;">
                    <span class="search-icon"><i class="fas fa-search"></i></span>
+                   <div class="search-results-dropdown" id="searchResultsDropdown"></div>
                </div>
            </div>
            <div style="display:flex;align-items:center;gap:10px;">
@@ -2014,7 +2115,14 @@
            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;" class="grid">
                <div><label class="form-label">رقم القضية</label><input class="form-input" id="caseNum" placeholder="2024-001"></div>
                <div><label class="form-label">نوع القضية</label><select class="form-input" id="caseType"><option>مدني</option><option>جنائي</option><option>تجاري</option><option>عمالي</option><option>أسري</option><option>عقاري</option><option>إداري</option></select></div>
-               <div><label class="form-label">الموكل</label><select class="form-input" id="caseClient" onchange="fillCaseTawkeel()"><option value="">-- اختر موكل --</option></select></div>
+               <div style="grid-column:span 2;">
+                   <label class="form-label">الموكل</label>
+                   <div style="position:relative;">
+                       <input class="form-input" type="text" id="clientSearchInput" placeholder="ابحث عن موكل بالاسم أو رقم التوكيل..." oninput="filterClientOptions()" style="padding:9px 13px;">
+                       <select class="form-input" id="caseClient" style="display:none;" onchange="fillCaseTawkeel()"></select>
+                       <div id="clientSearchResults" style="position:absolute;top:100%;left:0;right:0;background:var(--dark2);border:1px solid var(--glass-border);border-radius:8px;max-height:200px;overflow-y:auto;z-index:10;display:none;margin-top:4px;box-shadow:0 8px 30px rgba(0,0,0,.4);"></div>
+                   </div>
+               </div>
                <div><label class="form-label">رقم التوكيل</label><input class="form-input" id="caseTawkeelNum" placeholder="رقم التوكيل (يُملأ تلقائياً)" readonly style="background:rgba(201,168,76,.05);color:var(--gold);font-weight:700;"></div>
                <div><label class="form-label">المحامي المسؤول</label><select class="form-input" id="caseLawyer"><option value="">-- اختر --</option></select></div>
                <div><label class="form-label">المحكمة</label><input class="form-input" id="caseCourt" placeholder="المحكمة الابتدائية"></div>
@@ -2144,10 +2252,19 @@
                <h2 class="gold-text" style="font-size:17px;font-weight:800;">إضافة جلسة</h2>
                <button onclick="closeModal('addSessionModal')" style="background:none;border:none;color:var(--text-muted);font-size:20px;cursor:pointer;">×</button>
            </div>
-           <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;" class="grid">
-               <div><label class="form-label">القضية</label><select class="form-input" id="sessionCase"></select></div>
-               <div><label class="form-label">التاريخ</label><input class="form-input" id="sessionDate" type="date"></div>
-               <div><label class="form-label">الوقت</label><input class="form-input" id="sessionTime" type="time"></div>
+           <div style="display:grid;gap:12px;">
+               <div>
+                   <label class="form-label">القضية</label>
+                   <div style="position:relative;">
+                       <input class="form-input" type="text" id="sessionCaseSearch" placeholder="ابحث عن قضية برقمها أو اسم الموكل..." oninput="filterSessionCaseOptions()" style="padding:9px 13px;">
+                       <select class="form-input" id="sessionCase" style="display:none;"></select>
+                       <div id="sessionCaseResults" style="position:absolute;top:100%;left:0;right:0;background:var(--dark2);border:1px solid var(--glass-border);border-radius:8px;max-height:200px;overflow-y:auto;z-index:10;display:none;margin-top:4px;box-shadow:0 8px 30px rgba(0,0,0,.4);"></div>
+                   </div>
+               </div>
+               <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;" class="grid">
+                   <div><label class="form-label">التاريخ</label><input class="form-input" id="sessionDate" type="date"></div>
+                   <div><label class="form-label">الوقت</label><input class="form-input" id="sessionTime" type="time"></div>
+               </div>
                <div><label class="form-label">المحكمة</label><input class="form-input" id="sessionCourt" placeholder="المحكمة"></div>
                <div style="grid-column:span 2;"><label class="form-label">ملاحظات</label><textarea class="form-input" id="sessionNotes" rows="2" placeholder="ملاحظات الجلسة..."></textarea></div>
            </div>
@@ -2378,7 +2495,6 @@
            version: '6.0'
        };
 
-       // قائمة الملفات المتاحة
        let filesList = [];
        let allFilesData = {};
 
@@ -2452,13 +2568,11 @@
                    if (!DB.settings) DB.settings = {};
                } catch (e) {}
            }
-           // تحميل قائمة الملفات
            const filesSaved = localStorage.getItem(FILES_LIST_KEY);
            if (filesSaved) {
                try { filesList = JSON.parse(filesSaved); } catch (e) {}
            }
            if (!filesList.length) {
-               // إنشاء الملف الرئيسي إذا لم يكن موجوداً
                filesList.push({ name: 'data_main.json', created: new Date().toISOString(), isMain: true });
                saveFilesList();
            }
@@ -2518,9 +2632,6 @@
            filesList.push({ name: fileName, created: new Date().toISOString(), isMain: false });
            saveFilesList();
 
-           // رفع الملف الجديد إلى GitHub تلقائياً مع البيانات الأساسية
-           // سيتم رفع الملف مع البيانات الأساسية في المزامنة التالية
-           // لكننا نرفعه بشكل منفصل هنا لضمان وجوده
            const token = localStorage.getItem(GITHUB_TOKEN_KEY) || '';
            const repo = localStorage.getItem(GITHUB_REPO_KEY) || '';
            if (token && repo) {
@@ -2534,7 +2645,6 @@
            autoSync();
        }
 
-       // رفع ملف فردي إلى GitHub
        async function uploadFileToGitHub(fileName, dataStr) {
            const token = localStorage.getItem(GITHUB_TOKEN_KEY) || '';
            const repo = localStorage.getItem(GITHUB_REPO_KEY) || '';
@@ -2543,17 +2653,14 @@
            if (!token || !repo) return;
 
            try {
-               // نستخدم نفس المسار للملف الرئيسي، ونرفع الملفات الأخرى في مجلد files/
                let filePath = path;
                if (fileName !== 'data_main.json') {
-                   // إذا كان الملف ليس الرئيسي، نضعه في مجلد files/
                    const basePath = path.includes('/') ? path.substring(0, path.lastIndexOf('/') + 1) : '';
                    filePath = basePath + 'files/' + fileName;
                }
 
                const content = btoa(unescape(encodeURIComponent(dataStr)));
 
-               // نتحقق مما إذا كان الملف موجوداً
                let sha = null;
                try {
                    const readResp = await fetch(`https://api.github.com/repos/${repo}/contents/${filePath}`, {
@@ -2592,7 +2699,6 @@
            }
        }
 
-       // تحميل ملف محدد واستخدامه كبيانات رئيسية
        function loadFile(fileName) {
            const dataStr = localStorage.getItem('file_' + fileName);
            if (!dataStr) {
@@ -2637,7 +2743,6 @@
            if (!confirm(`هل أنت متأكد من حذف الملف: ${fileName}؟`)) return;
            localStorage.removeItem('file_' + fileName);
 
-           // حذف الملف من GitHub أيضاً
            const token = localStorage.getItem(GITHUB_TOKEN_KEY) || '';
            const repo = localStorage.getItem(GITHUB_REPO_KEY) || '';
            if (token && repo) {
@@ -2651,7 +2756,6 @@
            showToast(`✅ تم حذف الملف: ${fileName}`, 'warning');
        }
 
-       // حذف ملف من GitHub
        async function deleteFileFromGitHub(fileName) {
            const token = localStorage.getItem(GITHUB_TOKEN_KEY) || '';
            const repo = localStorage.getItem(GITHUB_REPO_KEY) || '';
@@ -2666,7 +2770,6 @@
                    filePath = basePath + 'files/' + fileName;
                }
 
-               // الحصول على SHA
                const readResp = await fetch(`https://api.github.com/repos/${repo}/contents/${filePath}`, {
                    headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
                });
@@ -2829,7 +2932,7 @@
        }
 
        // ============================================================
-       // GITHUB - FETCH (جلب البيانات من GitHub)
+       // GITHUB - FETCH
        // ============================================================
        async function fetchFromGitHub() {
            const token = localStorage.getItem(GITHUB_TOKEN_KEY) || '';
@@ -2842,7 +2945,6 @@
            }
 
            try {
-               // جلب الملف الرئيسي
                const readResp = await fetch(`https://api.github.com/repos/${repo}/contents/${path}`, {
                    headers: {
                        'Authorization': `token ${token}`,
@@ -2881,7 +2983,6 @@
                    }
                }
 
-               // جلب الملفات الإضافية من مجلد files/
                const basePath = path.includes('/') ? path.substring(0, path.lastIndexOf('/') + 1) : '';
                const filesPath = basePath + 'files/';
 
@@ -2895,15 +2996,12 @@
 
                    if (listResp.ok) {
                        const listData = await listResp.json();
-                       // تحميل كل ملف json من المجلد
                        for (const item of listData) {
                            if (item.name.endsWith('.json') && item.name !== 'data_main.json') {
                                const fileResp = await fetch(item.download_url);
                                if (fileResp.ok) {
                                    const fileContent = await fileResp.text();
-                                   // حفظ الملف محلياً
                                    localStorage.setItem('file_' + item.name, fileContent);
-                                   // إضافته للقائمة إذا لم يكن موجوداً
                                    if (!filesList.find(f => f.name === item.name)) {
                                        filesList.push({
                                            name: item.name,
@@ -2929,7 +3027,7 @@
        }
 
        // ============================================================
-       // GITHUB - SYNC (المزامنة التلقائية مع حفظ المهام والملفات)
+       // GITHUB - SYNC
        // ============================================================
        function autoSync() {
            clearTimeout(syncTimeout);
@@ -2960,7 +3058,6 @@
            showToast('🔄 جاري المزامنة...', 'info');
 
            try {
-               // 1. مزامنة الملف الرئيسي
                let sha = null;
                let fileExists = false;
                let remoteData = null;
@@ -2989,7 +3086,6 @@
                    fileExists = false;
                }
 
-               // دمج البيانات من GitHub مع المحلية
                if (remoteData && typeof remoteData === 'object') {
                    let mergedCount = 0;
                    ['cases', 'clients', 'staff', 'sessions', 'tasks', 'payments', 'documents', 'attendance',
@@ -3010,7 +3106,6 @@
                    }
                }
 
-               // رفع البيانات إلى GitHub
                const jsonData = JSON.stringify(DB, null, 2);
                const content = btoa(unescape(encodeURIComponent(jsonData)));
 
@@ -3048,11 +3143,9 @@
                    return;
                }
 
-               // 2. مزامنة جميع الملفات الإضافية
                const basePath = path.includes('/') ? path.substring(0, path.lastIndexOf('/') + 1) : '';
                const filesPath = basePath + 'files/';
 
-               // رفع كل ملف في القائمة (باستثناء الرئيسي)
                for (const file of filesList) {
                    if (file.isMain) continue;
                    const fileDataStr = localStorage.getItem('file_' + file.name);
@@ -3209,10 +3302,24 @@
        // ============================================================
        function openModal(id) {
            document.getElementById(id).classList.add('active');
-           if (id === 'addCaseModal') { populateSel('caseClient', DB.clients, 'name');
-               populateSel('caseLawyer', DB.staff, 'name'); }
-           if (id === 'addSessionModal') populateSel('sessionCase', DB.cases, c => c.num + ' - ' + getClientName(c
-               .clientId));
+           if (id === 'addCaseModal') { 
+               populateSel('caseLawyer', DB.staff, 'name'); 
+               // Initialize client search
+               const searchInput = document.getElementById('clientSearchInput');
+               if (searchInput) {
+                   searchInput.value = '';
+                   searchInput.focus();
+               }
+               filterClientOptions();
+           }
+           if (id === 'addSessionModal') { 
+               const searchInput = document.getElementById('sessionCaseSearch');
+               if (searchInput) {
+                   searchInput.value = '';
+                   searchInput.focus();
+               }
+               filterSessionCaseOptions();
+           }
            if (id === 'addSessionLogModal') { populateSel('sessionLogCase', DB.cases, c => c.num + ' - ' + getClientName(c
                    .clientId));
                document.getElementById('sessionLogDate').value = new Date().toISOString().split('T')[0]; }
@@ -3241,6 +3348,114 @@
                o.textContent = typeof labelFn === 'function' ? labelFn(item) : item[labelFn];
                sel.appendChild(o);
            });
+       }
+
+       // Client search in case modal
+       function filterClientOptions() {
+           const input = document.getElementById('clientSearchInput');
+           const resultsDiv = document.getElementById('clientSearchResults');
+           const select = document.getElementById('caseClient');
+           if (!input || !resultsDiv) return;
+           
+           const query = input.value.trim().toLowerCase();
+           resultsDiv.innerHTML = '';
+           
+           // Populate select for compatibility
+           populateSel('caseClient', DB.clients, 'name');
+           
+           if (!query) {
+               resultsDiv.style.display = 'none';
+               return;
+           }
+           
+           const filtered = DB.clients.filter(c => {
+               const searchText = (c.name + ' ' + (c.tawkeelNum || '') + ' ' + (c.phone || '') + ' ' + (c.idNum || '')).toLowerCase();
+               return searchText.includes(query);
+           });
+           
+           if (!filtered.length) {
+               resultsDiv.innerHTML = '<div style="padding:10px;color:var(--text-muted);font-size:12px;text-align:center;">لا توجد نتائج</div>';
+               resultsDiv.style.display = 'block';
+               return;
+           }
+           
+           filtered.forEach(c => {
+               const div = document.createElement('div');
+               div.style.cssText = 'padding:8px 12px;cursor:pointer;border-bottom:1px solid var(--glass-border);display:flex;align-items:center;gap:10px;';
+               div.innerHTML = `
+                   ${renderAvatar(c.photo, c.name, 28, 10)}
+                   <div style="flex:1;min-width:0;">
+                       <div style="font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${c.name}</div>
+                       ${c.tawkeelNum ? `<div style="font-size:10px;color:var(--gold);">📜 ${c.tawkeelNum}</div>` : ''}
+                       ${c.phone ? `<div style="font-size:10px;color:var(--text-muted);">📱 ${c.phone}</div>` : ''}
+                   </div>
+                   <span class="badge badge-active" style="font-size:9px;">اختيار</span>
+               `;
+               div.onclick = () => {
+                   select.value = c.id;
+                   input.value = c.name + (c.tawkeelNum ? ' (' + c.tawkeelNum + ')' : '');
+                   resultsDiv.style.display = 'none';
+                   fillCaseTawkeel();
+               };
+               div.onmouseover = () => div.style.background = 'rgba(201,168,76,.08)';
+               div.onmouseout = () => div.style.background = 'transparent';
+               resultsDiv.appendChild(div);
+           });
+           resultsDiv.style.display = 'block';
+       }
+
+       // Case search in session modal
+       function filterSessionCaseOptions() {
+           const input = document.getElementById('sessionCaseSearch');
+           const resultsDiv = document.getElementById('sessionCaseResults');
+           const select = document.getElementById('sessionCase');
+           if (!input || !resultsDiv) return;
+           
+           const query = input.value.trim().toLowerCase();
+           resultsDiv.innerHTML = '';
+           
+           populateSel('sessionCase', DB.cases, c => c.num + ' - ' + getClientName(c.clientId));
+           
+           if (!query) {
+               resultsDiv.style.display = 'none';
+               return;
+           }
+           
+           const filtered = DB.cases.filter(c => {
+               const clientName = getClientName(c.clientId);
+               const searchText = (c.num + ' ' + clientName + ' ' + c.type + ' ' + c.court + ' ' + (c.tawkeelNum || '')).toLowerCase();
+               return searchText.includes(query);
+           });
+           
+           if (!filtered.length) {
+               resultsDiv.innerHTML = '<div style="padding:10px;color:var(--text-muted);font-size:12px;text-align:center;">لا توجد قضايا</div>';
+               resultsDiv.style.display = 'block';
+               return;
+           }
+           
+           filtered.forEach(c => {
+               const div = document.createElement('div');
+               div.style.cssText = 'padding:8px 12px;cursor:pointer;border-bottom:1px solid var(--glass-border);display:flex;align-items:center;gap:10px;';
+               const client = DB.clients.find(x => x.id === c.clientId);
+               div.innerHTML = `
+                   <div style="width:32px;height:32px;border-radius:8px;background:rgba(201,168,76,.15);color:var(--gold);display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0;">⚖️</div>
+                   <div style="flex:1;min-width:0;">
+                       <div style="font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--gold);">${c.num}</div>
+                       <div style="font-size:10px;color:var(--text-muted);">${client ? client.name : 'غير محدد'} • ${c.court || ''} • ${statusBadge(c.status)}</div>
+                   </div>
+                   <span class="badge badge-active" style="font-size:9px;">اختيار</span>
+               `;
+               div.onclick = () => {
+                   select.value = c.id;
+                   const client = DB.clients.find(x => x.id === c.clientId);
+                   input.value = c.num + ' - ' + (client ? client.name : '');
+                   resultsDiv.style.display = 'none';
+               };
+               div.onmouseover = () => div.style.background = 'rgba(201,168,76,.08)';
+               div.onmouseout = () => div.style.background = 'transparent';
+               resultsDiv.appendChild(div);
+           });
+           resultsDiv.style.display = 'block';
        }
 
        function fillCaseTawkeel() {
@@ -3470,6 +3685,92 @@
                .target) && !e.target.closest('[onclick="toggleNotif()"]')) p.classList.remove('active'); });
 
        // ============================================================
+       // GLOBAL SEARCH - NEW CARD-BASED
+       // ============================================================
+       function globalSearchFn(query) {
+           const dropdown = document.getElementById('searchResultsDropdown');
+           if (!query || query.length < 1) {
+               dropdown.classList.remove('active');
+               return;
+           }
+
+           const q = query.toLowerCase().trim();
+           let results = [];
+
+           DB.cases.forEach(c => {
+               const clientName = getClientName(c.clientId);
+               const text = (c.num + ' ' + clientName + ' ' + c.court + ' ' + c.type + ' ' + c.status + ' ' + (c.tawkeelNum || '') + ' ' + (c.notes || '')).toLowerCase();
+               if (text.includes(q)) results.push({ type: 'قضية', title: c.num, subtitle: clientName + ' • ' + c.court, 
+                   extra: c.type, id: c.id, page: 'cases', icon: '⚖️', badge: 'قضية', badgeClass: 'case' });
+           });
+
+           DB.clients.forEach(c => {
+               const text = (c.name + ' ' + (c.phone || '') + ' ' + (c.idNum || '') + ' ' + (c.tawkeelNum || '') + ' ' + (c.notes || '')).toLowerCase();
+               if (text.includes(q)) results.push({ type: 'موكل', title: c.name, subtitle: c.phone || c.idNum || '',
+                   extra: c.tawkeelNum ? 'توكيل: ' + c.tawkeelNum : '', id: c.id, page: 'clients', icon: '👤', badge: 'موكل', badgeClass: 'client' });
+           });
+
+           DB.staff.forEach(s => {
+               const text = (s.name + ' ' + (s.role || '') + ' ' + (s.phone || '') + ' ' + (s.license || '')).toLowerCase();
+               if (text.includes(q)) results.push({ type: 'موظف', title: s.name, subtitle: s.role || '',
+                   extra: s.phone || '', id: s.id, page: 'staff', icon: '👔', badge: 'موظف', badgeClass: 'staff' });
+           });
+
+           DB.sessions.forEach(s => {
+               const caseName = getCaseName(s.caseId);
+               const client = DB.cases.find(c => c.id === s.caseId);
+               const clientName = client ? getClientName(client.clientId) : '';
+               const text = (caseName + ' ' + (s.court || '') + ' ' + (s.notes || '') + ' ' + (s.date || '') + ' ' + clientName).toLowerCase();
+               if (text.includes(q)) results.push({ type: 'جلسة', title: caseName, subtitle: formatDate(s.date) + ' • ' + (s.court || ''),
+                   extra: clientName, id: s.id, page: 'sessions', icon: '📅', badge: 'جلسة', badgeClass: 'session' });
+           });
+
+           if (!results.length) {
+               dropdown.innerHTML = `<div style="padding:14px;text-align:center;color:var(--text-muted);font-size:12px;">🔍 لا توجد نتائج لـ "${query}"</div>`;
+               dropdown.classList.add('active');
+               return;
+           }
+
+           // Limit results for performance
+           const showResults = results.slice(0, 10);
+           dropdown.innerHTML = showResults.map(r => `
+               <div class="search-result-item" onclick="navigateSearchResult('${r.page}','${r.id}')">
+                   <div class="result-icon ${r.badgeClass}">${r.icon}</div>
+                   <div class="result-info">
+                       <div class="title">${r.title}</div>
+                       <div class="sub">${r.subtitle}</div>
+                       ${r.extra ? `<div style="font-size:9px;color:var(--gold);">${r.extra}</div>` : ''}
+                   </div>
+                   <span class="result-badge ${r.badgeClass}">${r.badge}</span>
+               </div>
+           `).join('');
+
+           if (results.length > 10) {
+               dropdown.innerHTML += `<div style="padding:8px;text-align:center;color:var(--text-muted);font-size:11px;">... و ${results.length - 10} نتيجة أخرى</div>`;
+           }
+
+           dropdown.classList.add('active');
+       }
+
+       function navigateSearchResult(page, id) {
+           showPage(page);
+           // Highlight the specific item if needed
+           document.getElementById('searchResultsDropdown').classList.remove('active');
+           document.getElementById('searchResultsDropdown').innerHTML = '';
+           document.getElementById('globalSearch').value = '';
+           showToast(`✅ تم الانتقال إلى العنصر`, 'success');
+       }
+
+       // Close search on outside click
+       document.addEventListener('click', (e) => {
+           const searchWrap = document.querySelector('.search-wrap');
+           const dropdown = document.getElementById('searchResultsDropdown');
+           if (searchWrap && !searchWrap.contains(e.target) && dropdown) {
+               dropdown.classList.remove('active');
+           }
+       });
+
+       // ============================================================
        // WHATSAPP
        // ============================================================
        let waCurrentName = '',
@@ -3600,8 +3901,10 @@
            document.getElementById('editCaseId').value = '';
            document.getElementById('caseModalTitle').textContent = 'إضافة قضية جديدة';
            document.getElementById('caseSaveBtn').textContent = 'حفظ القضية';
-           ['caseNum', 'caseCourt', 'caseDivision', 'caseDate', 'caseNotes', 'caseFee', 'casePaid', 'caseTawkeelNum']
-           .forEach(id => { const el = document.getElementById(id); if (el) el.value = ''; });
+           ['caseNum', 'caseCourt', 'caseDivision', 'caseDate', 'caseNotes', 'caseFee', 'casePaid', 'caseTawkeelNum',
+               'clientSearchInput'
+           ].forEach(id => { const el = document.getElementById(id); if (el) el.value = ''; });
+           document.getElementById('clientSearchResults').style.display = 'none';
            autoSync();
        }
 
@@ -3616,6 +3919,8 @@
                document.getElementById('caseNum').value = c.num;
                document.getElementById('caseType').value = c.type;
                document.getElementById('caseClient').value = c.clientId;
+               const client = DB.clients.find(x => x.id === c.clientId);
+               document.getElementById('clientSearchInput').value = client ? client.name + (client.tawkeelNum ? ' (' + client.tawkeelNum + ')' : '') : '';
                document.getElementById('caseTawkeelNum').value = c.tawkeelNum || '';
                document.getElementById('caseLawyer').value = c.lawyerId;
                document.getElementById('caseCourt').value = c.court;
@@ -4051,10 +4356,11 @@
        // ============================================================
        function addSession() {
            const date = document.getElementById('sessionDate').value;
-           if (!date) { showToast('الرجاء إدخال التاريخ', 'error'); return; }
-           DB.sessions.push({ id: genId(), caseId: document.getElementById('sessionCase').value, date, time: document
-                   .getElementById('sessionTime').value, court: document.getElementById('sessionCourt').value.trim(),
-               notes: document.getElementById('sessionNotes').value.trim() });
+           const caseId = document.getElementById('sessionCase').value;
+           if (!date || !caseId) { showToast('الرجاء اختيار القضية والتاريخ', 'error'); return; }
+           DB.sessions.push({ id: genId(), caseId, date, time: document.getElementById('sessionTime').value, court: document
+                   .getElementById('sessionCourt').value.trim(), notes: document.getElementById('sessionNotes')
+                   .value.trim() });
            saveDB();
            logActivity('إضافة جلسة');
            closeModal('addSessionModal');
@@ -4549,53 +4855,6 @@
        }
 
        function exportPDF() { window.print(); }
-
-       // ============================================================
-       // GLOBAL SEARCH
-       // ============================================================
-       function globalSearchFn() {
-           const q = document.getElementById('globalSearch').value.toLowerCase().trim();
-           if (!q) return;
-           let results = [];
-
-           DB.cases.forEach(c => {
-               const text = (c.num + ' ' + getClientName(c.clientId) + ' ' + c.court + ' ' + c.type + ' ' + c
-                   .status + ' ' + (c.tawkeelNum || '') + ' ' + (c.notes || '')).toLowerCase();
-               if (text.includes(q)) results.push({ type: 'قضية', ref: c.num, detail: c.type + ' - ' + c.court,
-                   id: c.id, page: 'cases' });
-           });
-
-           DB.clients.forEach(c => {
-               const text = (c.name + ' ' + (c.phone || '') + ' ' + (c.idNum || '') + ' ' + (c.tawkeelNum || '') +
-                   ' ' + (c.notes || '')).toLowerCase();
-               if (text.includes(q)) results.push({ type: 'موكل', ref: c.name, detail: c.phone || c.idNum || '',
-                   id: c.id, page: 'clients' });
-           });
-
-           DB.staff.forEach(s => {
-               const text = (s.name + ' ' + (s.role || '') + ' ' + (s.phone || '') + ' ' + (s.license || '')).toLowerCase();
-               if (text.includes(q)) results.push({ type: 'موظف', ref: s.name, detail: s.role || '', id: s.id,
-                   page: 'staff' });
-           });
-
-           DB.sessions.forEach(s => {
-               const caseName = getCaseName(s.caseId);
-               const text = (caseName + ' ' + (s.court || '') + ' ' + (s.notes || '') + ' ' + (s.date || ''))
-                   .toLowerCase();
-               if (text.includes(q)) results.push({ type: 'جلسة', ref: caseName, detail: formatDate(s.date) +
-                       ' - ' + s.court, id: s.id, page: 'sessions' });
-           });
-
-           if (results.length) {
-               const msg = results.slice(0, 5).map(r => `${r.type}: ${r.ref} (${r.detail})`).join('\n');
-               if (results.length > 5) showToast(`🔍 ${results.length} نتيجة\n${msg}\n... عرض ${results.length} نتيجة`,
-                   'info');
-               else showToast(`🔍 ${results.length} نتيجة\n${msg}`, 'info');
-               if (results[0]) showPage(results[0].page);
-           } else {
-               showToast('🔍 لا توجد نتائج بحث', 'info');
-           }
-       }
 
        // ============================================================
        // INIT

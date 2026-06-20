@@ -16,6 +16,23 @@
       "tawkeelNum": "3322\\2024",
       "archived": false,
       "createdAt": "2026-06-20T13:53:15.323Z"
+    },
+    {
+      "id": "_w63r78fgymqmf6b0s",
+      "num": "0000",
+      "type": "أسري",
+      "clientId": "_y3e4ljfa0mqmawbn3",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "ضد عوضه الطربينه",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "789\\2024",
+      "archived": false,
+      "createdAt": "2026-06-20T13:54:55.180Z"
     }
   ],
   "clients": [
@@ -1341,6 +1358,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 0000",
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٦:٥٤:٥٥ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٦:٥٣:٤٦ ص"
+    },
+    {
       "action": "تعديل قضية: 655\\2025",
       "time": "٢٠‏/٦‏/٢٠٢٦، ٦:٥٣:٤١ ص"
     },
@@ -1731,14 +1756,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢٠‏/٦‏/٢٠٢٦، ٣:٣٨:٢٦ ص"
-    },
-    {
-      "action": "إضافة موكل: دسوقي محمد الامين حسين",
-      "time": "٢٠‏/٦‏/٢٠٢٦، ٣:٣٨:٢٠ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢٠‏/٦‏/٢٠٢٦، ٣:٣٦:٥٧ ص"
     }
   ],
   "sessionLogs": [],

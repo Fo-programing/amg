@@ -1623,6 +1623,7 @@
             padding: 8px 12px;
             border-radius: 8px;
             margin-bottom: 8px;
+            flex-wrap: wrap;
         }
         .daily-rate-input label {
             font-size: 11px;
@@ -1638,6 +1639,10 @@
             color: var(--text);
             font-family: 'Cairo', sans-serif;
             font-size: 12px;
+        }
+        .daily-rate-input .info-text {
+            font-size: 10px;
+            color: var(--text-muted);
         }
 
         .deduction-item {
@@ -1755,6 +1760,27 @@
             cursor: pointer;
             color: var(--danger);
             font-size: 10px;
+        }
+
+        /* CASE FEE REMAINING */
+        .fee-remaining-display {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 8px 12px;
+            background: var(--dark3);
+            border-radius: 8px;
+            margin-top: 8px;
+            border-right: 3px solid var(--gold);
+        }
+        .fee-remaining-display .fee-label {
+            font-size: 10px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+        .fee-remaining-display .fee-amount {
+            font-size: 14px;
+            font-weight: 800;
         }
     </style>
 </head>
@@ -1964,7 +1990,7 @@
                         <table class="data-table">
                             <thead><tr>
                                     <th>رقم القضية</th><th>الموكلون</th><th>النوع</th><th>المحكمة</th>
-                                    <th>المحامي</th><th>الجلسة القادمة</th><th>الحالة</th><th>الأتعاب</th><th>إجراءات</th>
+                                    <th>المحامي</th><th>الجلسة القادمة</th><th>الحالة</th><th>الأتعاب</th><th>المتبقي</th><th>إجراءات</th>
                             </tr></thead>
                             <tbody id="casesBody"></tbody>
                         </table>
@@ -2003,17 +2029,17 @@
             <!-- ATTENDANCE -->
             <div class="page-section fade-in" id="page-attendance">
                 <div class="section-header">
-                    <div><h1 class="section-title gold-text">الحضور والغياب</h1><p class="section-sub">تسجيل ومتابعة الحضور اليومي مع حساب الخصومات التلقائية (26 يوم عمل)</p></div>
+                    <div><h1 class="section-title gold-text">الحضور والغياب</h1><p class="section-sub">تسجيل ومتابعة الحضور اليومي مع حساب الخصومات التلقائية</p></div>
                     <div style="display:flex;gap:8px;flex-wrap:wrap;">
                         <input class="form-input" type="date" id="attendDate" style="width:160px;padding:7px 11px;font-size:12px;" onchange="renderAttendance()">
                         <button class="btn-gold" onclick="openModal('addAttendModal')"><i class="fas fa-plus"></i> تسجيل</button>
                     </div>
                 </div>
                 <div class="daily-rate-input">
-                    <label><i class="fas fa-money-bill-wave" style="color:var(--gold);margin-left:5px;"></i> قيمة اليوم الواحد (ج.م) - يستخدم لحساب الخصومات تلقائياً:</label>
+                    <label><i class="fas fa-money-bill-wave" style="color:var(--gold);margin-left:5px;"></i> الراتب اليومي (ج.م) - يستخدم لحساب الخصومات:</label>
                     <input type="number" id="dailyRate" value="200" onchange="renderAttendance()" style="width:100px;">
-                    <span style="font-size:11px;color:var(--text-muted);margin-right:8px;">أيام العمل الأساسية: 26 يوم</span>
-                    <span style="font-size:11px;color:var(--gold);font-weight:700;margin-right:8px;">الخصم = (الراتب / 26) × أيام الغياب</span>
+                    <span class="info-text">أيام العمل الأساسية: 26 يوم</span>
+                    <span class="info-text" style="color:var(--gold);font-weight:700;">الخصم = (الراتب اليومي) × أيام الغياب</span>
                 </div>
                 <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px;" id="attendSummary"></div>
                 <div class="glass-card" style="border-radius:14px;overflow:hidden;">
@@ -2446,7 +2472,13 @@
                 <div><label class="form-label">تاريخ الجلسة القادمة</label><input class="form-input" id="caseDate" type="date"></div>
                 <div><label class="form-label">الحالة</label><select class="form-input" id="caseStatus"><option value="نشطة">نشطة</option><option value="معلقة">معلقة</option><option value="مغلقة">مغلقة</option><option value="عاجلة">عاجلة</option><option value="مؤرشفة">مؤرشفة</option></select></div>
                 <div><label class="form-label">الأتعاب الإجمالية (ج.م)</label><input class="form-input" id="caseFee" type="number" placeholder="0"></div>
-                <div><label class="form-label">المبلغ المدفوع (ج.م)</label><input class="form-input" id="casePaid" type="number" placeholder="0"></div>
+                <div><label class="form-label">المبلغ المدفوع (ج.م)</label><input class="form-input" id="casePaid" type="number" placeholder="0" oninput="updateCaseRemaining()"></div>
+                <div style="grid-column:span 2;">
+                    <div class="fee-remaining-display">
+                        <span class="fee-label">المتبقي من الأتعاب:</span>
+                        <span class="fee-amount gold-text" id="caseRemainingDisplay">0 ج.م</span>
+                    </div>
+                </div>
                 <div style="grid-column:span 2;"><label class="form-label">ملاحظات</label><textarea class="form-input" id="caseNotes" rows="2" placeholder="ملاحظات القضية..."></textarea></div>
             </div>
             <div style="display:flex;gap:8px;margin-top:18px;justify-content:flex-end;">
@@ -2456,7 +2488,7 @@
         </div>
     </div>
 
-    <!-- Add/Edit Client - مع دعم عدة موكلين في نفس التوكيل -->
+    <!-- Add/Edit Client -->
     <div class="modal-overlay" id="addClientModal">
         <div class="modal-box">
             <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;">
@@ -2464,7 +2496,6 @@
                 <button onclick="closeModal('addClientModal')" style="background:none;border:none;color:var(--text-muted);font-size:20px;cursor:pointer;">×</button>
             </div>
             <input type="hidden" id="editClientId">
-            <input type="hidden" id="editClientGroupId">
             
             <!-- بيانات التوكيل الرئيسية -->
             <div class="client-tawkeel-group" style="border-color:var(--gold);">
@@ -2600,7 +2631,7 @@
                             <option value="none">لا يوجد خصم</option>
                             <option value="day">يوم كامل</option>
                             <option value="half">نصف يوم</option>
-                            <option value="days">عدد أيام (تلقائي)</option>
+                            <option value="days">عدد أيام</option>
                             <option value="custom">قيمة مخصصة</option>
                         </select>
                     </div>
@@ -2873,7 +2904,7 @@
             settings: {},
             activityLog: [],
             sessionLogs: [],
-            clientGroups: [], // لتجميع الموكلين في نفس التوكيل
+            clientGroups: [],
             version: '8.0'
         };
 
@@ -2881,7 +2912,6 @@
         let allFilesData = {};
         let caseClientTemp = [];
 
-        // متغيرات مؤقتة لإضافة موكلين في نفس التوكيل
         let tawkeelClientsTemp = [];
         let editingClientId = null;
 
@@ -2939,7 +2969,7 @@
         }
 
         // ============================================================
-        // DATABASE - LOAD & SAVE
+        // DATABASE
         // ============================================================
         function loadDB() {
             const saved = localStorage.getItem(STORAGE_KEY);
@@ -3319,7 +3349,7 @@
         }
 
         // ============================================================
-        // GITHUB - FETCH
+        // GITHUB
         // ============================================================
         async function fetchFromGitHub() {
             const token = localStorage.getItem(GITHUB_TOKEN_KEY) || '';
@@ -3695,6 +3725,7 @@
                 populateSel('caseLawyer', DB.staff, 'name'); 
                 caseClientTemp = [];
                 renderCaseClientList();
+                updateCaseRemaining();
             }
             if (id === 'addSessionModal') { 
                 const searchInput = document.getElementById('sessionCaseSearch');
@@ -3705,10 +3736,10 @@
                 filterSessionCaseOptions();
             }
             if (id === 'addSessionLogModal') { populateSel('sessionLogCase', DB.cases, c => c.num + ' - ' + getClientName(c
-                    .clientIds?.[0]));
+                    .clientIds));
                 document.getElementById('sessionLogDate').value = new Date().toISOString().split('T')[0]; }
-            if (id === 'addDocModal') populateSel('docCase', DB.cases, c => c.num + ' - ' + getClientName(c.clientIds?.[0]));
-            if (id === 'addPaymentModal') populateSel('payCase', DB.cases, c => c.num + ' - ' + getClientName(c.clientIds?.[0]));
+            if (id === 'addDocModal') populateSel('docCase', DB.cases, c => c.num + ' - ' + getClientName(c.clientIds));
+            if (id === 'addPaymentModal') populateSel('payCase', DB.cases, c => c.num + ' - ' + getClientName(c.clientIds));
             if (id === 'addAttendModal') { populateSel('attendStaff', DB.staff, 'name');
                 document.getElementById('attendDateIn').value = new Date().toISOString().split('T')[0]; }
             if (id === 'addSalaryModal') populateSel('salaryStaff', DB.staff, 'name');
@@ -3716,9 +3747,7 @@
                 populateSel('taskCase', DB.cases, c => c.num); }
             if (id === 'printAllCardsModal') renderAllCards();
             if (id === 'addClientModal') {
-                // Reset tawkeel form
                 resetClientForm();
-                // If editing client, load data
                 if (document.getElementById('editClientId').value) {
                     loadClientForEdit(document.getElementById('editClientId').value);
                 }
@@ -3740,6 +3769,18 @@
                 o.textContent = typeof labelFn === 'function' ? labelFn(item) : item[labelFn];
                 sel.appendChild(o);
             });
+        }
+
+        // ===== Case remaining fee =====
+        function updateCaseRemaining() {
+            const fee = parseFloat(document.getElementById('caseFee').value) || 0;
+            const paid = parseFloat(document.getElementById('casePaid').value) || 0;
+            const remaining = fee - paid;
+            const display = document.getElementById('caseRemainingDisplay');
+            if (display) {
+                display.textContent = remaining.toLocaleString('ar-EG') + ' ج.م';
+                display.style.color = remaining > 0 ? 'var(--danger)' : 'var(--success)';
+            }
         }
 
         // ===== Multi-client for case =====
@@ -3767,7 +3808,6 @@
                 return;
             }
             
-            // Multiple results - show dropdown
             const resultsDiv = document.createElement('div');
             resultsDiv.style.cssText = 'position:absolute;top:100%;left:0;right:0;background:var(--dark2);border:1px solid var(--glass-border);border-radius:8px;max-height:150px;overflow-y:auto;z-index:20;margin-top:2px;box-shadow:0 8px 30px rgba(0,0,0,.4);';
             matching.forEach(c => {
@@ -3819,7 +3859,7 @@
             renderCaseClientList();
         }
 
-        // ===== Client Tawkeel - Multiple Clients =====
+        // ===== Client Tawkeel =====
         function resetClientForm() {
             tawkeelClientsTemp = [];
             editingClientId = null;
@@ -3847,7 +3887,6 @@
         function addClientToTawkeel() {
             document.getElementById('clientFormArea').style.display = 'grid';
             document.getElementById('clientName').focus();
-            // Clear form fields for new client
             document.getElementById('clientName').value = '';
             document.getElementById('clientPhone').value = '';
             document.getElementById('clientID').value = '';
@@ -3951,12 +3990,10 @@
                 document.getElementById('tawkeelImgPreviewWrap').style.display = 'block';
             }
             
-            // Load clients in this tawkeel
             const group = DB.clientGroups.find(g => g.tawkeelNum === client.tawkeelNum && g.tawkeelType === client.tawkeelType);
             if (group) {
                 tawkeelClientsTemp = group.clients.map(c => ({ ...c }));
             } else {
-                // Single client
                 tawkeelClientsTemp = [{
                     id: client.id,
                     name: client.name,
@@ -4059,7 +4096,6 @@
             reader.readAsDataURL(file);
         }
 
-        // ===== Staff Specialization =====
         function toggleStaffSpec() {
             const roleSelect = document.getElementById('staffRole');
             const specSelect = document.getElementById('staffSpec');
@@ -4222,7 +4258,7 @@
                 .target) && !e.target.closest('[onclick="toggleNotif()"]')) p.classList.remove('active'); });
 
         // ============================================================
-        // GLOBAL SEARCH - Card based navigation with filter
+        // GLOBAL SEARCH
         // ============================================================
         function globalSearchFn(query) {
             const dropdown = document.getElementById('searchResultsDropdown');
@@ -4290,7 +4326,6 @@
 
         function navigateSearchResult(page, id) {
             showPage(page);
-            // If we're on the cases page, filter to show only the specific case
             if (page === 'cases') {
                 const searchInput = document.getElementById('caseSearch');
                 const caseItem = DB.cases.find(c => c.id === id);
@@ -4299,11 +4334,9 @@
                     renderCases();
                 }
             }
-            // If we're on the clients page
             if (page === 'clients') {
                 const clientItem = DB.clients.find(c => c.id === id);
                 if (clientItem) {
-                    // Scroll to the client card
                     setTimeout(() => {
                         const cards = document.querySelectorAll('#clientsGrid .person-card');
                         cards.forEach(card => {
@@ -4504,7 +4537,6 @@
                 document.getElementById('caseFee').value = c.fee || 0;
                 document.getElementById('casePaid').value = c.paid || 0;
                 document.getElementById('caseNotes').value = c.notes || '';
-                // Rebuild client list
                 caseClientTemp = [];
                 if (c.clientIds) {
                     const ids = c.clientIds.split(',').filter(Boolean);
@@ -4516,6 +4548,7 @@
                     });
                 }
                 renderCaseClientList();
+                updateCaseRemaining();
             }, 100);
         }
 
@@ -4597,7 +4630,8 @@
               <td><div style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;">${clientNames}</div></td>
               <td>${c.type}</td><td>${c.court}</td><td>${getStaffName(c.lawyerId)}</td>
               <td>${c.date?formatDate(c.date):'-'}</td><td>${statusBadge(c.status)}</td>
-              <td style="font-size:11px;">${(c.fee||0).toLocaleString('ar-EG')} ج.م<br><span style="color:${remaining>0?'var(--danger)':'var(--success)'};">${remaining>0?'متبقي: '+remaining.toLocaleString('ar-EG'):' ✓'}</span></td>
+              <td style="font-size:11px;">${(c.fee||0).toLocaleString('ar-EG')} ج.م</td>
+              <td style="font-size:11px;color:${remaining>0?'var(--danger)':'var(--success)'};">${remaining>0?remaining.toLocaleString('ar-EG')+' ج.م':'✓'}</td>
               <td><div style="display:flex;gap:3px;">
                 <button onclick="viewCase('${c.id}')" class="btn-edit btn-sm"><i class="fas fa-eye"></i></button>
                 <button onclick="editCase('${c.id}')" style="background:rgba(245,158,11,.1);color:#F59E0B;border:1px solid rgba(245,158,11,.25);padding:4px 7px;border-radius:6px;font-size:11px;cursor:pointer;"><i class="fas fa-edit"></i></button>
@@ -4611,18 +4645,19 @@
         }
 
         // ============================================================
-        // DELETE FUNCTIONS - REAL DELETE
+        // DELETE FUNCTIONS - REAL DELETE + GITHUB
         // ============================================================
 
         function deleteCase(id) {
             if (!confirm('⚠️ هل أنت متأكد من حذف هذه القضية نهائياً؟\nسيتم حذف جميع البيانات المرتبطة بها (جلسات، مدفوعات، سجل جلسات، مهام)')) return;
+            const caseData = DB.cases.find(c => c.id === id);
             DB.cases = DB.cases.filter(c => c.id !== id);
             DB.sessions = DB.sessions.filter(s => s.caseId !== id);
             DB.sessionLogs = DB.sessionLogs.filter(l => l.caseId !== id);
             DB.payments = DB.payments.filter(p => p.caseId !== id);
             DB.tasks = DB.tasks.filter(t => t.caseId !== id);
             saveDB();
-            logActivity('حذف قضية نهائياً: ' + id);
+            logActivity('حذف قضية نهائياً: ' + (caseData ? caseData.num : id));
             renderCases();
             showToast('✅ تم حذف القضية وجميع بياناتها المرتبطة', 'warning');
             autoSync();
@@ -4681,22 +4716,18 @@
             const tawkeelImg = document.getElementById('tawkeelImgData').value || '';
             const notes = document.getElementById('clientNotes').value.trim();
 
-            // Get clients from temp list
             const clientsData = tawkeelClientsTemp;
             if (!clientsData.length) { showToast('الرجاء إضافة موكل واحد على الأقل', 'error'); return; }
 
             if (editId) {
-                // Update existing client
                 const existing = DB.clients.find(c => c.id === editId);
                 if (existing) {
-                    // Update main client data
                     existing.tawkeelNum = tawkeelNum;
                     existing.tawkeelType = tawkeelType;
                     existing.tawkeelDate = tawkeelDate;
                     existing.tawkeelImg = tawkeelImg;
                     existing.notes = notes;
                     
-                    // Update or create client group
                     let group = DB.clientGroups.find(g => g.id === editId);
                     if (group) {
                         group.tawkeelNum = tawkeelNum;
@@ -4720,7 +4751,6 @@
                     showToast('✅ تم تحديث بيانات التوكيل والموكلين', 'success');
                 }
             } else {
-                // Create new clients
                 const groupId = genId();
                 const savedClients = [];
                 
@@ -4744,7 +4774,6 @@
                     savedClients.push({ ...client });
                 });
 
-                // Save group
                 DB.clientGroups.push({
                     id: groupId,
                     tawkeelNum: tawkeelNum,
@@ -4774,7 +4803,6 @@
             document.getElementById('clientModalTitle').textContent = 'تعديل التوكيل';
             document.getElementById('clientSaveBtn').textContent = 'حفظ التعديلات';
             
-            // Load tawkeel data
             document.getElementById('clientTawkeelNum').value = client.tawkeelNum || '';
             document.getElementById('clientTawkeelType').value = client.tawkeelType || 'عام';
             document.getElementById('clientTawkeelDate').value = client.tawkeelDate || '';
@@ -4785,7 +4813,6 @@
                 document.getElementById('tawkeelImgPreviewWrap').style.display = 'block';
             }
             
-            // Load clients in this tawkeel
             const group = DB.clientGroups.find(g => g.tawkeelNum === client.tawkeelNum && g.tawkeelType === client.tawkeelType);
             if (group) {
                 tawkeelClientsTemp = group.clients.map(c => ({ ...c }));
@@ -4812,7 +4839,6 @@
                 empty.style.display = 'block'; return; }
             empty.style.display = 'none';
             
-            // Group clients by tawkeel
             const groups = {};
             DB.clients.forEach(c => {
                 const key = c.tawkeelNum + '|' + c.tawkeelType;
@@ -4859,7 +4885,6 @@
             const client = DB.clients.find(c => c.id === id);
             if (!client) return;
             
-            // Delete all clients with same tawkeel
             const toDelete = DB.clients.filter(c => c.tawkeelNum === client.tawkeelNum && c.tawkeelType === client.tawkeelType);
             const ids = toDelete.map(c => c.id);
             DB.clients = DB.clients.filter(c => !ids.includes(c.id));
@@ -4879,7 +4904,6 @@
             const name = document.getElementById('staffName').value.trim();
             if (!name) { showToast('الرجاء إدخال الاسم', 'error'); return; }
             
-            // Get specialization
             let spec = document.getElementById('staffSpec').value;
             if (document.getElementById('staffRole').value === '__other__') {
                 spec = document.getElementById('staffSpecOther').value.trim() || 'أخرى';
@@ -5003,14 +5027,11 @@
             let deductValue = parseFloat(document.getElementById('attendDeductValue').value) || 0;
             const dailyRate = parseFloat(document.getElementById('dailyRate').value) || 200;
             
-            // Auto calculate deduction based on type
             if (deductType === 'day') deductValue = dailyRate;
             else if (deductType === 'half') deductValue = dailyRate / 2;
             else if (deductType === 'days') deductValue = deductValue * dailyRate;
-            // custom: value is already the amount
             
             const status = document.getElementById('attendStatus').value;
-            // Auto-deduct for absence if not specified
             if (status === 'غائب' && deductType === 'none') {
                 deductType = 'day';
                 deductValue = dailyRate;
@@ -5307,7 +5328,7 @@
                 autoSync(); } }
 
         // ============================================================
-        // REPORTS - Comprehensive Reports
+        // REPORTS
         // ============================================================
         function generateReport(type) {
             const container = document.getElementById('reportDisplay');
@@ -5649,7 +5670,7 @@
         }
 
         // ============================================================
-        // PAYROLL with Deduction Details
+        // PAYROLL
         // ============================================================
         function addSalary() {
             const staffId = document.getElementById('salaryStaff').value;

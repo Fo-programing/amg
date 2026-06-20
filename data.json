@@ -69,23 +69,6 @@
       "createdAt": "2026-06-20T14:10:40.075Z"
     },
     {
-      "id": "_k21vr9zn7mqmftk2x",
-      "num": "593-2025",
-      "type": "عقاري",
-      "clientId": "_eg1a83sqemqm7wr2j",
-      "lawyerId": "",
-      "court": "",
-      "division": "",
-      "date": "",
-      "status": "نشطة",
-      "notes": "",
-      "fee": 74000,
-      "paid": 34000,
-      "tawkeelNum": "2300\\2022",
-      "archived": false,
-      "createdAt": "2026-06-20T14:13:00.009Z"
-    },
-    {
       "id": "_0oal2bywmmqmfu556",
       "num": "00000000",
       "type": "عقاري",
@@ -152,6 +135,23 @@
       "tawkeelNum": "1833\\2025",
       "archived": false,
       "createdAt": "2026-06-20T14:19:42.559Z"
+    },
+    {
+      "id": "_k21vr9zn7mqmftk2x",
+      "num": "593-2025",
+      "type": "عقاري",
+      "clientId": "_eg1a83sqemqm7wr2j",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 74000,
+      "paid": 34000,
+      "tawkeelNum": "2300\\2022",
+      "archived": false,
+      "createdAt": "2026-06-20T14:13:00.009Z"
     }
   ],
   "clients": [
@@ -1547,6 +1547,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "حذف قضية نهائياً",
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٦:٠٠:٥٠ م"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٥٨:٢٢ م"
+    },
     {
       "action": "إضافة موظف: مصطفي محمد مصطفي",
       "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٥٨:١٦ م"

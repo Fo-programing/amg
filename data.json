@@ -1039,6 +1039,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:36:48.141Z"
+    },
+    {
+      "id": "_6ocwey0camqnnm9dt",
+      "num": "2225",
+      "type": "أسرة",
+      "clientIds": "_v752z7zkpmqm9d9wt",
+      "plaintiff": "",
+      "defendant": "محمود حسن حسين عوض",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "نفقه صغار بدل غطاء وفرض",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:39:02.657Z"
     }
   ],
   "clients": [
@@ -2975,6 +2995,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 2225",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٩:٠٢ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٦:٥٥ ص"
+    },
+    {
       "action": "إضافة قضية: 2525",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٦:٤٨ ص"
     },
@@ -3365,14 +3393,6 @@
     {
       "action": "إضافة توكيل: 11111111111 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٤٩:٠٧ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٤٧:٠٩ ص"
-    },
-    {
-      "action": "إضافة قضية: 3107\\2026",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٤٧:٠٣ ص"
     }
   ],
   "sessionLogs": [

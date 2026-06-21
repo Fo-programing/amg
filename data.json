@@ -2953,6 +2953,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T11:06:47.982Z"
+    },
+    {
+      "id": "_z1h71iv5nmqnovbx4",
+      "name": "اسماء فراج عبدالخالق",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "12121",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T11:14:06.485Z"
     }
   ],
   "staff": [
@@ -3319,6 +3334,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 12121 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:١٤:٠٦ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:١١:٢٩ ص"
+    },
     {
       "action": "إضافة قضية: 226\\2025",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:١١:٢٣ ص"
@@ -3710,14 +3733,6 @@
     {
       "action": "إضافة قضية: 666666666",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٢:١١ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٩:٢٢ ص"
-    },
-    {
-      "action": "إضافة قضية: 3333333333333",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٩:١٢ ص"
     }
   ],
   "sessionLogs": [
@@ -4450,6 +4465,26 @@
         }
       ],
       "mainClientId": "_9fuml9hpmmqnolxqh"
+    },
+    {
+      "id": "_axor9n814mqnovcph",
+      "tawkeelNum": "12121",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_z1h71iv5nmqnovbx4",
+          "name": "اسماء فراج عبدالخالق",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_z1h71iv5nmqnovbx4"
     }
   ],
   "version": "8.0"

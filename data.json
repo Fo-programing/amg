@@ -579,6 +579,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T09:19:12.902Z"
+    },
+    {
+      "id": "_ytzzms0vzmqnkvfpm",
+      "num": "666666666",
+      "type": "إيجارات",
+      "clientIds": "_uuyqvq3uxmqmagrap",
+      "plaintiff": "",
+      "defendant": "شركه المطاحن شرق الدلتا",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T09:22:11.914Z"
     }
   ],
   "clients": [
@@ -2380,6 +2400,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 666666666",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٢:١١ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٩:٢٢ ص"
+    },
+    {
       "action": "إضافة قضية: 3333333333333",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٩:١٢ ص"
     },
@@ -2770,14 +2798,6 @@
     {
       "action": "إضافة جلسة",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٠١:١٤ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٠:٥٥ ص"
-    },
-    {
-      "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٠:٥٠ ص"
     }
   ],
   "sessionLogs": [

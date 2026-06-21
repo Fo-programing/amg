@@ -419,6 +419,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T08:58:51.983Z"
+    },
+    {
+      "id": "_5vgivpzekmqnk3crh",
+      "num": "111111111111",
+      "type": "أسرة",
+      "clientIds": "_eg1a83sqemqm7wr2j",
+      "plaintiff": "",
+      "defendant": "شكوي للتامينات وزراه التموين",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "الصيخة النتفيذيه أمجد عدلي السيد مجلس الدوله",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T09:00:21.726Z"
     }
   ],
   "clients": [
@@ -2160,6 +2180,10 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 111111111111",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٠:٢١ ص"
+    },
+    {
       "action": "إضافة قضية: 286",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٨:٥١ ص"
     },
@@ -2554,10 +2578,6 @@
     {
       "action": "إضافة جلسة",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٣:٥٤ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٣:٤١ ص"
     }
   ],
   "sessionLogs": [

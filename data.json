@@ -1399,6 +1399,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:07:06.633Z"
+    },
+    {
+      "id": "_a12q3puymmqnr58a8",
+      "num": "325",
+      "type": "عمال",
+      "clientIds": "_uuyqvq3uxmqmagrap",
+      "plaintiff": "",
+      "defendant": "الجمعيه التعاونيه للبترول",
+      "lawyerId": "",
+      "court": "الزقازيق",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "طرد مناصب وانهاء علاقه ايجاديه",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:17:46.544Z"
     }
   ],
   "clients": [
@@ -3534,6 +3554,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 325",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:١٧:٤٦ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٠٧:١٣ ص"
+    },
+    {
       "action": "إضافة قضية: 56",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٠٧:٠٦ ص"
     },
@@ -3924,14 +3952,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٣:١١ ص"
-    },
-    {
-      "action": "إضافة قضية: 8777777",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٣:٠٥ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٢:٣٠ ص"
     }
   ],
   "sessionLogs": [

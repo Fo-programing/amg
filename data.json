@@ -839,6 +839,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:07:01.460Z"
+    },
+    {
+      "id": "_r9efeqlcwmqnmkvpm",
+      "num": "2131",
+      "type": "إيجارات",
+      "clientIds": "_t0k5ww2mvmqmaareb",
+      "plaintiff": "",
+      "defendant": "امان الله العمروسي",
+      "lawyerId": "",
+      "court": "الزقازيق",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "طرد وتسليم",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:09:58.666Z"
     }
   ],
   "clients": [
@@ -2685,6 +2705,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 2131",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٩:٥٨ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٧:٠٧ ص"
+    },
+    {
       "action": "إضافة قضية: 3333",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٧:٠١ ص"
     },
@@ -3075,14 +3103,6 @@
     {
       "action": "إضافة قضية: 000001",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٠:١٠ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٨:٣٤ ص"
-    },
-    {
-      "action": "إضافة توكيل: 325\\2002 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٨:٢٨ ص"
     }
   ],
   "sessionLogs": [

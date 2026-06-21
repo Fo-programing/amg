@@ -2648,6 +2648,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T10:36:02.301Z"
+    },
+    {
+      "id": "_dvzglvc2mmqnnwf1p",
+      "name": "زينب حسن عبدالله محمد الشافعي",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "2512",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T10:46:57.432Z"
     }
   ],
   "staff": [
@@ -3014,6 +3029,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 2512 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٦:٥٧ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٠:٤٠ ص"
+    },
     {
       "action": "إضافة قضية: 2510",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٠:٣٤ ص"
@@ -3405,14 +3428,6 @@
     {
       "action": "إضافة توكيل: 2000\\2025 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٥١:٥٥ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٠:٤٤ ص"
-    },
-    {
-      "action": "إضافة قضية: 2202",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٠:٣٧ ص"
     }
   ],
   "sessionLogs": [
@@ -4005,6 +4020,26 @@
         }
       ],
       "mainClientId": "_5fko7qtxwmqnnidbr"
+    },
+    {
+      "id": "_eiglekjn5mqnnwfq0",
+      "tawkeelNum": "2512",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_dvzglvc2mmqnnwf1p",
+          "name": "زينب حسن عبدالله محمد الشافعي",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_dvzglvc2mmqnnwf1p"
     }
   ],
   "version": "8.0"

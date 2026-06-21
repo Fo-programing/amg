@@ -1139,6 +1139,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:52:48.074Z"
+    },
+    {
+      "id": "_gwx61k1ezmqno8yzs",
+      "num": "148",
+      "type": "عمال",
+      "clientIds": "_6bbjazj6zmqno7j3u",
+      "plaintiff": "",
+      "defendant": "حنان محمد عبدالرحمن",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "صحه توقيع قيراط ارض",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:56:42.280Z"
     }
   ],
   "clients": [
@@ -3135,6 +3155,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 148",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥٦:٤٢ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥٥:٤٣ ص"
+    },
+    {
       "action": "إضافة توكيل: 148 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥٥:٣٥ ص"
     },
@@ -3525,14 +3553,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٥:٤١ ص"
-    },
-    {
-      "action": "إضافة قضية: 122\\2025",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٥:٣٤ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٠:٢٨ ص"
     }
   ],
   "sessionLogs": [

@@ -39,6 +39,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T07:48:15.217Z"
+    },
+    {
+      "id": "_6unez5e4bmqnhvm73",
+      "num": "113",
+      "type": "إيجارات",
+      "clientIds": "_t0k5ww2mvmqmaareb",
+      "plaintiff": "هند محمد عبدالرحمن السيد",
+      "defendant": "ناجي عبدالهادي محمد ابرهيم",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "2026-09-16",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "1301",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T07:58:21.471Z"
     }
   ],
   "clients": [
@@ -1521,6 +1541,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة قضية: 113",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٨:٢١ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٦:٢١ ص"
+    },
     {
       "action": "تسجيل جلسة منتهية: 941\\2024",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٦:١٦ ص"

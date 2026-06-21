@@ -1099,6 +1099,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:48:02.965Z"
+    },
+    {
+      "id": "_5g8vmzrasmqno16fh",
+      "num": "2513",
+      "type": "أسرة",
+      "clientIds": "_vxdq99r0rmqnnzp01",
+      "plaintiff": "",
+      "defendant": "حسن عبدالله محمد الشافعي",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "دعوه نفقه اقارب",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:50:38.669Z"
     }
   ],
   "clients": [
@@ -3065,6 +3085,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 2513",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥٠:٣٨ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٩:٤٠ ص"
+    },
+    {
       "action": "إضافة توكيل: 2513 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٩:٣٠ ص"
     },
@@ -3455,14 +3483,6 @@
     {
       "action": "إضافة قضية: 2127",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٦:٤٦ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٤:٣٢ ص"
-    },
-    {
-      "action": "إضافة توكيل: 1222\\2026 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٤:٢٥ ص"
     }
   ],
   "sessionLogs": [

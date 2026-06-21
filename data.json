@@ -1583,6 +1583,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T08:37:36.663Z"
+    },
+    {
+      "id": "_zx01n3bjmmqnjbujn",
+      "name": "لورانت جارسي",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "22222222222",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T08:38:59.441Z"
     }
   ],
   "staff": [
@@ -1949,6 +1964,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 22222222222 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٨:٥٩ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٨:١٣ ص"
+    },
     {
       "action": "إضافة قضية: 111111",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٨:٠٨ ص"
@@ -2340,14 +2363,6 @@
     {
       "action": "حفظ إعدادات",
       "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٣٢:٠١ م"
-    },
-    {
-      "action": "حفظ إعدادات",
-      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٥:٢٥ م"
-    },
-    {
-      "action": "حذف قضية نهائياً: 2222",
-      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٥:٠٢ م"
     }
   ],
   "sessionLogs": [
@@ -2560,6 +2575,26 @@
         }
       ],
       "mainClientId": "_pp03mrr27mqnja2j7"
+    },
+    {
+      "id": "_1ja4qp29wmqnjbvch",
+      "tawkeelNum": "22222222222",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_zx01n3bjmmqnjbujn",
+          "name": "لورانت جارسي",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_zx01n3bjmmqnjbujn"
     }
   ],
   "version": "8.0"

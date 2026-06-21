@@ -1523,6 +1523,14 @@
   "activityLog": [
     {
       "action": "تسجيل جلسة منتهية: 941\\2024",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٦:١٦ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٦:٠٨ ص"
+    },
+    {
+      "action": "تسجيل جلسة منتهية: 941\\2024",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٥:٥٨ ص"
     },
     {
@@ -1702,6 +1710,18 @@
       "notes": "",
       "nextDate": "2026-05-10",
       "createdAt": "2026-06-21T07:55:58.486Z"
+    },
+    {
+      "id": "_bfpdolwm4mqnhsxse",
+      "caseId": "_tpxeue7kimqnhimep",
+      "date": "2026-05-10",
+      "court": "",
+      "judge": "",
+      "result": "أخرى",
+      "what": "",
+      "notes": "",
+      "nextDate": "",
+      "createdAt": "2026-06-21T07:56:16.526Z"
     }
   ],
   "clientGroups": [],

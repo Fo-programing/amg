@@ -459,6 +459,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T09:05:34.652Z"
+    },
+    {
+      "id": "_2pguphhpfmqnkc8rb",
+      "num": "12121212121212122",
+      "type": "إيجارات",
+      "clientIds": "_xf1udp5jymqnkbkpt",
+      "plaintiff": "",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "فرز وتجنيب",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T09:07:16.439Z"
     }
   ],
   "clients": [
@@ -2215,6 +2235,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 12121212121212122",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٧:١٦ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٦:٥٥ ص"
+    },
+    {
       "action": "إضافة توكيل: 111111112 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٦:٤٦ ص"
     },
@@ -2605,14 +2633,6 @@
     {
       "action": "تسجيل جلسة منتهية: 941\\2024",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٥:٥٨ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٤:٣٤ ص"
-    },
-    {
-      "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٤:٢٩ ص"
     }
   ],
   "sessionLogs": [

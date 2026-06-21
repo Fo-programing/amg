@@ -899,6 +899,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:14:45.971Z"
+    },
+    {
+      "id": "_cpe3wbu1kmqnmuuvt",
+      "num": "1834",
+      "type": "أسرة",
+      "clientIds": "_v752z7zkpmqm9d9wt",
+      "plaintiff": "",
+      "defendant": "محمود حسن حسن عوض",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:17:44.153Z"
     }
   ],
   "clients": [
@@ -2760,6 +2780,10 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 1834",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٧:٤٤ ص"
+    },
+    {
       "action": "إضافة قضية: 11993333333",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٤:٤٥ ص"
     },
@@ -3154,10 +3178,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٤:٣٧ ص"
-    },
-    {
-      "action": "إضافة قضية: 878",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٤:٢٨ ص"
     }
   ],
   "sessionLogs": [

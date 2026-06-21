@@ -1799,6 +1799,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T13:24:01.233Z"
+    },
+    {
+      "id": "_dsr0k4chimqntmssk",
+      "num": "3782",
+      "type": "أسرة",
+      "clientIds": "_t2zbkk7x6mqmb1q8g",
+      "plaintiff": "",
+      "defendant": "رفعت سعيد رفعت",
+      "lawyerId": "",
+      "court": "اسره بندر الزقازيق",
+      "division": "",
+      "date": "2026-07-11",
+      "status": "نشطة",
+      "notes": "نفقه زوجيه",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T13:27:25.508Z"
     }
   ],
   "clients": [
@@ -4002,6 +4022,10 @@
   ],
   "settings": {},
   "activityLog": [
+    {
+      "action": "إضافة قضية: 3782",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٧:٢٥ م"
+    },
     {
       "action": "تعديل قضية: 3780",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:١٧ م"

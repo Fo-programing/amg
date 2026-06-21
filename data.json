@@ -2358,6 +2358,21 @@
       "tawkeelImg": "",
       "notes": "عقود بيع ارض فضاء",
       "createdAt": "2026-06-21T10:02:24.444Z"
+    },
+    {
+      "id": "_njdqnvuxvmqnmp60n",
+      "name": "عماد حمدي احمد المغربي",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "اجاد الدقهليه",
+      "photo": "",
+      "tawkeelNum": "66666",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T10:13:20.046Z"
     }
   ],
   "staff": [
@@ -2724,6 +2739,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 66666 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٣:٢٠ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١١:٢١ ص"
+    },
     {
       "action": "إضافة قضية: 22222222222",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:١١:١٤ ص"
@@ -3115,14 +3138,6 @@
     {
       "action": "إضافة توكيل: 878\\2022 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٢:٢٦ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٢١:٠٩ ص"
-    },
-    {
-      "action": "تعديل قضية: 000001",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٢١:٠٤ ص"
     }
   ],
   "sessionLogs": [
@@ -3595,6 +3610,26 @@
         }
       ],
       "mainClientId": "_wg3cdewqcmqnmayp1"
+    },
+    {
+      "id": "_57emj4qh7mqnmp73i",
+      "tawkeelNum": "66666",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_njdqnvuxvmqnmp60n",
+          "name": "عماد حمدي احمد المغربي",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "اجاد الدقهليه",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_njdqnvuxvmqnmp60n"
     }
   ],
   "version": "8.0"

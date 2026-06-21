@@ -1478,6 +1478,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T08:22:26.243Z"
+    },
+    {
+      "id": "_32thprh5emqnj0xz5",
+      "name": "ياسمين سامي محمد حافظ",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "15086\\2026",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T08:30:30.632Z"
     }
   ],
   "staff": [
@@ -1844,6 +1859,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 15086\\2026 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٠:٣٠ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٩:٤٢ ص"
+    },
     {
       "action": "إضافة قضية: 0003",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٩:٣٣ ص"
@@ -2387,6 +2410,26 @@
         }
       ],
       "mainClientId": "_z1o2f45gumqniqkba"
+    },
+    {
+      "id": "_4usq1srf2mqnj0yqw",
+      "tawkeelNum": "15086\\2026",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_32thprh5emqnj0xz5",
+          "name": "ياسمين سامي محمد حافظ",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_32thprh5emqnj0xz5"
     }
   ],
   "version": "8.0"

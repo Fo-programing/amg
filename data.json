@@ -1539,6 +1539,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:32:33.913Z"
+    },
+    {
+      "id": "_0y3d8quz8mqnryh13",
+      "num": "800",
+      "type": "جنيات",
+      "clientIds": "_t0k5ww2mvmqmaareb",
+      "plaintiff": "",
+      "defendant": "مديحه رجب جاب الله",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:40:30.903Z"
     }
   ],
   "clients": [
@@ -3704,6 +3724,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 800",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٤٠:٣٠ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٣٢:٤١ ص"
+    },
+    {
       "action": "إضافة قضية: 6620",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٣٢:٣٣ ص"
     },
@@ -4094,14 +4122,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٠:٤٥ ص"
-    },
-    {
-      "action": "إضافة قضية: 894\\2025",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٠:٣٩ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٩:٣٥ ص"
     }
   ],
   "sessionLogs": [

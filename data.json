@@ -3283,6 +3283,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T12:24:41.961Z"
+    },
+    {
+      "id": "_gaiy9yngpmqnrmem0",
+      "name": "محمد السيد شوقي القفاص     -    احمد جمال الدين عبدالفتاح",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "244",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T12:31:08.914Z"
     }
   ],
   "staff": [
@@ -3668,6 +3683,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 244 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٣١:٠٨ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٨:٥٨ ص"
+    },
     {
       "action": "إضافة قضية: 227",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٨:٥١ ص"
@@ -4059,14 +4082,6 @@
     {
       "action": "إضافة قضية: 1834",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٧:٤٤ ص"
-    },
-    {
-      "action": "إضافة قضية: 11993333333",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٤:٤٥ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٣:٢٧ ص"
     }
   ],
   "sessionLogs": [
@@ -4919,6 +4934,26 @@
         }
       ],
       "mainClientId": "_tnqz5npnzmqnre3y0"
+    },
+    {
+      "id": "_6w6xmrkgzmqnrmfea",
+      "tawkeelNum": "244",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_gaiy9yngpmqnrmem0",
+          "name": "محمد السيد شوقي القفاص     -    احمد جمال الدين عبدالفتاح",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_gaiy9yngpmqnrmem0"
     }
   ],
   "version": "8.0"

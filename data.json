@@ -1923,6 +1923,21 @@
       "tawkeelImg": "",
       "notes": "صاحب شركه",
       "createdAt": "2026-06-21T09:09:20.572Z"
+    },
+    {
+      "id": "_hv9ea3hbymqnkhxod",
+      "name": "صلاح عبدالحميد طنطاوي",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "0999999999999",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T09:11:43.074Z"
     }
   ],
   "staff": [
@@ -2289,6 +2304,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 0999999999999 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١١:٤٣ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٠:٢٨ ص"
+    },
     {
       "action": "إضافة قضية: 11111111111111111",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٠:٢٠ ص"
@@ -2680,14 +2703,6 @@
     {
       "action": "إضافة جلسة",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٩:٠٤ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٨:٥٢ ص"
-    },
-    {
-      "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٨:٤٧ ص"
     }
   ],
   "sessionLogs": [
@@ -3060,6 +3075,26 @@
         }
       ],
       "mainClientId": "_fzjxmjb7fmqnkevss"
+    },
+    {
+      "id": "_afy8m6epcmqnkhyhu",
+      "tawkeelNum": "0999999999999",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_hv9ea3hbymqnkhxod",
+          "name": "صلاح عبدالحميد طنطاوي",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_hv9ea3hbymqnkhxod"
     }
   ],
   "version": "8.0"

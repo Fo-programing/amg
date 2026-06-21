@@ -2753,6 +2753,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T10:51:53.609Z"
+    },
+    {
+      "id": "_6bbjazj6zmqno7j3u",
+      "name": "ساره السيد ابرهيم عبدالعزيز",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "ش \\ شارع الشهيد الطيار",
+      "photo": "",
+      "tawkeelNum": "148",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T10:55:35.895Z"
     }
   ],
   "staff": [
@@ -3119,6 +3134,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 148 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥٥:٣٥ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥٢:٥٤ ص"
+    },
     {
       "action": "إضافة قضية: 1808",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥٢:٤٨ ص"
@@ -3510,14 +3533,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٠:٢٨ ص"
-    },
-    {
-      "action": "إضافة قضية: 111111111111",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٠:٢١ ص"
-    },
-    {
-      "action": "إضافة قضية: 286",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٨:٥١ ص"
     }
   ],
   "sessionLogs": [
@@ -4170,6 +4185,26 @@
         }
       ],
       "mainClientId": "_0yn4g6qyrmqno2rcc"
+    },
+    {
+      "id": "_tevs7l1chmqno7jrq",
+      "tawkeelNum": "148",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_6bbjazj6zmqno7j3u",
+          "name": "ساره السيد ابرهيم عبدالعزيز",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "ش \\ شارع الشهيد الطيار",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_6bbjazj6zmqno7j3u"
     }
   ],
   "version": "8.0"

@@ -19,6 +19,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T07:45:54.868Z"
+    },
+    {
+      "id": "_tpxeue7kimqnhimep",
+      "num": "941\\2024",
+      "type": "مدني كلي",
+      "clientIds": "_yxywyd264mqm60qi3",
+      "plaintiff": "مصطفي احمد محمد التهامي",
+      "defendant": "طارق محمد السيد السيد",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "3322",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T07:48:15.217Z"
     }
   ],
   "clients": [
@@ -1404,6 +1424,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة قضية: 941\\2024",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٤٨:١٥ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٤٦:٠٠ ص"
+    },
     {
       "action": "إضافة قضية: 0",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٤٥:٥٤ ص"

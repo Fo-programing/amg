@@ -99,6 +99,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T08:09:02.900Z"
+    },
+    {
+      "id": "_0l2q2ob9qmqnic7u8",
+      "num": "18\\2026",
+      "type": "أموال عامة",
+      "clientIds": "_d0l5rjyw2mqmaripx",
+      "plaintiff": "منة الله ابرهيم فرج \\ انجي ابرهيم",
+      "defendant": "معوض السيد \\ وليد \\ ياسمين",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "دعوه امتناع عن تسليم حصه ميراث مع الربع",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "1817",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T08:11:16.016Z"
     }
   ],
   "clients": [
@@ -1629,6 +1649,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة قضية: 18\\2026",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١١:١٦ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٩:٠٨ ص"
+    },
     {
       "action": "إضافة قضية: 54\\2024",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٩:٠٢ ص"

@@ -2808,6 +2808,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T10:55:35.895Z"
+    },
+    {
+      "id": "_pj1rysid7mqnoeh3v",
+      "name": "شاهيناز سامي محمد حافظ",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "مركز منيا القمح",
+      "photo": "",
+      "tawkeelNum": "15088",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "م.ت مركز ميت غمر",
+      "createdAt": "2026-06-21T11:01:00.083Z"
     }
   ],
   "staff": [
@@ -3174,6 +3189,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 15088 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠١:٠٠ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥٨:٥٦ ص"
+    },
     {
       "action": "إضافة قضية: 2223",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥٨:٥٠ ص"
@@ -3565,14 +3588,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٧:٢٢ ص"
-    },
-    {
-      "action": "إضافة قضية: 12121212121212122",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٧:١٦ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٦:٥٥ ص"
     }
   ],
   "sessionLogs": [
@@ -4245,6 +4260,26 @@
         }
       ],
       "mainClientId": "_6bbjazj6zmqno7j3u"
+    },
+    {
+      "id": "_27cu703h1mqnoehwz",
+      "tawkeelNum": "15088",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "م.ت مركز ميت غمر",
+      "clients": [
+        {
+          "id": "_pj1rysid7mqnoeh3v",
+          "name": "شاهيناز سامي محمد حافظ",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "مركز منيا القمح",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_pj1rysid7mqnoeh3v"
     }
   ],
   "version": "8.0"

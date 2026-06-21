@@ -2988,6 +2988,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T11:14:06.485Z"
+    },
+    {
+      "id": "_d95jl3ytgmqnozf5o",
+      "name": "ورثه علي شمس نوار",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "055",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T11:17:17.302Z"
     }
   ],
   "staff": [
@@ -3354,6 +3369,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 055 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:١٧:١٧ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:١٥:٣٨ ص"
+    },
     {
       "action": "إضافة قضية: 9999999",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:١٥:٣٢ ص"
@@ -3745,14 +3768,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٦:١٩ ص"
-    },
-    {
-      "action": "إضافة قضية: 40",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٦:١٣ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٢:١٨ ص"
     }
   ],
   "sessionLogs": [
@@ -4505,6 +4520,26 @@
         }
       ],
       "mainClientId": "_z1h71iv5nmqnovbx4"
+    },
+    {
+      "id": "_9hcpif3pzmqnozfxy",
+      "tawkeelNum": "055",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_d95jl3ytgmqnozf5o",
+          "name": "ورثه علي شمس نوار",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_d95jl3ytgmqnozf5o"
     }
   ],
   "version": "8.0"

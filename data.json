@@ -1397,6 +1397,14 @@
       "time": "",
       "court": "",
       "notes": "مدني كلي لاعاده الاعلان"
+    },
+    {
+      "id": "_99ulhyeeimqnhkpa2",
+      "caseId": "_tpxeue7kimqnhimep",
+      "date": "2024-10-05",
+      "time": "",
+      "court": "",
+      "notes": "للسابق للقرار"
     }
   ],
   "tasks": [],
@@ -1433,6 +1441,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة جلسة",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٤٩:٥٢ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٤٩:٠٧ ص"
+    },
     {
       "action": "إضافة جلسة",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٤٩:٠٢ ص"

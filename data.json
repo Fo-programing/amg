@@ -1059,6 +1059,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:39:02.657Z"
+    },
+    {
+      "id": "_9nxin0cjbmqnno86z",
+      "num": "2510",
+      "type": "أسرة",
+      "clientIds": "_wmbmgqn2ymqm5g70s",
+      "plaintiff": "",
+      "defendant": "حسن عبدالله محمد",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:40:34.427Z"
     }
   ],
   "clients": [
@@ -2995,6 +3015,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 2510",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٠:٣٤ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٩:٠٩ ص"
+    },
+    {
       "action": "إضافة قضية: 2225",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٩:٠٢ ص"
     },
@@ -3385,14 +3413,6 @@
     {
       "action": "إضافة قضية: 2202",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٠:٣٧ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٤٩:١٦ ص"
-    },
-    {
-      "action": "إضافة توكيل: 11111111111 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٤٩:٠٧ ص"
     }
   ],
   "sessionLogs": [

@@ -1599,6 +1599,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:43:24.542Z"
+    },
+    {
+      "id": "_s6mlr9kcxmqns4kge",
+      "num": "839",
+      "type": "مدني كلي",
+      "clientIds": "_kxqwsaf7bmqm8ugz4",
+      "plaintiff": "",
+      "defendant": "مريم احمد الحلوس",
+      "lawyerId": "",
+      "court": "الاسماعليه",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "رد الشبكه ومبالغ ماليه",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:45:15.278Z"
     }
   ],
   "clients": [
@@ -3764,6 +3784,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 839",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٤٥:١٥ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٤٣:٣١ ص"
+    },
+    {
       "action": "إضافة قضية: 000055",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٤٣:٢٤ ص"
     },
@@ -4154,14 +4182,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٨:٠١ ص"
-    },
-    {
-      "action": "إضافة قضية: 11208",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:٥٥ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٦:٢٤ ص"
     }
   ],
   "sessionLogs": [

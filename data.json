@@ -1199,6 +1199,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T11:03:03.075Z"
+    },
+    {
+      "id": "_7itbc1mxkmqnojsag",
+      "num": "15087",
+      "type": "عمال",
+      "clientIds": "_f7oso6l66mqnoi8el",
+      "plaintiff": "",
+      "defendant": "ياسين سامي واخرون",
+      "lawyerId": "",
+      "court": "ميت غمر",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "صحه توقيع 16 قيراط",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T11:05:06.808Z"
     }
   ],
   "clients": [
@@ -3225,6 +3245,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 15087",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٥:٠٦ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٤:٠١ ص"
+    },
+    {
       "action": "إضافة توكيل: 15087 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٣:٥٥ ص"
     },
@@ -3615,14 +3643,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٠:٢٨ ص"
-    },
-    {
-      "action": "إضافة قضية: 11111111111111111",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٠:٢٠ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٩:٢٦ ص"
     }
   ],
   "sessionLogs": [

@@ -939,6 +939,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:20:39.245Z"
+    },
+    {
+      "id": "_1pgjuewybmqnn2g69",
+      "num": "21546",
+      "type": "أموال عامة",
+      "clientIds": "_ps3shog5gmqm9iky8",
+      "plaintiff": "",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "غرمات 370000ج\nتوتل المخالفات 394200ج",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:23:38.337Z"
     }
   ],
   "clients": [
@@ -2815,6 +2835,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 21546",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٣:٣٨ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٠:٤٥ ص"
+    },
+    {
       "action": "إضافة قضية: 894\\2025",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٠:٣٩ ص"
     },
@@ -3205,14 +3233,6 @@
     {
       "action": "إضافة قضية: 0009",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٣١:٤٧ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٠:٣٦ ص"
-    },
-    {
-      "action": "إضافة توكيل: 15086\\2026 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٠:٣٠ ص"
     }
   ],
   "sessionLogs": [

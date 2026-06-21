@@ -3023,6 +3023,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T11:17:17.302Z"
+    },
+    {
+      "id": "_hiawx79tamqnq5wf4",
+      "name": "كريم محمد محمد محمود ايوب",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "شارع وادي النيل",
+      "photo": "",
+      "tawkeelNum": "333000",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T11:50:19.137Z"
     }
   ],
   "staff": [
@@ -3408,6 +3423,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 333000 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٥٠:١٩ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٤٧:١٢ ص"
+    },
     {
       "action": "إضافة قضية: 0055",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:٤٦:٤٩ ص"
@@ -3799,14 +3822,6 @@
     {
       "action": "إضافة قضية: 777",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٥:١٧ ص"
-    },
-    {
-      "action": "إضافة قضية: 3140",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٣٢:٥٤ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٣٠:٥٣ ص"
     }
   ],
   "sessionLogs": [
@@ -4579,6 +4594,26 @@
         }
       ],
       "mainClientId": "_d95jl3ytgmqnozf5o"
+    },
+    {
+      "id": "_13gi29jixmqnq5x4x",
+      "tawkeelNum": "333000",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_hiawx79tamqnq5wf4",
+          "name": "كريم محمد محمد محمود ايوب",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "شارع وادي النيل",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_hiawx79tamqnq5wf4"
     }
   ],
   "version": "8.0"

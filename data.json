@@ -1513,6 +1513,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T08:30:30.632Z"
+    },
+    {
+      "id": "_gqwo6hijcmqnj3qsk",
+      "name": "سمية سليم هني",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "0000",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T08:32:42.723Z"
     }
   ],
   "staff": [
@@ -1879,6 +1894,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 0000 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٢:٤٢ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٣١:٥٤ ص"
+    },
     {
       "action": "إضافة قضية: 0009",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٣١:٤٧ ص"
@@ -2270,14 +2293,6 @@
     {
       "action": "حذف قضية نهائياً: 00000",
       "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٤:٤٥ م"
-    },
-    {
-      "action": "حذف قضية نهائياً: 82\\2025",
-      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٤:٤٢ م"
-    },
-    {
-      "action": "حذف قضية نهائياً: 655\\2025",
-      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٤:٤٠ م"
     }
   ],
   "sessionLogs": [
@@ -2450,6 +2465,26 @@
         }
       ],
       "mainClientId": "_32thprh5emqnj0xz5"
+    },
+    {
+      "id": "_itrnc5q3kmqnj3so3",
+      "tawkeelNum": "0000",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_gqwo6hijcmqnj3qsk",
+          "name": "سمية سليم هني",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_gqwo6hijcmqnj3qsk"
     }
   ],
   "version": "8.0"

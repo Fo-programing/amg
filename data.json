@@ -1579,6 +1579,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:42:06.362Z"
+    },
+    {
+      "id": "_t51n7c23jmqns270e",
+      "num": "000055",
+      "type": "مدني كلي",
+      "clientIds": "_ahmmsngplmqm97ekd",
+      "plaintiff": "",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "تاسيس شركه  (للتدريب والرعايه)",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:43:24.542Z"
     }
   ],
   "clients": [
@@ -3744,6 +3764,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 000055",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٤٣:٢٤ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٤٢:١٣ ص"
+    },
+    {
       "action": "إضافة قضية: 7007",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٤٢:٠٦ ص"
     },
@@ -4134,14 +4162,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٦:٢٤ ص"
-    },
-    {
-      "action": "إضافة توكيل: 11208 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٦:١٧ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٣:٤٥ ص"
     }
   ],
   "sessionLogs": [

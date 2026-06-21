@@ -2878,6 +2878,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T11:03:55.217Z"
+    },
+    {
+      "id": "_9fuml9hpmmqnolxqh",
+      "name": "ورشه المرحوم محمد محمد عطيه",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "8989898989",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T11:06:47.982Z"
     }
   ],
   "staff": [
@@ -3244,6 +3259,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 8989898989 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٦:٤٧ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٥:١٣ ص"
+    },
     {
       "action": "إضافة قضية: 15087",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٥:٠٦ ص"
@@ -3635,14 +3658,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:١١:٤٩ ص"
-    },
-    {
-      "action": "إضافة توكيل: 0999999999999 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١١:٤٣ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٠:٢٨ ص"
     }
   ],
   "sessionLogs": [
@@ -4355,6 +4370,26 @@
         }
       ],
       "mainClientId": "_f7oso6l66mqnoi8el"
+    },
+    {
+      "id": "_ngl7cwr8ymqnolycu",
+      "tawkeelNum": "8989898989",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_9fuml9hpmmqnolxqh",
+          "name": "ورشه المرحوم محمد محمد عطيه",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_9fuml9hpmmqnolxqh"
     }
   ],
   "version": "8.0"

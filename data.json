@@ -1379,6 +1379,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:03:36.004Z"
+    },
+    {
+      "id": "_ba8prttpsmqnqriix",
+      "num": "56",
+      "type": "أسرة",
+      "clientIds": "_al77scdp1mqmac10w",
+      "plaintiff": "",
+      "defendant": "اميره احمد فؤاد",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "انذار بالكف عند انتهالك حقوق الملكيه الفكريه",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:07:06.633Z"
     }
   ],
   "clients": [
@@ -3514,6 +3534,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 56",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٠٧:٠٦ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٠٣:٥٦ ص"
+    },
+    {
       "action": "إضافة قضية: 492",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٠٣:٣٦ ص"
     },
@@ -3904,14 +3932,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٢:٣٠ ص"
-    },
-    {
-      "action": "إضافة توكيل: 99999999 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٢:٢٤ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠١:١١ ص"
     }
   ],
   "sessionLogs": [

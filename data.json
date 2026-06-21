@@ -1639,6 +1639,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:47:16.833Z"
+    },
+    {
+      "id": "_mizwnvuabmqns9qnm",
+      "num": "67",
+      "type": "مدني كلي",
+      "clientIds": "_6sxvyrlhimqns8oou",
+      "plaintiff": "",
+      "defendant": "محمود رضا احمد محمد المهدي",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "ايصالات امانه ب 100 الف جنيها",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:49:16.594Z"
     }
   ],
   "clients": [
@@ -3819,6 +3839,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 67",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٤٩:١٦ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٤٨:٣٥ ص"
+    },
+    {
       "action": "إضافة توكيل: 98 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٤٨:٢٨ ص"
     },
@@ -4209,14 +4237,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٣:١٨ ص"
-    },
-    {
-      "action": "إضافة توكيل: 000099 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٣:١٢ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣١:١٠ ص"
     }
   ],
   "sessionLogs": [

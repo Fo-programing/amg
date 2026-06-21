@@ -499,6 +499,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T09:08:23.360Z"
+    },
+    {
+      "id": "_kbi3loipgmqnkg744",
+      "num": "11111111111111111",
+      "type": "إيجارات",
+      "clientIds": "_fzjxmjb7fmqnkevss",
+      "plaintiff": "",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "Snapader",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "تأسيس شركه ذات مسؤليه محدوده",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T09:10:20.932Z"
     }
   ],
   "clients": [
@@ -2270,6 +2290,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 11111111111111111",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٠:٢٠ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٩:٢٦ ص"
+    },
+    {
       "action": "إضافة توكيل: 111111111111111111111 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٩:٢٠ ص"
     },
@@ -2660,14 +2688,6 @@
     {
       "action": "إضافة جلسة",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٨:٤٧ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٨:٢٨ ص"
-    },
-    {
-      "action": "إضافة قضية: 113",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٨:٢١ ص"
     }
   ],
   "sessionLogs": [

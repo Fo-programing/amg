@@ -1499,6 +1499,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:27:50.891Z"
+    },
+    {
+      "id": "_w6gj4q1p2mqnrjhn1",
+      "num": "227",
+      "type": "عمال",
+      "clientIds": "_t0k5ww2mvmqmaareb",
+      "plaintiff": "",
+      "defendant": "محمد عبدالنبي",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "طرد",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:28:51.853Z"
     }
   ],
   "clients": [
@@ -3649,6 +3669,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 227",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٨:٥١ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٧:٥٨ ص"
+    },
+    {
       "action": "إضافة قضية: 990",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٧:٥٠ ص"
     },
@@ -4039,14 +4067,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٣:٢٧ ص"
-    },
-    {
-      "action": "إضافة توكيل: 66666 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٣:٢٠ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١١:٢١ ص"
     }
   ],
   "sessionLogs": [

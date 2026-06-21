@@ -1679,6 +1679,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:51:22.564Z"
+    },
+    {
+      "id": "_bgk5shorrmqnserqj",
+      "num": "884",
+      "type": "مدني كلي",
+      "clientIds": "_buxdw4pkumqnsdesw",
+      "plaintiff": "",
+      "defendant": "حنان محمد عبدالرحمن عبدالمقصود",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:53:11.275Z"
     }
   ],
   "clients": [
@@ -3874,6 +3894,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 884",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥٣:١١ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥٢:١٧ ص"
+    },
+    {
       "action": "إضافة توكيل: 3 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥٢:١١ ص"
     },
@@ -4264,14 +4292,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٦:٥٥ ص"
-    },
-    {
-      "action": "إضافة قضية: 2525",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٦:٤٨ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٦:٠٩ ص"
     }
   ],
   "sessionLogs": [

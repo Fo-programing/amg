@@ -79,6 +79,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T08:06:17.650Z"
+    },
+    {
+      "id": "_43zvss3aimqni9d4k",
+      "num": "54\\2024",
+      "type": "أموال عامة",
+      "clientIds": "_eg1a83sqemqm7wr2j",
+      "plaintiff": "امجد عدلي السيد",
+      "defendant": "القيمه المضافه",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "موضعي وقف تنفيذ متعجل الزقازيق",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "2300",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T08:09:02.900Z"
     }
   ],
   "clients": [
@@ -1609,6 +1629,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة قضية: 54\\2024",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٩:٠٢ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٦:٢٣ ص"
+    },
     {
       "action": "إضافة قضية: 593\\2025",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٦:١٧ ص"

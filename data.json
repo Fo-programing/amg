@@ -3188,6 +3188,21 @@
       "tawkeelImg": "",
       "notes": "ميراث عائله",
       "createdAt": "2026-06-21T12:02:17.369Z"
+    },
+    {
+      "id": "_tnqz5npnzmqnre3y0",
+      "name": "لطفي محمد",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "43",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T12:24:41.961Z"
     }
   ],
   "staff": [
@@ -3573,6 +3588,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 43 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٤:٤١ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٣:٢٢ ص"
+    },
     {
       "action": "إضافة قضية: 77",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٣:١٤ ص"
@@ -3964,14 +3987,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٥:٥٠ ص"
-    },
-    {
-      "action": "إضافة قضية: 11111",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٥:٤٤ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٤:٢٣ ص"
     }
   ],
   "sessionLogs": [
@@ -4804,6 +4819,26 @@
         }
       ],
       "mainClientId": "_erorvw6vbmqnqlagg"
+    },
+    {
+      "id": "_gez36z1fvmqnre4tl",
+      "tawkeelNum": "43",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_tnqz5npnzmqnre3y0",
+          "name": "لطفي محمد",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_tnqz5npnzmqnre3y0"
     }
   ],
   "version": "8.0"

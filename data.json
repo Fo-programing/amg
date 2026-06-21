@@ -2223,6 +2223,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T09:59:13.750Z"
+    },
+    {
+      "id": "_wg3cdewqcmqnmayp1",
+      "name": "يحي السيد عطيه",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "99999999",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "عقود بيع ارض فضاء",
+      "createdAt": "2026-06-21T10:02:24.444Z"
     }
   ],
   "staff": [
@@ -2589,6 +2604,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 99999999 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٢:٢٤ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠١:١١ ص"
+    },
     {
       "action": "إضافة قضية: 999999999",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠١:٠٤ ص"
@@ -2980,14 +3003,6 @@
     {
       "action": "إضافة توكيل: 00 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:١٤:٥٣ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٣:٥٨ ص"
-    },
-    {
-      "action": "إضافة قضية: 00000",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٣:٥٣ ص"
     }
   ],
   "sessionLogs": [
@@ -3440,6 +3455,26 @@
         }
       ],
       "mainClientId": "_g1cn116nomqnm70yk"
+    },
+    {
+      "id": "_1i75sneytmqnmb58c",
+      "tawkeelNum": "99999999",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "عقود بيع ارض فضاء",
+      "clients": [
+        {
+          "id": "_wg3cdewqcmqnmayp1",
+          "name": "يحي السيد عطيه",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_wg3cdewqcmqnmayp1"
     }
   ],
   "version": "8.0"

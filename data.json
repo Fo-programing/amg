@@ -1239,6 +1239,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T11:08:19.682Z"
+    },
+    {
+      "id": "_a5o7yn06gmqnoq8nx",
+      "num": "27\\2026",
+      "type": "عمال",
+      "clientIds": "_bylsvisecmqma6a7k",
+      "plaintiff": "",
+      "defendant": "عوض صلاح الدين عوض",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "ايصال امانه ب 25000 جنيها",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T11:10:07.965Z"
     }
   ],
   "clients": [
@@ -3280,6 +3300,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 27\\2026",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:١٠:٠٧ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٨:٢٦ ص"
+    },
+    {
       "action": "إضافة قضية: 000999",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٨:١٩ ص"
     },
@@ -3670,14 +3698,6 @@
     {
       "action": "إضافة توكيل: 2222223 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٦:٠٤ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٤:٣٠ ص"
-    },
-    {
-      "action": "إضافة قضية: 20000000000000",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٤:٢٥ ص"
     }
   ],
   "sessionLogs": [

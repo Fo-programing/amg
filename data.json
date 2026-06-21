@@ -2188,6 +2188,21 @@
       "tawkeelImg": "",
       "notes": "قضيه نصب - بلاغ للنائب العام",
       "createdAt": "2026-06-21T09:27:32.565Z"
+    },
+    {
+      "id": "_g1cn116nomqnm70yk",
+      "name": "عبدالحميد محمد محمود عبدالحميد",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "99998899989",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T09:59:13.750Z"
     }
   ],
   "staff": [
@@ -2554,6 +2569,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 99998899989 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٩:١٣ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٨:١١ ص"
+    },
     {
       "action": "إضافة قضية: 77777777",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٨:٠٤ ص"
@@ -2945,14 +2968,6 @@
     {
       "action": "إضافة توكيل: 0000 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:١٢:٣١ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:١١:٢٢ ص"
-    },
-    {
-      "action": "إضافة قضية: 18\\2026",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:١١:١٦ ص"
     }
   ],
   "sessionLogs": [
@@ -3385,6 +3400,26 @@
         }
       ],
       "mainClientId": "_0lp5p5a7rmqnl22cz"
+    },
+    {
+      "id": "_q1mci0so6mqnm723a",
+      "tawkeelNum": "99998899989",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_g1cn116nomqnm70yk",
+          "name": "عبدالحميد محمد محمود عبدالحميد",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_g1cn116nomqnm70yk"
     }
   ],
   "version": "8.0"

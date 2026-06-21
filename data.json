@@ -1439,6 +1439,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:23:14.225Z"
+    },
+    {
+      "id": "_te9pnxq4imqnrenoe",
+      "num": "34",
+      "type": "عمال",
+      "clientIds": "_tnqz5npnzmqnre3y0",
+      "plaintiff": "",
+      "defendant": "النيابه الاداريه",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:25:06.398Z"
     }
   ],
   "clients": [
@@ -3589,6 +3609,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 34",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٥:٠٦ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٤:٤٨ ص"
+    },
+    {
       "action": "إضافة توكيل: 43 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٤:٤١ ص"
     },
@@ -3979,14 +4007,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٧:٠٧ ص"
-    },
-    {
-      "action": "إضافة قضية: 3333",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٧:٠١ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٥:٥٠ ص"
     }
   ],
   "sessionLogs": [

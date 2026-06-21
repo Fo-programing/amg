@@ -919,6 +919,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:17:44.153Z"
+    },
+    {
+      "id": "_hesajy5qgmqnmylzh",
+      "num": "894\\2025",
+      "type": "أسرة",
+      "clientIds": "_1a4xks9f1mqnmx37g",
+      "plaintiff": "",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "الاسره  مركز الزقازيق",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "نفقه زوديه بدل فرش وغطا",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:20:39.245Z"
     }
   ],
   "clients": [
@@ -2795,6 +2815,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 894\\2025",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٠:٣٩ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٩:٣٥ ص"
+    },
+    {
       "action": "إضافة توكيل: 894 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٩:٢٩ ص"
     },
@@ -3185,14 +3213,6 @@
     {
       "action": "إضافة توكيل: 15086\\2026 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٠:٣٠ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٩:٤٢ ص"
-    },
-    {
-      "action": "إضافة قضية: 0003",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٩:٣٣ ص"
     }
   ],
   "sessionLogs": [

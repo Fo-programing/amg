@@ -519,6 +519,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T09:10:20.932Z"
+    },
+    {
+      "id": "_w4yc8w49qmqnkj4hb",
+      "num": "3444444444",
+      "type": "إيجارات",
+      "clientIds": "_n18dprxpemqm7vclg",
+      "plaintiff": "",
+      "defendant": "ايمان عبدالحميد محمد",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "906",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T09:12:37.487Z"
     }
   ],
   "clients": [
@@ -2305,6 +2325,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 3444444444",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٢:٣٧ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١١:٤٩ ص"
+    },
+    {
       "action": "إضافة توكيل: 0999999999999 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:١١:٤٣ ص"
     },
@@ -2695,14 +2723,6 @@
     {
       "action": "إضافة جلسة",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٩:٢١ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٩:٠٩ ص"
-    },
-    {
-      "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٩:٠٤ ص"
     }
   ],
   "sessionLogs": [

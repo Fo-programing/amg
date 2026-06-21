@@ -859,6 +859,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:09:58.666Z"
+    },
+    {
+      "id": "_h8ko8p407mqnmmik8",
+      "num": "22222222222",
+      "type": "إيجارات",
+      "clientIds": "_7qsoj7mmwmqmall52",
+      "plaintiff": "",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "ملف تصالح",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:11:14.936Z"
     }
   ],
   "clients": [
@@ -2705,6 +2725,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 22222222222",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١١:١٤ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٠:٠٥ ص"
+    },
+    {
       "action": "إضافة قضية: 2131",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٩:٥٨ ص"
     },
@@ -3095,14 +3123,6 @@
     {
       "action": "تعديل قضية: 000001",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٢١:٠٤ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٠:١٥ ص"
-    },
-    {
-      "action": "إضافة قضية: 000001",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٠:١٠ ص"
     }
   ],
   "sessionLogs": [

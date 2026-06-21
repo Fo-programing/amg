@@ -1719,6 +1719,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:54:25.040Z"
+    },
+    {
+      "id": "_5zqhmi71fmqnsjppt",
+      "num": "1471",
+      "type": "أسرة",
+      "clientIds": "_5vl9ydglamqnsi5to",
+      "plaintiff": "",
+      "defendant": "شيماء سعيد ابو بركات",
+      "lawyerId": "",
+      "court": "البساتين",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "مصروفات دراسيه + نفقات",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:57:01.937Z"
     }
   ],
   "clients": [
@@ -3929,6 +3949,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 1471",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥٧:٠١ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥٥:٥٧ ص"
+    },
+    {
       "action": "إضافة توكيل: 1471 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥٥:٥٠ ص"
     },
@@ -4319,14 +4347,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٧:٠٣ ص"
-    },
-    {
-      "action": "إضافة توكيل: 2512 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٦:٥٧ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٠:٤٠ ص"
     }
   ],
   "sessionLogs": [

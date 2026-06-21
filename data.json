@@ -619,6 +619,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T09:26:13.508Z"
+    },
+    {
+      "id": "_twe7dxxq6mqnl3snt",
+      "num": "55555555",
+      "type": "إيجارات",
+      "clientIds": "_0lp5p5a7rmqnl22cz",
+      "plaintiff": "",
+      "defendant": "بلاغ للنائ العام",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "منح امن دوله طوارئ هارب",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T09:28:41.945Z"
     }
   ],
   "clients": [
@@ -2435,6 +2455,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 55555555",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٨:٤١ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٧:٣٩ ص"
+    },
+    {
       "action": "إضافة توكيل: 9999999990 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٧:٣٢ ص"
     },
@@ -2825,14 +2853,6 @@
     {
       "action": "تسجيل جلسة منتهية: 113",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٢:٤٢ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٢:٠٦ ص"
-    },
-    {
-      "action": "تسجيل جلسة منتهية: 113",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٢:٠١ ص"
     }
   ],
   "sessionLogs": [

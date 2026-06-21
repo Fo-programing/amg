@@ -1758,6 +1758,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T08:54:25.344Z"
+    },
+    {
+      "id": "_eqqz3ztqjmqnk0g0h",
+      "name": "حنان محمد عطيه احمد",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "3333333333",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T08:58:07.161Z"
     }
   ],
   "staff": [
@@ -2124,6 +2139,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 3333333333 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٨:٠٧ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٦:٥٣ ص"
+    },
     {
       "action": "إضافة قضية: 2127",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٦:٤٦ ص"
@@ -2515,14 +2538,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٣:٢٣ ص"
-    },
-    {
-      "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٣:١٨ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٣:٠١ ص"
     }
   ],
   "sessionLogs": [
@@ -2835,6 +2850,26 @@
         }
       ],
       "mainClientId": "_i3ex0rf1hmqnjvk1p"
+    },
+    {
+      "id": "_v0t92mx4jmqnk0gxl",
+      "tawkeelNum": "3333333333",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_eqqz3ztqjmqnk0g0h",
+          "name": "حنان محمد عطيه احمد",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_eqqz3ztqjmqnk0g0h"
     }
   ],
   "version": "8.0"

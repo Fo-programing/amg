@@ -1590,6 +1590,14 @@
   },
   "activityLog": [
     {
+      "action": "تسجيل جلسة منتهية: 113",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٢:٠١ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠١:٣٠ ص"
+    },
+    {
       "action": "إضافة جلسة",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٠١:٢٥ ص"
     },
@@ -1858,6 +1866,18 @@
       "notes": "",
       "nextDate": "",
       "createdAt": "2026-06-21T07:56:16.526Z"
+    },
+    {
+      "id": "_oo8j00q2tmqni0boo",
+      "caseId": "_6unez5e4bmqnhvm73",
+      "date": "2026-04-22",
+      "court": "",
+      "judge": "",
+      "result": "أخرى",
+      "what": "",
+      "notes": "",
+      "nextDate": "2026-06-17",
+      "createdAt": "2026-06-21T08:02:01.128Z"
     }
   ],
   "clientGroups": [],

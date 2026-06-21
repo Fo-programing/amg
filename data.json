@@ -759,6 +759,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:01:04.170Z"
+    },
+    {
+      "id": "_qrzs5lhsomqnmc1a9",
+      "num": "8777777",
+      "type": "أسرة",
+      "clientIds": "_wg3cdewqcmqnmayp1",
+      "plaintiff": "",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "عقود بيع ارض فضاء",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:03:05.985Z"
     }
   ],
   "clients": [
@@ -2605,6 +2625,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 8777777",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٣:٠٥ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٢:٣٠ ص"
+    },
+    {
       "action": "إضافة توكيل: 99999999 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٢:٢٤ ص"
     },
@@ -2995,14 +3023,6 @@
     {
       "action": "إضافة قضية: 0000",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:١٥:٤٣ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٤:٥٩ ص"
-    },
-    {
-      "action": "إضافة توكيل: 00 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٤:٥٣ ص"
     }
   ],
   "sessionLogs": [

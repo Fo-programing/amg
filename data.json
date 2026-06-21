@@ -219,6 +219,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T08:24:28.786Z"
+    },
+    {
+      "id": "_lzpxe99tqmqnizquj",
+      "num": "0003",
+      "type": "مدني جزئي",
+      "clientIds": "_yn37bx4o7mqm5p2tr",
+      "plaintiff": "ابتسام محمد ذكي ابرهيم",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "تعاقد مع شركه فودافون",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "3114",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T08:29:33.739Z"
     }
   ],
   "clients": [
@@ -1824,6 +1844,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة قضية: 0003",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٩:٣٣ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٤:٣٧ ص"
+    },
     {
       "action": "إضافة قضية: 878",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٤:٢٨ ص"

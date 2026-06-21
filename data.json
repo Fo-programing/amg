@@ -1389,7 +1389,16 @@
       "photo": ""
     }
   ],
-  "sessions": [],
+  "sessions": [
+    {
+      "id": "_5zsg8p7edmqnhjn1q",
+      "caseId": "_tpxeue7kimqnhimep",
+      "date": "2024-09-24",
+      "time": "",
+      "court": "",
+      "notes": "مدني كلي لاعاده الاعلان"
+    }
+  ],
   "tasks": [],
   "payments": [],
   "documents": [],
@@ -1424,6 +1433,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة جلسة",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٤٩:٠٢ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٤٨:٢٠ ص"
+    },
     {
       "action": "إضافة قضية: 941\\2024",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٤٨:١٥ ص"

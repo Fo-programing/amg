@@ -3831,6 +3831,62 @@
   ],
   "sessions": [
     {
+      "id": "_awp1v1ymymqnhw6d6",
+      "caseId": "_6unez5e4bmqnhvm73",
+      "date": "2026-09-16",
+      "time": "",
+      "court": "",
+      "notes": ""
+    },
+    {
+      "id": "_59l92zk36mqnhwwh5",
+      "caseId": "_6unez5e4bmqnhvm73",
+      "date": "2026-07-17",
+      "time": "",
+      "court": "",
+      "notes": ""
+    },
+    {
+      "id": "_chm91vndjmqnhzbv9",
+      "caseId": "_6unez5e4bmqnhvm73",
+      "date": "2026-06-17",
+      "time": "",
+      "court": "",
+      "notes": ""
+    },
+    {
+      "id": "_av4chkj51mqnhzkaa",
+      "caseId": "_6unez5e4bmqnhvm73",
+      "date": "2026-09-16",
+      "time": "",
+      "court": "",
+      "notes": ""
+    },
+    {
+      "id": "_jxmb1k2tpmqntphkp",
+      "caseId": "_dsr0k4chimqntmssk",
+      "date": "2026-07-06",
+      "time": "",
+      "court": "الاسره بندر الزقازيق",
+      "notes": ""
+    },
+    {
+      "id": "_hec9bi1rbmqntr5da",
+      "caseId": "_gz97ffwr9mqntif69",
+      "date": "2026-07-11",
+      "time": "",
+      "court": "الاسره بندر الزقازيق",
+      "notes": ""
+    },
+    {
+      "id": "_jo71djr9hmqnw216z",
+      "caseId": "_kr8k2uq84mqnm5kt5",
+      "date": "2026-06-23",
+      "time": "",
+      "court": "الزراعه",
+      "notes": ""
+    },
+    {
       "id": "_5zsg8p7edmqnhjn1q",
       "caseId": "_tpxeue7kimqnhimep",
       "date": "2024-09-24",
@@ -3935,67 +3991,11 @@
       "notes": ""
     },
     {
-      "id": "_awp1v1ymymqnhw6d6",
-      "caseId": "_6unez5e4bmqnhvm73",
-      "date": "2026-09-16",
-      "time": "",
-      "court": "",
-      "notes": ""
-    },
-    {
       "id": "_polat5mgcmqnhwjhj",
       "caseId": "_6unez5e4bmqnhvm73",
       "date": "2026-04-22",
       "time": "",
       "court": "",
-      "notes": ""
-    },
-    {
-      "id": "_59l92zk36mqnhwwh5",
-      "caseId": "_6unez5e4bmqnhvm73",
-      "date": "2026-07-17",
-      "time": "",
-      "court": "",
-      "notes": ""
-    },
-    {
-      "id": "_chm91vndjmqnhzbv9",
-      "caseId": "_6unez5e4bmqnhvm73",
-      "date": "2026-06-17",
-      "time": "",
-      "court": "",
-      "notes": ""
-    },
-    {
-      "id": "_av4chkj51mqnhzkaa",
-      "caseId": "_6unez5e4bmqnhvm73",
-      "date": "2026-09-16",
-      "time": "",
-      "court": "",
-      "notes": ""
-    },
-    {
-      "id": "_jxmb1k2tpmqntphkp",
-      "caseId": "_dsr0k4chimqntmssk",
-      "date": "2026-07-06",
-      "time": "",
-      "court": "الاسره بندر الزقازيق",
-      "notes": ""
-    },
-    {
-      "id": "_hec9bi1rbmqntr5da",
-      "caseId": "_gz97ffwr9mqntif69",
-      "date": "2026-07-11",
-      "time": "",
-      "court": "الاسره بندر الزقازيق",
-      "notes": ""
-    },
-    {
-      "id": "_jo71djr9hmqnw216z",
-      "caseId": "_kr8k2uq84mqnm5kt5",
-      "date": "2026-06-23",
-      "time": "",
-      "court": "الزراعه",
       "notes": ""
     }
   ],
@@ -4047,8 +4047,28 @@
   "settings": {},
   "activityLog": [
     {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٩:٣٧ م"
+    },
+    {
       "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦ ٤:٣٥:١٥ م"
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٩:٣٠ م"
+    },
+    {
+      "action": "إضافة قضية: 3782",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٧:٢٥ م"
+    },
+    {
+      "action": "تعديل قضية: 3780",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:١٧ م"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:٠٧ م"
+    },
+    {
+      "action": "إضافة قضية: 3780",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:٠١ م"
     }
   ],
   "sessionLogs": [

@@ -2053,6 +2053,21 @@
       "tawkeelImg": "",
       "notes": "تصالع علي شقه سكنيه بالدور السادس العلوي",
       "createdAt": "2026-06-21T09:16:04.727Z"
+    },
+    {
+      "id": "_0lp5p5a7rmqnl22cz",
+      "name": "ابرهيم محمد عبدالعظيم علي",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "9999999990",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "قضيه نصب - بلاغ للنائب العام",
+      "createdAt": "2026-06-21T09:27:32.565Z"
     }
   ],
   "staff": [
@@ -2419,6 +2434,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 9999999990 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٧:٣٢ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٦:١٩ ص"
+    },
     {
       "action": "إضافة قضية: 40",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٦:١٣ ص"
@@ -2810,14 +2833,6 @@
     {
       "action": "تسجيل جلسة منتهية: 113",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٢:٠١ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠١:٣٠ ص"
-    },
-    {
-      "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠١:٢٥ ص"
     }
   ],
   "sessionLogs": [
@@ -3230,6 +3245,26 @@
         }
       ],
       "mainClientId": "_4olqokz6cmqnkngrg"
+    },
+    {
+      "id": "_w6ianqsxpmqnl2b4l",
+      "tawkeelNum": "9999999990",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "قضيه نصب - بلاغ للنائب العام",
+      "clients": [
+        {
+          "id": "_0lp5p5a7rmqnl22cz",
+          "name": "ابرهيم محمد عبدالعظيم علي",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_0lp5p5a7rmqnl22cz"
     }
   ],
   "version": "8.0"

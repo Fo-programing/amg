@@ -639,6 +639,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T09:28:41.945Z"
+    },
+    {
+      "id": "_qftucl4d2mqnl6ho1",
+      "num": "5555555555555555",
+      "type": "إيجارات",
+      "clientIds": "_bylsvisecmqma6a7k",
+      "plaintiff": "",
+      "defendant": "ورشه المرحوم سعيد عبدالفتاح",
+      "lawyerId": "",
+      "court": "الزقازيق الكليه",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "انذار عوض ايجار سنوي",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T09:30:47.665Z"
     }
   ],
   "clients": [
@@ -2455,6 +2475,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 5555555555555555",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٣٠:٤٧ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٨:٤٩ ص"
+    },
+    {
       "action": "إضافة قضية: 55555555",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٨:٤١ ص"
     },
@@ -2845,14 +2873,6 @@
     {
       "action": "حفظ إعدادات",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٣:٤٨ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٢:٤٧ ص"
-    },
-    {
-      "action": "تسجيل جلسة منتهية: 113",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٢:٤٢ ص"
     }
   ],
   "sessionLogs": [

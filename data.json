@@ -1521,6 +1521,14 @@
       "time": "",
       "court": "",
       "notes": ""
+    },
+    {
+      "id": "_59l92zk36mqnhwwh5",
+      "caseId": "_6unez5e4bmqnhvm73",
+      "date": "2026-07-17",
+      "time": "",
+      "court": "",
+      "notes": ""
     }
   ],
   "tasks": [],
@@ -1557,6 +1565,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة جلسة",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٩:٢١ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٩:٠٩ ص"
+    },
     {
       "action": "إضافة جلسة",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٩:٠٤ ص"

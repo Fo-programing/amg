@@ -1459,6 +1459,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:25:06.398Z"
+    },
+    {
+      "id": "_nadaee775mqnrfycy",
+      "num": "78",
+      "type": "عمال",
+      "clientIds": "_t0k5ww2mvmqmaareb",
+      "plaintiff": "",
+      "defendant": "حامد عبدالقادر علي",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "طرد",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:26:06.898Z"
     }
   ],
   "clients": [
@@ -3609,6 +3629,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 78",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٦:٠٦ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٥:١٢ ص"
+    },
+    {
       "action": "إضافة قضية: 34",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٥:٠٦ ص"
     },
@@ -3999,14 +4027,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٠:٠٥ ص"
-    },
-    {
-      "action": "إضافة قضية: 2131",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٩:٥٨ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٧:٠٧ ص"
     }
   ],
   "sessionLogs": [

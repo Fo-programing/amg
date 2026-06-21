@@ -399,6 +399,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T08:56:46.646Z"
+    },
+    {
+      "id": "_qcpr09rxumqnk1fin",
+      "num": "286",
+      "type": "أسرة",
+      "clientIds": "_eqqz3ztqjmqnk0g0h",
+      "plaintiff": "",
+      "defendant": "محمد شوقي ابرهيم",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T08:58:51.983Z"
     }
   ],
   "clients": [
@@ -2140,6 +2160,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 286",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٨:٥١ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٨:١٤ ص"
+    },
+    {
       "action": "إضافة توكيل: 3333333333 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٨:٠٧ ص"
     },
@@ -2530,14 +2558,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٣:٤١ ص"
-    },
-    {
-      "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٣:٣٧ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٣:٢٣ ص"
     }
   ],
   "sessionLogs": [

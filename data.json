@@ -1359,6 +1359,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:01:26.333Z"
+    },
+    {
+      "id": "_m9ciji6nsmqnqn004",
+      "num": "492",
+      "type": "أسرة",
+      "clientIds": "_da810of1hmqm8xvpz",
+      "plaintiff": "",
+      "defendant": "نجوي اسماعيل الالفي - احمد الالفي واخرون",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "ميراث عائله",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:03:36.004Z"
     }
   ],
   "clients": [
@@ -3494,6 +3514,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 492",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٠٣:٣٦ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٠٢:٢٤ ص"
+    },
+    {
       "action": "إضافة توكيل: 11 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٠٢:١٧ ص"
     },
@@ -3884,14 +3912,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠١:١١ ص"
-    },
-    {
-      "action": "إضافة قضية: 999999999",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠١:٠٤ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٩:٢٠ ص"
     }
   ],
   "sessionLogs": [

@@ -299,6 +299,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T08:38:08.346Z"
+    },
+    {
+      "id": "_a0lx1w2zomqnjenqj",
+      "num": "222222222",
+      "type": "مدني جزئي",
+      "clientIds": "_zx01n3bjmmqnjbujn",
+      "plaintiff": "لورانت جارسي",
+      "defendant": "وسيم  يوسف بستاني",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "شقة الغردقه حي الاحياء",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T08:41:09.547Z"
     }
   ],
   "clients": [
@@ -1965,6 +1985,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 222222222",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٤١:٠٩ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٩:٠٥ ص"
+    },
+    {
       "action": "إضافة توكيل: 22222222222 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٨:٥٩ ص"
     },
@@ -2355,14 +2383,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٤٦:٠٠ ص"
-    },
-    {
-      "action": "إضافة قضية: 0",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٤٥:٥٤ ص"
-    },
-    {
-      "action": "حفظ إعدادات",
-      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٣٢:٠١ م"
     }
   ],
   "sessionLogs": [

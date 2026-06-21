@@ -2413,6 +2413,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T10:13:20.046Z"
+    },
+    {
+      "id": "_1a4xks9f1mqnmx37g",
+      "name": "مروه السيد عطيه عكاشه",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "894",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T10:19:29.313Z"
     }
   ],
   "staff": [
@@ -2779,6 +2794,10 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 894 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٩:٢٩ ص"
+    },
     {
       "action": "إضافة قضية: 1834",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٧:٤٤ ص"
@@ -3174,10 +3193,6 @@
     {
       "action": "إضافة قضية: 0003",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٩:٣٣ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٤:٣٧ ص"
     }
   ],
   "sessionLogs": [
@@ -3670,6 +3685,26 @@
         }
       ],
       "mainClientId": "_njdqnvuxvmqnmp60n"
+    },
+    {
+      "id": "_2dqdd7bbkmqnmx40w",
+      "tawkeelNum": "894",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_1a4xks9f1mqnmx37g",
+          "name": "مروه السيد عطيه عكاشه",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_1a4xks9f1mqnmx37g"
     }
   ],
   "version": "8.0"

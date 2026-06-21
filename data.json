@@ -1,163 +1,5 @@
 {
-  "cases": [
-    {
-      "id": "_czxryf760mqmf45yz",
-      "num": "655\\2025",
-      "type": "",
-      "clientId": "_yxywyd264mqm60qi3",
-      "lawyerId": "_hwyzl17xumqm4rgrl",
-      "court": "العريش - شمال سينا",
-      "division": "",
-      "date": "2025-11-18",
-      "status": "نشطة",
-      "notes": "ضد شركه المطاحن\nإحاله للخبره",
-      "fee": 0,
-      "paid": 0,
-      "tawkeelNum": "3322\\2024",
-      "archived": false,
-      "createdAt": "2026-06-20T13:53:15.323Z",
-      "clientIds": "_36mj83eckmqm6j0sw",
-      "plaintiff": "",
-      "defendant": "",
-      "tawkeelType": "عام"
-    },
-    {
-      "id": "_w63r78fgymqmf6b0s",
-      "num": "82\\2025",
-      "type": "أسري",
-      "clientId": "_y3e4ljfa0mqmawbn3",
-      "lawyerId": "_hwyzl17xumqm4rgrl",
-      "court": "شمال سينا",
-      "division": "",
-      "date": "",
-      "status": "نشطة",
-      "notes": "ضد عوضه الطربينه",
-      "fee": 0,
-      "paid": 0,
-      "tawkeelNum": "789\\2024",
-      "archived": false,
-      "createdAt": "2026-06-20T13:54:55.180Z"
-    },
-    {
-      "id": "_mwfgzawwzmqmfoxa3",
-      "num": "00000",
-      "type": "إداري",
-      "clientId": "_z7kobs4oomqm6gxpi",
-      "lawyerId": "",
-      "court": "",
-      "division": "",
-      "date": "",
-      "status": "نشطة",
-      "notes": "ضد أحمد مصطفي الضوي",
-      "fee": 250000,
-      "paid": 23000,
-      "tawkeelNum": "1347\\2024",
-      "archived": false,
-      "createdAt": "2026-06-20T14:09:23.835Z"
-    },
-    {
-      "id": "_qrjjqlkwimqmfqk3v",
-      "num": "000000",
-      "type": "عمالي",
-      "clientId": "_1veo17w5rmqm83lxl",
-      "lawyerId": "",
-      "court": "",
-      "division": "",
-      "date": "",
-      "status": "نشطة",
-      "notes": "",
-      "fee": 10000,
-      "paid": 10000,
-      "tawkeelNum": "1999\\2022",
-      "archived": false,
-      "createdAt": "2026-06-20T14:10:40.075Z"
-    },
-    {
-      "id": "_k21vr9zn7mqmftk2x",
-      "num": "593-2025",
-      "type": "عقاري",
-      "clientId": "_eg1a83sqemqm7wr2j",
-      "lawyerId": "",
-      "court": "",
-      "division": "",
-      "date": "",
-      "status": "نشطة",
-      "notes": "",
-      "fee": 74000,
-      "paid": 34000,
-      "tawkeelNum": "2300\\2022",
-      "archived": false,
-      "createdAt": "2026-06-20T14:13:00.009Z"
-    },
-    {
-      "id": "_0oal2bywmmqmfu556",
-      "num": "00000000",
-      "type": "عقاري",
-      "clientId": "_al77scdp1mqmac10w",
-      "lawyerId": "",
-      "court": "",
-      "division": "",
-      "date": "",
-      "status": "نشطة",
-      "notes": "",
-      "fee": 20000,
-      "paid": 15000,
-      "tawkeelNum": "",
-      "archived": false,
-      "createdAt": "2026-06-20T14:13:27.306Z"
-    },
-    {
-      "id": "_93wmd5nslmqmfwe6q",
-      "num": "11111111",
-      "type": "عقاري",
-      "clientId": "_zatdttxnomqm55oua",
-      "lawyerId": "",
-      "court": "",
-      "division": "",
-      "date": "",
-      "status": "نشطة",
-      "notes": "",
-      "fee": 30000,
-      "paid": 15000,
-      "tawkeelNum": "6724",
-      "archived": false,
-      "createdAt": "2026-06-20T14:15:12.338Z"
-    },
-    {
-      "id": "_ah08tbeyvmqmg02y4",
-      "num": "22222222",
-      "type": "عقاري",
-      "clientId": "_sci0l0ly1mqmfy3oq",
-      "lawyerId": "",
-      "court": "",
-      "division": "",
-      "date": "",
-      "status": "نشطة",
-      "notes": "",
-      "fee": 35000,
-      "paid": 15000,
-      "tawkeelNum": "6149",
-      "archived": false,
-      "createdAt": "2026-06-20T14:18:04.396Z"
-    },
-    {
-      "id": "_7j4t2binhmqmg26ov",
-      "num": "2222",
-      "type": "عقاري",
-      "clientId": "_w6mw3rm5dmqmaegst",
-      "lawyerId": "",
-      "court": "",
-      "division": "",
-      "date": "",
-      "status": "نشطة",
-      "notes": "",
-      "fee": 65000,
-      "paid": 15000,
-      "tawkeelNum": "1833\\2025",
-      "archived": false,
-      "createdAt": "2026-06-20T14:19:42.559Z"
-    }
-  ],
+  "cases": [],
   "clients": [
     {
       "id": "_zatdttxnomqm55oua",
@@ -1320,21 +1162,6 @@
       "tawkeelDate": "2022-08-23",
       "tawkeelImg": "",
       "createdAt": "2026-06-20T14:16:32.042Z"
-    },
-    {
-      "id": "_ciqiwhjnjmqmzk39y",
-      "name": "تجربه",
-      "phone": "+201123961290",
-      "idNum": "9286592346",
-      "email": "",
-      "address": "",
-      "photo": "",
-      "tawkeelNum": "190-2022",
-      "tawkeelType": "خاص",
-      "tawkeelDate": "2022-03-20",
-      "tawkeelImg": "",
-      "notes": "",
-      "createdAt": "2026-06-20T23:25:32.058Z"
     }
   ],
   "staff": [
@@ -1522,17 +1349,7 @@
     }
   ],
   "sessions": [],
-  "tasks": [
-    {
-      "id": "_f89nbk3l3mqmgxmy4",
-      "title": "ورق",
-      "priority": "عاجلة",
-      "due": "2026-06-21",
-      "ownerId": "_kpsz5luf8mqm4h1ch",
-      "caseId": "_0oal2bywmmqmfu556",
-      "status": "done"
-    }
-  ],
+  "tasks": [],
   "payments": [],
   "documents": [],
   "attendance": [],
@@ -1568,75 +1385,54 @@
   "activityLog": [
     {
       "action": "حفظ إعدادات",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:٢٩ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:٢٩ ص"
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٥:٢٥ م"
     },
     {
       "action": "حذف قضية نهائياً: 2222",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:٢٥ ص"
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٥:٠٢ م"
     },
     {
       "action": "حذف قضية نهائياً: 22222222",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:٢٤ ص"
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٥:٠١ م"
     },
     {
       "action": "حذف قضية نهائياً: 11111111",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:٢٣ ص"
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٤:٥٨ م"
     },
     {
       "action": "حذف قضية نهائياً: 00000000",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:٢٣ ص"
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٤:٥٦ م"
     },
     {
       "action": "حذف قضية نهائياً: 593-2025",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:٢٢ ص"
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٤:٥٤ م"
     },
     {
       "action": "حذف قضية نهائياً: 000000",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:٢١ ص"
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٤:٤٧ م"
     },
     {
       "action": "حذف قضية نهائياً: 00000",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:٢٠ ص"
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٤:٤٥ م"
     },
     {
       "action": "حذف قضية نهائياً: 82\\2025",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:١٩ ص"
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٤:٤٢ م"
     },
     {
       "action": "حذف قضية نهائياً: 655\\2025",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:١٨ ص"
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٤:٤٠ م"
     },
     {
-      "action": "تعديل قضية: 655\\2025",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٩:٣١ ص"
+      "action": "مزامنة مع GitHub",
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٤:٢٥:٣٦ م"
+    },
+    {
+      "action": "إضافة توكيل: 190-2022 مع 1 موكلين",
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٤:٢٥:٣٢ م"
     }
   ],
   "sessionLogs": [],
-  "clientGroups": [
-    {
-      "id": "_qx2vtcdkjmqmzk4d6",
-      "tawkeelNum": "190-2022",
-      "tawkeelType": "خاص",
-      "tawkeelDate": "2022-03-20",
-      "tawkeelImg": "",
-      "notes": "",
-      "clients": [
-        {
-          "id": "_ciqiwhjnjmqmzk39y",
-          "name": "تجربه",
-          "phone": "+201123961290",
-          "idNum": "9286592346",
-          "email": "",
-          "address": "",
-          "photo": ""
-        }
-      ],
-      "mainClientId": "_ciqiwhjnjmqmzk39y"
-    }
-  ],
+  "clientGroups": [],
   "version": "8.0"
 }

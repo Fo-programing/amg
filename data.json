@@ -819,6 +819,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:05:44.406Z"
+    },
+    {
+      "id": "_3xa71nx5omqnmh2z8",
+      "num": "3333",
+      "type": "استئناف مدني",
+      "clientIds": "_4fm7awkoemqmajlhk",
+      "plaintiff": "",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "ميت غمر",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:07:01.460Z"
     }
   ],
   "clients": [
@@ -2665,6 +2685,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 3333",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٧:٠١ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٥:٥٠ ص"
+    },
+    {
       "action": "إضافة قضية: 11111",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٥:٤٤ ص"
     },
@@ -3055,14 +3083,6 @@
     {
       "action": "إضافة توكيل: 325\\2002 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:١٨:٢٨ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٧:٣٢ ص"
-    },
-    {
-      "action": "إضافة قضية: 000",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٧:٢٧ ص"
     }
   ],
   "sessionLogs": [

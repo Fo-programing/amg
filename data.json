@@ -1659,6 +1659,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:49:16.594Z"
+    },
+    {
+      "id": "_otm30wfj0mqnscfus",
+      "num": "6665",
+      "type": "مدني كلي",
+      "clientIds": "_5fko7qtxwmqnnidbr",
+      "plaintiff": "",
+      "defendant": "عبدالهادي محمد ابرهيم",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "انتظار طرد زياده اجره",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:51:22.564Z"
     }
   ],
   "clients": [
@@ -3839,6 +3859,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 6665",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥١:٢٢ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٤٩:٢٦ ص"
+    },
+    {
       "action": "إضافة قضية: 67",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٤٩:١٦ ص"
     },
@@ -4229,14 +4257,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٤:١٨ ص"
-    },
-    {
-      "action": "إضافة قضية: 555555555",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٤:١١ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٣:١٨ ص"
     }
   ],
   "sessionLogs": [

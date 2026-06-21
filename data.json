@@ -1507,6 +1507,14 @@
       "notes": ""
     },
     {
+      "id": "_lgxdn4piumqnhyt97",
+      "caseId": "_6unez5e4bmqnhvm73",
+      "date": "2026-04-22",
+      "time": "",
+      "court": "",
+      "notes": ""
+    },
+    {
       "id": "_awp1v1ymymqnhw6d6",
       "caseId": "_6unez5e4bmqnhvm73",
       "date": "2026-09-16",
@@ -1526,14 +1534,6 @@
       "id": "_59l92zk36mqnhwwh5",
       "caseId": "_6unez5e4bmqnhvm73",
       "date": "2026-07-17",
-      "time": "",
-      "court": "",
-      "notes": ""
-    },
-    {
-      "id": "_lgxdn4piumqnhyt97",
-      "caseId": "_6unez5e4bmqnhvm73",
-      "date": "2026-04-22",
       "time": "",
       "court": "",
       "notes": ""
@@ -1589,6 +1589,10 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٢:٤٧ ص"
+    },
     {
       "action": "تسجيل جلسة منتهية: 113",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٢:٤٢ ص"

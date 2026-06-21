@@ -1423,6 +1423,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T08:18:28.634Z"
+    },
+    {
+      "id": "_z1o2f45gumqniqkba",
+      "name": "عمر علاء الدين محمد عطيه",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "الحسنيه الزقازيق",
+      "photo": "",
+      "tawkeelNum": "878\\2022",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T08:22:26.243Z"
     }
   ],
   "staff": [
@@ -1789,6 +1804,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 878\\2022 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٢:٢٦ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٢١:٠٩ ص"
+    },
     {
       "action": "تعديل قضية: 000001",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٢١:٠٤ ص"
@@ -2288,6 +2311,26 @@
         }
       ],
       "mainClientId": "_j8122030wmqnilgop"
+    },
+    {
+      "id": "_4veziltbkmqniqkzn",
+      "tawkeelNum": "878\\2022",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_z1o2f45gumqniqkba",
+          "name": "عمر علاء الدين محمد عطيه",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "الحسنيه الزقازيق",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_z1o2f45gumqniqkba"
     }
   ],
   "version": "8.0"

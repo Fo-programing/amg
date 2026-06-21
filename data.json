@@ -1978,6 +1978,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T09:11:43.074Z"
+    },
+    {
+      "id": "_4olqokz6cmqnkngrg",
+      "name": "احمد السيد محمد السيد",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "2222223",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "تصالع علي شقه سكنيه بالدور السادس العلوي",
+      "createdAt": "2026-06-21T09:16:04.727Z"
     }
   ],
   "staff": [
@@ -2344,6 +2359,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 2222223 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٦:٠٤ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٤:٣٠ ص"
+    },
     {
       "action": "إضافة قضية: 20000000000000",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٤:٢٥ ص"
@@ -2735,14 +2758,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٩:٥٤ ص"
-    },
-    {
-      "action": "تعديل قضية: 113",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٩:٤٩ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٩:٢٦ ص"
     }
   ],
   "sessionLogs": [
@@ -3135,6 +3150,26 @@
         }
       ],
       "mainClientId": "_hv9ea3hbymqnkhxod"
+    },
+    {
+      "id": "_cym92m4z1mqnknkdz",
+      "tawkeelNum": "2222223",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "تصالع علي شقه سكنيه بالدور السادس العلوي",
+      "clients": [
+        {
+          "id": "_4olqokz6cmqnkngrg",
+          "name": "احمد السيد محمد السيد",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_4olqokz6cmqnkngrg"
     }
   ],
   "version": "8.0"

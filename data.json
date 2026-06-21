@@ -1339,6 +1339,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T11:52:20.387Z"
+    },
+    {
+      "id": "_ye2hng8ubmqnqk7y5",
+      "num": "99",
+      "type": "أسرة",
+      "clientIds": "_hu8cc9bz2mqm7srcw",
+      "plaintiff": "",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "تاسيس شركه ذات مسؤليه محدوده",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:01:26.333Z"
     }
   ],
   "clients": [
@@ -3459,6 +3479,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 99",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٠١:٢٦ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٠٠:٣٤ ص"
+    },
+    {
       "action": "إضافة توكيل: 08 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٠٠:١١ ص"
     },
@@ -3849,14 +3877,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٨:١١ ص"
-    },
-    {
-      "action": "إضافة قضية: 77777777",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٨:٠٤ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٦:٥٣ ص"
     }
   ],
   "sessionLogs": [

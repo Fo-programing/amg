@@ -1319,6 +1319,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T11:46:49.746Z"
+    },
+    {
+      "id": "_6rkp8t852mqnq8ioz",
+      "num": "88",
+      "type": "أسرة",
+      "clientIds": "_hiawx79tamqnq5wf4",
+      "plaintiff": "",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T11:52:20.387Z"
     }
   ],
   "clients": [
@@ -3424,6 +3444,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 88",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٥٢:٢٠ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٥٠:٤٩ ص"
+    },
+    {
       "action": "إضافة توكيل: 333000 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:٥٠:١٩ ص"
     },
@@ -3814,14 +3842,6 @@
     {
       "action": "إضافة قضية: 767",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٦:٤٦ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٥:٢٣ ص"
-    },
-    {
-      "action": "إضافة قضية: 777",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٥:١٧ ص"
     }
   ],
   "sessionLogs": [

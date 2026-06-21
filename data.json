@@ -119,6 +119,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T08:11:16.016Z"
+    },
+    {
+      "id": "_ql9tzsc7xmqnifl0f",
+      "num": "00000",
+      "type": "أموال عامة",
+      "clientIds": "_5na7adl7rmqnidtlr",
+      "plaintiff": "حموده ابرهيم محمد حموده",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "21 دورا وحده",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "مشروع Copital العاصمه",
+      "fee": 0,
+      "paid": 1345114,
+      "tawkeelNum": "0000",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T08:13:53.055Z"
     }
   ],
   "clients": [
@@ -1664,6 +1684,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة قضية: 00000",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٣:٥٣ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٢:٣٧ ص"
+    },
     {
       "action": "إضافة توكيل: 0000 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:١٢:٣١ ص"

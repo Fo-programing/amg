@@ -999,6 +999,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:31:03.648Z"
+    },
+    {
+      "id": "_uoduypytomqnng112",
+      "num": "555555555",
+      "type": "جنيات",
+      "clientIds": "_xpbxxavaamqnnepvh",
+      "plaintiff": "",
+      "defendant": "مروه حسن عبدالله عكاشه",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "مطالبه بسداد اتعاب",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:34:11.894Z"
     }
   ],
   "clients": [
@@ -2920,6 +2940,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 555555555",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٤:١١ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٣:١٨ ص"
+    },
+    {
       "action": "إضافة توكيل: 000099 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٣:١٢ ص"
     },
@@ -3310,14 +3338,6 @@
     {
       "action": "إضافة قضية: 222222222",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٤١:٠٩ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٩:٠٥ ص"
-    },
-    {
-      "action": "إضافة توكيل: 22222222222 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٨:٥٩ ص"
     }
   ],
   "sessionLogs": [

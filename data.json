@@ -1479,6 +1479,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:26:06.898Z"
+    },
+    {
+      "id": "_n75hqgy1umqnri6ln",
+      "num": "990",
+      "type": "عمال",
+      "clientIds": "_t2zbkk7x6mqmb1q8g",
+      "plaintiff": "",
+      "defendant": "رفعت سعيد رفعت",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "ولايه تعليميه ساره - يونس",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:27:50.891Z"
     }
   ],
   "clients": [
@@ -3629,6 +3649,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 990",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٧:٥٠ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٦:١٧ ص"
+    },
+    {
       "action": "إضافة قضية: 78",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٦:٠٦ ص"
     },
@@ -4019,14 +4047,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:١١:٢١ ص"
-    },
-    {
-      "action": "إضافة قضية: 22222222222",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١١:١٤ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٠:٠٥ ص"
     }
   ],
   "sessionLogs": [

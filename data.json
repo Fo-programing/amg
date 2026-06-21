@@ -2843,6 +2843,21 @@
       "tawkeelImg": "",
       "notes": "م.ت مركز ميت غمر",
       "createdAt": "2026-06-21T11:01:00.083Z"
+    },
+    {
+      "id": "_f7oso6l66mqnoi8el",
+      "name": "سوزان سامي محمد حافظ",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "15087",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T11:03:55.217Z"
     }
   ],
   "staff": [
@@ -3209,6 +3224,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 15087 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٣:٥٥ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٣:١٠ ص"
+    },
     {
       "action": "إضافة قضية: 15088",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٣:٠٣ ص"
@@ -3600,14 +3623,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٩:٢٦ ص"
-    },
-    {
-      "action": "إضافة توكيل: 111111111111111111111 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٩:٢٠ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٨:٣١ ص"
     }
   ],
   "sessionLogs": [
@@ -4300,6 +4315,26 @@
         }
       ],
       "mainClientId": "_pj1rysid7mqnoeh3v"
+    },
+    {
+      "id": "_t5iun014rmqnoi91t",
+      "tawkeelNum": "15087",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_f7oso6l66mqnoi8el",
+          "name": "سوزان سامي محمد حافظ",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_f7oso6l66mqnoi8el"
     }
   ],
   "version": "8.0"

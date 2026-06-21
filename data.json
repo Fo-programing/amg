@@ -1739,6 +1739,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:57:01.937Z"
+    },
+    {
+      "id": "_z2hq82x9omqnslt5l",
+      "num": "2093",
+      "type": "أسرة",
+      "clientIds": "_1ijaq1oosmqm9euun",
+      "plaintiff": "",
+      "defendant": "محمد الاعسم",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "اثبات زواج",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:58:39.705Z"
     }
   ],
   "clients": [
@@ -3949,6 +3969,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 2093",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥٨:٣٩ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥٧:١١ ص"
+    },
+    {
       "action": "إضافة قضية: 1471",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥٧:٠١ ص"
     },
@@ -4339,14 +4367,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٨:١١ ص"
-    },
-    {
-      "action": "إضافة قضية: 2512",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٨:٠٢ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٧:٠٣ ص"
     }
   ],
   "sessionLogs": [

@@ -1299,6 +1299,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T11:15:32.424Z"
+    },
+    {
+      "id": "_jfx1r2s8ymqnq1fki",
+      "num": "0055",
+      "type": "أسرة",
+      "clientIds": "_d95jl3ytgmqnozf5o",
+      "plaintiff": "",
+      "defendant": "خديجه محمد عيد",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T11:46:49.746Z"
     }
   ],
   "clients": [
@@ -3389,6 +3409,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 0055",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٤٦:٤٩ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٣١:١٩ ص"
+    },
+    {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:٣٠:٣٤ ص"
     },
@@ -3779,14 +3807,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٣٠:٥٣ ص"
-    },
-    {
-      "action": "إضافة قضية: 5555555555555555",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٣٠:٤٧ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٨:٤٩ ص"
     }
   ],
   "sessionLogs": [

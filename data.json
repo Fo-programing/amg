@@ -1558,11 +1558,17 @@
       "note": ""
     }
   ],
-  "settings": {},
+  "settings": {
+    "officeName": "AMG للمحاماة والاستشارات القانونية",
+    "officeManager": "مصطفى محمد أباظة",
+    "officeAddress": "",
+    "officePhone": "",
+    "officeEmail": ""
+  },
   "activityLog": [
     {
-      "action": "تعديل قضية: 655\\2025",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٩:٣١ ص"
+      "action": "حفظ إعدادات",
+      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٥:٥٩ م"
     }
   ],
   "sessionLogs": [],

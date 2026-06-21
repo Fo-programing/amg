@@ -1279,6 +1279,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T11:11:23.470Z"
+    },
+    {
+      "id": "_uo2px6nfbmqnox70o",
+      "num": "9999999",
+      "type": "أسرة",
+      "clientIds": "_z1h71iv5nmqnovbx4",
+      "plaintiff": "",
+      "defendant": "حسين حسين عبدالحميد",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "قضية طلاق",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T11:15:32.424Z"
     }
   ],
   "clients": [
@@ -3335,6 +3355,10 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 9999999",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:١٥:٣٢ ص"
+    },
+    {
       "action": "إضافة توكيل: 12121 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:١٤:٠٦ ص"
     },
@@ -3729,10 +3753,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٢:١٨ ص"
-    },
-    {
-      "action": "إضافة قضية: 666666666",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٢:١١ ص"
     }
   ],
   "sessionLogs": [

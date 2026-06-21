@@ -1888,6 +1888,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T09:06:46.305Z"
+    },
+    {
+      "id": "_fzjxmjb7fmqnkevss",
+      "name": "محمد محمود شحاته حماده",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "111111111111111111111",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "صاحب شركه",
+      "createdAt": "2026-06-21T09:09:20.572Z"
     }
   ],
   "staff": [
@@ -2254,6 +2269,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 111111111111111111111 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٩:٢٠ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٨:٣١ ص"
+    },
     {
       "action": "إضافة قضية: 131313131313",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٨:٢٣ ص"
@@ -2645,14 +2668,6 @@
     {
       "action": "إضافة قضية: 113",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٨:٢١ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٦:٢١ ص"
-    },
-    {
-      "action": "تسجيل جلسة منتهية: 941\\2024",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٦:١٦ ص"
     }
   ],
   "sessionLogs": [
@@ -3005,6 +3020,26 @@
         }
       ],
       "mainClientId": "_xf1udp5jymqnkbkpt"
+    },
+    {
+      "id": "_vlitr2fdgmqnkewjg",
+      "tawkeelNum": "111111111111111111111",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "صاحب شركه",
+      "clients": [
+        {
+          "id": "_fzjxmjb7fmqnkevss",
+          "name": "محمد محمود شحاته حماده",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_fzjxmjb7fmqnkevss"
     }
   ],
   "version": "8.0"

@@ -1548,6 +1548,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T08:32:42.723Z"
+    },
+    {
+      "id": "_pp03mrr27mqnja2j7",
+      "name": "طارق حسين المغربي",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "00000000000000",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T08:37:36.663Z"
     }
   ],
   "staff": [
@@ -1914,6 +1929,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 00000000000000 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٧:٣٦ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٦:٥٥ ص"
+    },
     {
       "action": "إضافة قضية: 1111",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٦:٥٠ ص"
@@ -2305,14 +2328,6 @@
     {
       "action": "حذف قضية نهائياً: 11111111",
       "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٤:٥٨ م"
-    },
-    {
-      "action": "حذف قضية نهائياً: 00000000",
-      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٤:٥٦ م"
-    },
-    {
-      "action": "حذف قضية نهائياً: 593-2025",
-      "time": "٢٠‏/٦‏/٢٠٢٦، ٥:٢٤:٥٤ م"
     }
   ],
   "sessionLogs": [
@@ -2505,6 +2520,26 @@
         }
       ],
       "mainClientId": "_gqwo6hijcmqnj3qsk"
+    },
+    {
+      "id": "_4uff9sg6nmqnja3h3",
+      "tawkeelNum": "00000000000000",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_pp03mrr27mqnja2j7",
+          "name": "طارق حسين المغربي",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_pp03mrr27mqnja2j7"
     }
   ],
   "version": "8.0"

@@ -1759,6 +1759,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:58:39.705Z"
+    },
+    {
+      "id": "_h8n4v3sj2mqnso5p0",
+      "num": "3490 - مجلس الدوله",
+      "type": "عمال",
+      "clientIds": "_eg1a83sqemqm7wr2j",
+      "plaintiff": "",
+      "defendant": "وزير الماليه - القيمه المضافه",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T13:00:29.268Z"
     }
   ],
   "clients": [
@@ -3969,6 +3989,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 3490 - مجلس الدوله",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٦:٠٠:٢٩ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥٨:٤٦ ص"
+    },
+    {
       "action": "إضافة قضية: 2093",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥٨:٣٩ ص"
     },
@@ -4359,14 +4387,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٩:٤٠ ص"
-    },
-    {
-      "action": "إضافة توكيل: 2513 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٩:٣٠ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٨:١١ ص"
     }
   ],
   "sessionLogs": [

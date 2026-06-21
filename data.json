@@ -1019,6 +1019,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:34:11.894Z"
+    },
+    {
+      "id": "_4rm6g3iljmqnnjdl9",
+      "num": "2525",
+      "type": "جنيات",
+      "clientIds": "_5fko7qtxwmqnnidbr",
+      "plaintiff": "",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "وراثات بندر الزقازيق",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:36:48.141Z"
     }
   ],
   "clients": [
@@ -2955,6 +2975,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 2525",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٦:٤٨ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٦:٠٩ ص"
+    },
+    {
       "action": "إضافة توكيل: 2525 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٦:٠٢ ص"
     },
@@ -3345,14 +3373,6 @@
     {
       "action": "إضافة قضية: 3107\\2026",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٤٧:٠٣ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٤٢:٥٧ ص"
-    },
-    {
-      "action": "إضافة توكيل: 333333333 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٤٢:٥٠ ص"
     }
   ],
   "sessionLogs": [

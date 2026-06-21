@@ -1283,6 +1283,21 @@
       "tawkeelDate": "2022-08-23",
       "tawkeelImg": "",
       "createdAt": "2026-06-20T14:16:32.042Z"
+    },
+    {
+      "id": "_5na7adl7rmqnidtlr",
+      "name": "حموده ابرهيم محمد حموده",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "0000",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T08:12:31.954Z"
     }
   ],
   "staff": [
@@ -1650,6 +1665,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة توكيل: 0000 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٢:٣١ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١١:٢٢ ص"
+    },
+    {
       "action": "إضافة قضية: 18\\2026",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:١١:١٦ ص"
     },
@@ -1996,6 +2019,27 @@
       "createdAt": "2026-06-21T08:02:42.048Z"
     }
   ],
-  "clientGroups": [],
+  "clientGroups": [
+    {
+      "id": "_iieixo5dumqnidufm",
+      "tawkeelNum": "0000",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_5na7adl7rmqnidtlr",
+          "name": "حموده ابرهيم محمد حموده",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_5na7adl7rmqnidtlr"
+    }
+  ],
   "version": "8.0"
 }

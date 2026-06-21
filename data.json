@@ -1179,6 +1179,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:58:50.084Z"
+    },
+    {
+      "id": "_zbzsyhhjjmqnoh4tf",
+      "num": "15088",
+      "type": "عمال",
+      "clientIds": "_pj1rysid7mqnoeh3v",
+      "plaintiff": "",
+      "defendant": "محمد سامي واخرون",
+      "lawyerId": "",
+      "court": "ميت غمر",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "صحة توقيع عقد بيع 16 قراط",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T11:03:03.075Z"
     }
   ],
   "clients": [
@@ -3190,6 +3210,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 15088",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٣:٠٣ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠١:٠٩ ص"
+    },
+    {
       "action": "إضافة توكيل: 15088 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠١:٠٠ ص"
     },
@@ -3580,14 +3608,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٨:٣١ ص"
-    },
-    {
-      "action": "إضافة قضية: 131313131313",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٨:٢٣ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٧:٢٢ ص"
     }
   ],
   "sessionLogs": [

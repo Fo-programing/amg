@@ -1723,6 +1723,21 @@
       "tawkeelImg": "",
       "notes": "تحه توقيع ارض237متر",
       "createdAt": "2026-06-21T08:51:55.232Z"
+    },
+    {
+      "id": "_i3ex0rf1hmqnjvk1p",
+      "name": "مازن عبدالمنعم حسن",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "1222\\2026",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T08:54:25.344Z"
     }
   ],
   "staff": [
@@ -2089,6 +2104,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 1222\\2026 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٤:٢٥ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٣:٠٧ ص"
+    },
     {
       "action": "إضافة قضية: 2000\\2025",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٣:٠٠ ص"
@@ -2480,14 +2503,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٢:١٧ ص"
-    },
-    {
-      "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٢:١٣ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥١:٤٧ ص"
     }
   ],
   "sessionLogs": [
@@ -2780,6 +2795,26 @@
         }
       ],
       "mainClientId": "_0vfqgwixkmqnjsh54"
+    },
+    {
+      "id": "_l767c82yimqnjvps0",
+      "tawkeelNum": "1222\\2026",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_i3ex0rf1hmqnjvk1p",
+          "name": "مازن عبدالمنعم حسن",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_i3ex0rf1hmqnjvk1p"
     }
   ],
   "version": "8.0"

@@ -979,6 +979,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:27:55.483Z"
+    },
+    {
+      "id": "_s1h9e61jcmqnnbzs0",
+      "num": "4984\\2026",
+      "type": "جنيات",
+      "clientIds": "_9u66job2nmqnn9jxq",
+      "plaintiff": "",
+      "defendant": "النيابه العامه",
+      "lawyerId": "",
+      "court": "الزقازيق",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "قتل",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:31:03.648Z"
     }
   ],
   "clients": [
@@ -2885,6 +2905,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 4984\\2026",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣١:٠٣ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٩:١٨ ص"
+    },
+    {
       "action": "إضافة توكيل: 4984 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٩:١٢ ص"
     },
@@ -3275,14 +3303,6 @@
     {
       "action": "إضافة قضية: 111111",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٨:٠٨ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٧:٤٢ ص"
-    },
-    {
-      "action": "إضافة توكيل: 00000000000000 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٣٧:٣٦ ص"
     }
   ],
   "sessionLogs": [

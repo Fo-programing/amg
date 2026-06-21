@@ -1688,6 +1688,21 @@
       "tawkeelImg": "",
       "notes": "صحة توقيع ارض 180 متر",
       "createdAt": "2026-06-21T08:49:07.353Z"
+    },
+    {
+      "id": "_0vfqgwixkmqnjsh54",
+      "name": "نشوي السيد ابرهيم عبدالعزيز",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "ش \\ شهيد الطيار",
+      "photo": "",
+      "tawkeelNum": "2000\\2025",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "تحه توقيع ارض237متر",
+      "createdAt": "2026-06-21T08:51:55.232Z"
     }
   ],
   "staff": [
@@ -2054,6 +2069,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 2000\\2025 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥١:٥٥ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٠:٤٤ ص"
+    },
     {
       "action": "إضافة قضية: 2202",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٠:٣٧ ص"
@@ -2445,14 +2468,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥١:٢١ ص"
-    },
-    {
-      "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥١:١٦ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٠:٤٨ ص"
     }
   ],
   "sessionLogs": [
@@ -2725,6 +2740,26 @@
         }
       ],
       "mainClientId": "_mmk41pmkimqnjojlt"
+    },
+    {
+      "id": "_dgcnl1iiimqnjshy8",
+      "tawkeelNum": "2000\\2025",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "تحه توقيع ارض237متر",
+      "clients": [
+        {
+          "id": "_0vfqgwixkmqnjsh54",
+          "name": "نشوي السيد ابرهيم عبدالعزيز",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "ش \\ شهيد الطيار",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_0vfqgwixkmqnjsh54"
     }
   ],
   "version": "8.0"

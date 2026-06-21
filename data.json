@@ -179,6 +179,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T08:17:27.002Z"
+    },
+    {
+      "id": "_dnfofn9pemqnino3q",
+      "num": "000001",
+      "type": "مدني جزئي",
+      "clientIds": "_j8122030wmqnilgop",
+      "plaintiff": "نهله السيد ابرهيم عبدالعزيز",
+      "defendant": "حنان محمد عبدالمقصود",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "2026-07-14",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "325",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T08:20:10.310Z"
     }
   ],
   "clients": [
@@ -1769,6 +1789,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة قضية: 000001",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٢٠:١٠ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٨:٣٤ ص"
+    },
     {
       "action": "إضافة توكيل: 325\\2002 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:١٨:٢٨ ص"

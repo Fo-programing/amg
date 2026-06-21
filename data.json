@@ -3973,6 +3973,14 @@
       "time": "",
       "court": "",
       "notes": ""
+    },
+    {
+      "id": "_jxmb1k2tpmqntphkp",
+      "caseId": "_dsr0k4chimqntmssk",
+      "date": "2026-07-06",
+      "time": "",
+      "court": "الاسره بندر الزقازيق",
+      "notes": ""
     }
   ],
   "tasks": [
@@ -4022,6 +4030,10 @@
   ],
   "settings": {},
   "activityLog": [
+    {
+      "action": "إضافة جلسة",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٩:٣٠ م"
+    },
     {
       "action": "إضافة قضية: 3782",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٧:٢٥ م"

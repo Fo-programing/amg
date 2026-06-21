@@ -1219,6 +1219,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T11:05:06.808Z"
+    },
+    {
+      "id": "_5un43wkb5mqnonx42",
+      "num": "000999",
+      "type": "عمال",
+      "clientIds": "_9fuml9hpmmqnolxqh",
+      "plaintiff": "",
+      "defendant": "ورشه المرجوم محمد صلاح الدين",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "انذار",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T11:08:19.682Z"
     }
   ],
   "clients": [
@@ -3260,6 +3280,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 000999",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٨:١٩ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٦:٥٤ ص"
+    },
+    {
       "action": "إضافة توكيل: 8989898989 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:٠٦:٤٧ ص"
     },
@@ -3650,14 +3678,6 @@
     {
       "action": "إضافة قضية: 20000000000000",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٤:٢٥ ص"
-    },
-    {
-      "action": "إضافة قضية: 3444444444",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٢:٣٧ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١١:٤٩ ص"
     }
   ],
   "sessionLogs": [

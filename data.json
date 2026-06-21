@@ -1558,8 +1558,22 @@
       "note": ""
     }
   ],
-  "settings": {},
+  "settings": {
+    "officeName": "AMG للمحاماة والاستشارات القانونية",
+    "officeManager": "مصطفى محمد أباظة",
+    "officeAddress": "",
+    "officePhone": "",
+    "officeEmail": ""
+  },
   "activityLog": [
+    {
+      "action": "حفظ إعدادات",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:٢٩ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:٢٩ ص"
+    },
     {
       "action": "حذف قضية نهائياً: 2222",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٢٧:٢٥ ص"

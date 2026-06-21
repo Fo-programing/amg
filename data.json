@@ -159,6 +159,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T08:15:43.192Z"
+    },
+    {
+      "id": "_zl2urskd1mqnik63e",
+      "num": "000",
+      "type": "أسرة",
+      "clientIds": "_3qczpf3pnmqniixsu",
+      "plaintiff": "سمر صفوت المسلمي",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "ميراث عائله المسلمي",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T08:17:27.002Z"
     }
   ],
   "clients": [
@@ -1734,6 +1754,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة قضية: 000",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٧:٢٧ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٦:٣٦ ص"
+    },
     {
       "action": "إضافة توكيل: 0000 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:١٦:٣٠ ص"

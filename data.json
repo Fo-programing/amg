@@ -679,6 +679,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T09:32:54.922Z"
+    },
+    {
+      "id": "_w83bi0omwmqnm1zfb",
+      "num": "777",
+      "type": "أسرة",
+      "clientIds": "_al77scdp1mqmac10w",
+      "plaintiff": "",
+      "defendant": "محمد متولي ابرهيم المراكبي",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "صرف نفقات 7300",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T09:55:17.015Z"
     }
   ],
   "clients": [
@@ -2495,6 +2515,10 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 777",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٥:١٧ ص"
+    },
+    {
       "action": "إضافة قضية: 3140",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٣٢:٥٤ ص"
     },
@@ -2889,10 +2913,6 @@
     {
       "action": "إضافة قضية: 593\\2025",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٦:١٧ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٣:٥٢ ص"
     }
   ],
   "sessionLogs": [

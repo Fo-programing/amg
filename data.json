@@ -2573,6 +2573,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T10:33:12.100Z"
+    },
+    {
+      "id": "_5fko7qtxwmqnnidbr",
+      "name": "مروه السيد عبدالرحمن",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "2525",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T10:36:02.301Z"
     }
   ],
   "staff": [
@@ -2939,6 +2954,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 2525 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٦:٠٢ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٤:١٨ ص"
+    },
     {
       "action": "إضافة قضية: 555555555",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٤:١١ ص"
@@ -3330,14 +3353,6 @@
     {
       "action": "إضافة توكيل: 333333333 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٤٢:٥٠ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٤١:١٥ ص"
-    },
-    {
-      "action": "إضافة قضية: 222222222",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٤١:٠٩ ص"
     }
   ],
   "sessionLogs": [
@@ -3910,6 +3925,26 @@
         }
       ],
       "mainClientId": "_xpbxxavaamqnnepvh"
+    },
+    {
+      "id": "_bv2jusf6hmqnnie7w",
+      "tawkeelNum": "2525",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_5fko7qtxwmqnnidbr",
+          "name": "مروه السيد عبدالرحمن",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_5fko7qtxwmqnnidbr"
     }
   ],
   "version": "8.0"

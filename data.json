@@ -359,6 +359,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T08:50:37.712Z"
+    },
+    {
+      "id": "_ytgexszmfmqnjtw75",
+      "num": "2000\\2025",
+      "type": "مدني جزئي",
+      "clientIds": "_0vfqgwixkmqnjsh54",
+      "plaintiff": "",
+      "defendant": "حنان محمد عبدالمقصود",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "صحه توقيع ارض 237متر",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T08:53:00.353Z"
     }
   ],
   "clients": [
@@ -2070,6 +2090,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 2000\\2025",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٣:٠٠ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٢:٠١ ص"
+    },
+    {
       "action": "إضافة توكيل: 2000\\2025 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٥١:٥٥ ص"
     },
@@ -2460,14 +2488,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥١:٤٧ ص"
-    },
-    {
-      "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥١:٤٢ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥١:٢١ ص"
     }
   ],
   "sessionLogs": [

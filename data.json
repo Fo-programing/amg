@@ -3058,6 +3058,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T11:50:19.137Z"
+    },
+    {
+      "id": "_okpr9fr1omqnqikkc",
+      "name": "احمد محمد طه محمد",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "ش هندسه الري منيا القمح",
+      "photo": "",
+      "tawkeelNum": "08",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T12:00:11.896Z"
     }
   ],
   "staff": [
@@ -3443,6 +3458,10 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 08 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٠٠:١١ ص"
+    },
     {
       "action": "إضافة قضية: 88",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:٥٢:٢٠ ص"
@@ -3838,10 +3857,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٦:٥٣ ص"
-    },
-    {
-      "action": "إضافة قضية: 767",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٦:٤٦ ص"
     }
   ],
   "sessionLogs": [
@@ -4634,6 +4649,26 @@
         }
       ],
       "mainClientId": "_hiawx79tamqnq5wf4"
+    },
+    {
+      "id": "_j7gxr38wbmqnqimig",
+      "tawkeelNum": "08",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_okpr9fr1omqnqikkc",
+          "name": "احمد محمد طه محمد",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "ش هندسه الري منيا القمح",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_okpr9fr1omqnqikkc"
     }
   ],
   "version": "8.0"

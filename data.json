@@ -539,6 +539,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T09:12:37.487Z"
+    },
+    {
+      "id": "_11qebr6c0mqnklflr",
+      "num": "20000000000000",
+      "type": "إيجارات",
+      "clientIds": "_t0k5ww2mvmqmaareb",
+      "plaintiff": "",
+      "defendant": "سلوي حسن محمد",
+      "lawyerId": "",
+      "court": "الزقازيق",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "طرد",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T09:14:25.215Z"
     }
   ],
   "clients": [
@@ -2325,6 +2345,10 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 20000000000000",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٤:٢٥ ص"
+    },
+    {
       "action": "إضافة قضية: 3444444444",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:١٢:٣٧ ص"
     },
@@ -2719,10 +2743,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٩:٢٦ ص"
-    },
-    {
-      "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٩:٢١ ص"
     }
   ],
   "sessionLogs": [

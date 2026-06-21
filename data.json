@@ -739,6 +739,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T09:58:04.697Z"
+    },
+    {
+      "id": "_orybv7fu1mqnm9fai",
+      "num": "999999999",
+      "type": "أسرة",
+      "clientIds": "_g1cn116nomqnm70yk",
+      "plaintiff": "",
+      "defendant": "ميت",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "طلاق",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:01:04.170Z"
     }
   ],
   "clients": [
@@ -2570,6 +2590,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 999999999",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠١:٠٤ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٩:٢٠ ص"
+    },
+    {
       "action": "إضافة توكيل: 99998899989 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٥٩:١٣ ص"
     },
@@ -2960,14 +2988,6 @@
     {
       "action": "إضافة قضية: 00000",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:١٣:٥٣ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٢:٣٧ ص"
-    },
-    {
-      "action": "إضافة توكيل: 0000 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٢:٣١ ص"
     }
   ],
   "sessionLogs": [

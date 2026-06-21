@@ -1519,6 +1519,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:28:51.853Z"
+    },
+    {
+      "id": "_8ra45hxynmqnro8zd",
+      "num": "6620",
+      "type": "جنيات",
+      "clientIds": "_gaiy9yngpmqnrmem0",
+      "plaintiff": "",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "جنايات مخدرات  شابو 4200 جرام \nايس 42 جرام",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:32:33.913Z"
     }
   ],
   "clients": [
@@ -3684,6 +3704,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 6620",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٣٢:٣٣ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٣١:١٥ ص"
+    },
+    {
       "action": "إضافة توكيل: 244 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٣١:٠٨ ص"
     },
@@ -4074,14 +4102,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٩:٣٥ ص"
-    },
-    {
-      "action": "إضافة توكيل: 894 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٩:٢٩ ص"
-    },
-    {
-      "action": "إضافة قضية: 1834",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:١٧:٤٤ ص"
     }
   ],
   "sessionLogs": [

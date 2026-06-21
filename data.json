@@ -3847,14 +3847,6 @@
       "notes": ""
     },
     {
-      "id": "_chm91vndjmqnhzbv9",
-      "caseId": "_6unez5e4bmqnhvm73",
-      "date": "2026-06-17",
-      "time": "",
-      "court": "",
-      "notes": ""
-    },
-    {
       "id": "_av4chkj51mqnhzkaa",
       "caseId": "_6unez5e4bmqnhvm73",
       "date": "2026-09-16",
@@ -3884,6 +3876,62 @@
       "date": "2026-06-23",
       "time": "",
       "court": "الزراعه",
+      "notes": ""
+    },
+    {
+      "id": "_i8zgc1adnmqnhpiu6",
+      "caseId": "_tpxeue7kimqnhimep",
+      "date": "2025-11-08",
+      "time": "",
+      "court": "",
+      "notes": ""
+    },
+    {
+      "id": "_w9gu5x9cmmqnhpw31",
+      "caseId": "_tpxeue7kimqnhimep",
+      "date": "2025-12-27",
+      "time": "",
+      "court": "",
+      "notes": ""
+    },
+    {
+      "id": "_rm0n257s6mqnhqc0c",
+      "caseId": "_tpxeue7kimqnhimep",
+      "date": "2026-04-12",
+      "time": "",
+      "court": "",
+      "notes": ""
+    },
+    {
+      "id": "_ognon96lmmqnhqn7a",
+      "caseId": "_tpxeue7kimqnhimep",
+      "date": "2026-05-10",
+      "time": "",
+      "court": "",
+      "notes": ""
+    },
+    {
+      "id": "_lgxdn4piumqnhyt97",
+      "caseId": "_6unez5e4bmqnhvm73",
+      "date": "2026-04-22",
+      "time": "",
+      "court": "",
+      "notes": ""
+    },
+    {
+      "id": "_polat5mgcmqnhwjhj",
+      "caseId": "_6unez5e4bmqnhvm73",
+      "date": "2026-04-22",
+      "time": "",
+      "court": "",
+      "notes": ""
+    },
+    {
+      "id": "_chm91vndjmqnhzbv9",
+      "caseId": "_6unez5e4bmqnhvm73",
+      "date": "2026-06-17",
+      "time": "",
+      "court": "",
       "notes": ""
     },
     {
@@ -3949,54 +3997,6 @@
       "time": "",
       "court": "",
       "notes": ""
-    },
-    {
-      "id": "_i8zgc1adnmqnhpiu6",
-      "caseId": "_tpxeue7kimqnhimep",
-      "date": "2025-11-08",
-      "time": "",
-      "court": "",
-      "notes": ""
-    },
-    {
-      "id": "_w9gu5x9cmmqnhpw31",
-      "caseId": "_tpxeue7kimqnhimep",
-      "date": "2025-12-27",
-      "time": "",
-      "court": "",
-      "notes": ""
-    },
-    {
-      "id": "_rm0n257s6mqnhqc0c",
-      "caseId": "_tpxeue7kimqnhimep",
-      "date": "2026-04-12",
-      "time": "",
-      "court": "",
-      "notes": ""
-    },
-    {
-      "id": "_ognon96lmmqnhqn7a",
-      "caseId": "_tpxeue7kimqnhimep",
-      "date": "2026-05-10",
-      "time": "",
-      "court": "",
-      "notes": ""
-    },
-    {
-      "id": "_lgxdn4piumqnhyt97",
-      "caseId": "_6unez5e4bmqnhvm73",
-      "date": "2026-04-22",
-      "time": "",
-      "court": "",
-      "notes": ""
-    },
-    {
-      "id": "_polat5mgcmqnhwjhj",
-      "caseId": "_6unez5e4bmqnhvm73",
-      "date": "2026-04-22",
-      "time": "",
-      "court": "",
-      "notes": ""
     }
   ],
   "tasks": [
@@ -4046,6 +4046,10 @@
   ],
   "settings": {},
   "activityLog": [
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٥٤:٢٨ م"
+    },
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٩:٣٧ م"

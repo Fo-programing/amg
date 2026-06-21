@@ -1421,6 +1421,14 @@
       "time": "",
       "court": "",
       "notes": "للاطلاع علي المستندات"
+    },
+    {
+      "id": "_jqdyqxg5mmqnhn264",
+      "caseId": "_tpxeue7kimqnhimep",
+      "date": "2025-02-08",
+      "time": "",
+      "court": "",
+      "notes": ""
     }
   ],
   "tasks": [],
@@ -1457,6 +1465,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة جلسة",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥١:٤٢ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥١:٢١ ص"
+    },
     {
       "action": "إضافة جلسة",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥١:١٦ ص"

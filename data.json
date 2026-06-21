@@ -1699,6 +1699,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:53:11.275Z"
+    },
+    {
+      "id": "_xs06ofo94mqnsgcnk",
+      "num": "662\\2026",
+      "type": "مدني كلي",
+      "clientIds": "_n18dprxpemqm7vclg",
+      "plaintiff": "",
+      "defendant": "عبدالكريم السيد سعد - - عاطف عربي السيد سعد",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:54:25.040Z"
     }
   ],
   "clients": [
@@ -3894,6 +3914,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 662\\2026",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥٤:٢٥ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥٣:١٨ ص"
+    },
+    {
       "action": "إضافة قضية: 884",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:٥٣:١١ ص"
     },
@@ -4284,14 +4312,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٩:٠٩ ص"
-    },
-    {
-      "action": "إضافة قضية: 2225",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٩:٠٢ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٣٦:٥٥ ص"
     }
   ],
   "sessionLogs": [

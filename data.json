@@ -799,6 +799,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:04:15.010Z"
+    },
+    {
+      "id": "_2o30lapfomqnmffiu",
+      "num": "11111",
+      "type": "استئناف مدني",
+      "clientIds": "_al77scdp1mqmac10w",
+      "plaintiff": "",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "ملفات حفظ احكام",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:05:44.406Z"
     }
   ],
   "clients": [
@@ -2645,6 +2665,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 11111",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٥:٤٤ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٤:٢٣ ص"
+    },
+    {
       "action": "إضافة قضية: 1111111",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٤:١٥ ص"
     },
@@ -3035,14 +3063,6 @@
     {
       "action": "إضافة قضية: 000",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:١٧:٢٧ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٦:٣٦ ص"
-    },
-    {
-      "action": "إضافة توكيل: 0000 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٦:٣٠ ص"
     }
   ],
   "sessionLogs": [

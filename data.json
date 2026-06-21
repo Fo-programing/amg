@@ -1388,6 +1388,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T08:16:30.530Z"
+    },
+    {
+      "id": "_j8122030wmqnilgop",
+      "name": "نهله السيد ابرهيم عبدالعزيز",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "325\\2002",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T08:18:28.634Z"
     }
   ],
   "staff": [
@@ -1754,6 +1769,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 325\\2002 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٨:٢٨ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٧:٣٢ ص"
+    },
     {
       "action": "إضافة قضية: 000",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:١٧:٢٧ ص"
@@ -2209,6 +2232,26 @@
         }
       ],
       "mainClientId": "_3qczpf3pnmqniixsu"
+    },
+    {
+      "id": "_e1ogdum3vmqnilhne",
+      "tawkeelNum": "325\\2002",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_j8122030wmqnilgop",
+          "name": "نهله السيد ابرهيم عبدالعزيز",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_j8122030wmqnilgop"
     }
   ],
   "version": "8.0"

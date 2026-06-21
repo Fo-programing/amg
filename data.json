@@ -139,6 +139,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T08:13:53.055Z"
+    },
+    {
+      "id": "_kjvsnfmexmqnihxzs",
+      "num": "0000",
+      "type": "أموال عامة",
+      "clientIds": "_rzvo4w52jmqniguop",
+      "plaintiff": "محمد علي احمد محمد علي",
+      "defendant": "",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "تحويلات خارجه غير معلومه المصدر",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "0000000",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T08:15:43.192Z"
     }
   ],
   "clients": [
@@ -1699,6 +1719,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة قضية: 0000",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٥:٤٣ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٤:٥٩ ص"
+    },
     {
       "action": "إضافة توكيل: 00 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:١٤:٥٣ ص"

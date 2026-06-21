@@ -599,6 +599,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T09:22:11.914Z"
+    },
+    {
+      "id": "_muxk2pzvcmqnl0m4j",
+      "num": "40",
+      "type": "إيجارات",
+      "clientIds": "_y3e4ljfa0mqmawbn3",
+      "plaintiff": "",
+      "defendant": "عةد نصار عوده الترابين واخروم",
+      "lawyerId": "",
+      "court": "مأموريه استثنائ عالي الاسماعليه",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T09:26:13.508Z"
     }
   ],
   "clients": [
@@ -2400,6 +2420,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 40",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٦:١٣ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٢:١٨ ص"
+    },
+    {
       "action": "إضافة قضية: 666666666",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٢٢:١١ ص"
     },
@@ -2790,14 +2818,6 @@
     {
       "action": "إضافة جلسة",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٠١:٢٥ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠١:١٩ ص"
-    },
-    {
-      "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠١:١٤ ص"
     }
   ],
   "sessionLogs": [

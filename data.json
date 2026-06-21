@@ -1419,6 +1419,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T12:17:46.544Z"
+    },
+    {
+      "id": "_43x3osbvrmqnrc94h",
+      "num": "77",
+      "type": "عمال",
+      "clientIds": "_d0l5rjyw2mqmaripx",
+      "plaintiff": "",
+      "defendant": "معوض - ياسمين - السيد - وليد فراج",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T12:23:14.225Z"
     }
   ],
   "clients": [
@@ -3554,6 +3574,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 77",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:٢٣:١٤ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٥:١٧:٥٤ ص"
+    },
+    {
       "action": "إضافة قضية: 325",
       "time": "٢١‏/٦‏/٢٠٢٦، ٥:١٧:٤٦ ص"
     },
@@ -3944,14 +3972,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٤:٢٣ ص"
-    },
-    {
-      "action": "إضافة قضية: 1111111",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٤:١٥ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٠٣:١١ ص"
     }
   ],
   "sessionLogs": [

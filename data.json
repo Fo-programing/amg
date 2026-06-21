@@ -1429,6 +1429,14 @@
       "time": "",
       "court": "",
       "notes": ""
+    },
+    {
+      "id": "_rywptceohmqnhnq07",
+      "caseId": "_tpxeue7kimqnhimep",
+      "date": "2025-04-12",
+      "time": "",
+      "court": "",
+      "notes": "لتنفيذ اصل العقود"
     }
   ],
   "tasks": [],
@@ -1465,6 +1473,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة جلسة",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥٢:١٣ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥١:٤٧ ص"
+    },
     {
       "action": "إضافة جلسة",
       "time": "٢١‏/٦‏/٢٠٢٦، ١٢:٥١:٤٢ ص"

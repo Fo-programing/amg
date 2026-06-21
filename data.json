@@ -1159,6 +1159,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:56:42.280Z"
+    },
+    {
+      "id": "_q68cw7o7bmqnobplw",
+      "num": "2223",
+      "type": "عمال",
+      "clientIds": "_n18dprxpemqm7vclg",
+      "plaintiff": "",
+      "defendant": "عاطف عرب السيد سعيد",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "اقرار استلام ارض زراعيه",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:58:50.084Z"
     }
   ],
   "clients": [
@@ -3155,6 +3175,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 2223",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥٨:٥٠ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥٦:٤٩ ص"
+    },
+    {
       "action": "إضافة قضية: 148",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥٦:٤٢ ص"
     },
@@ -3545,14 +3573,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٦:٥٥ ص"
-    },
-    {
-      "action": "إضافة توكيل: 111111112 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٦:٤٦ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٠٥:٤١ ص"
     }
   ],
   "sessionLogs": [

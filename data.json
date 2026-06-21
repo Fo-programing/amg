@@ -1119,6 +1119,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:50:38.669Z"
+    },
+    {
+      "id": "_f3y3x4hv0mqno3ya2",
+      "num": "1808",
+      "type": "عمال",
+      "clientIds": "_0yn4g6qyrmqno2rcc",
+      "plaintiff": "",
+      "defendant": "محمد الهادي حسن",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "دعوه صحه توقيع",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:52:48.074Z"
     }
   ],
   "clients": [
@@ -3100,6 +3120,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 1808",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥٢:٤٨ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥٢:٠٠ ص"
+    },
+    {
       "action": "إضافة توكيل: 1808 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٥١:٥٣ ص"
     },
@@ -3490,14 +3518,6 @@
     {
       "action": "إضافة قضية: 286",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٨:٥١ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٨:١٤ ص"
-    },
-    {
-      "action": "إضافة توكيل: 3333333333 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٨:٠٧ ص"
     }
   ],
   "sessionLogs": [

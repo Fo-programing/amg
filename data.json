@@ -1079,6 +1079,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T10:40:34.427Z"
+    },
+    {
+      "id": "_y733i2y1dmqnnxuad",
+      "num": "2512",
+      "type": "أسرة",
+      "clientIds": "_dvzglvc2mmqnnwf1p",
+      "plaintiff": "",
+      "defendant": "حسن عبدالله الشاففعي محمد",
+      "lawyerId": "",
+      "court": "",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "دعوة مصروفات دراسيه قدرها 56812 جنيها",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T10:48:02.965Z"
     }
   ],
   "clients": [
@@ -3030,6 +3050,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 2512",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٨:٠٢ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٧:٠٣ ص"
+    },
+    {
       "action": "إضافة توكيل: 2512 مع 1 موكلين",
       "time": "٢١‏/٦‏/٢٠٢٦، ٣:٤٦:٥٧ ص"
     },
@@ -3420,14 +3448,6 @@
     {
       "action": "إضافة قضية: 2000\\2025",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٣:٠٠ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥٢:٠١ ص"
-    },
-    {
-      "action": "إضافة توكيل: 2000\\2025 مع 1 موكلين",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٥١:٥٥ ص"
     }
   ],
   "sessionLogs": [

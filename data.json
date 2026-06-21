@@ -1353,6 +1353,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T08:14:53.659Z"
+    },
+    {
+      "id": "_3qczpf3pnmqniixsu",
+      "name": "سمر صفوت المسلمي",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "العريش المساجد",
+      "photo": "",
+      "tawkeelNum": "0000",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T08:16:30.530Z"
     }
   ],
   "staff": [
@@ -1719,6 +1734,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 0000 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٦:٣٠ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٥:٤٩ ص"
+    },
     {
       "action": "إضافة قضية: 0000",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:١٥:٤٣ ص"
@@ -2138,6 +2161,26 @@
         }
       ],
       "mainClientId": "_rzvo4w52jmqniguop"
+    },
+    {
+      "id": "_036ljoghpmqniiyiq",
+      "tawkeelNum": "0000",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_3qczpf3pnmqniixsu",
+          "name": "سمر صفوت المسلمي",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "العريش المساجد",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_3qczpf3pnmqniixsu"
     }
   ],
   "version": "8.0"

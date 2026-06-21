@@ -659,6 +659,26 @@
       "tawkeelType": "عام",
       "archived": false,
       "createdAt": "2026-06-21T09:30:47.665Z"
+    },
+    {
+      "id": "_7p8wp57ndmqnl97uy",
+      "num": "3140",
+      "type": "إيجارات",
+      "clientIds": "_v184x2289mqm9ghs8",
+      "plaintiff": "",
+      "defendant": "امان الله احمد شريف شوكت",
+      "lawyerId": "",
+      "court": "45 صرف",
+      "division": "",
+      "date": "",
+      "status": "نشطة",
+      "notes": "",
+      "fee": 0,
+      "paid": 0,
+      "tawkeelNum": "",
+      "tawkeelType": "عام",
+      "archived": false,
+      "createdAt": "2026-06-21T09:32:54.922Z"
     }
   ],
   "clients": [
@@ -2475,6 +2495,14 @@
   },
   "activityLog": [
     {
+      "action": "إضافة قضية: 3140",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٣٢:٥٤ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٢:٣٠:٥٣ ص"
+    },
+    {
       "action": "إضافة قضية: 5555555555555555",
       "time": "٢١‏/٦‏/٢٠٢٦، ٢:٣٠:٤٧ ص"
     },
@@ -2865,14 +2893,6 @@
     {
       "action": "مزامنة مع GitHub",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٣:٥٢ ص"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٣:٤٨ ص"
-    },
-    {
-      "action": "حفظ إعدادات",
-      "time": "٢١‏/٦‏/٢٠٢٦، ١:٠٣:٤٨ ص"
     }
   ],
   "sessionLogs": [

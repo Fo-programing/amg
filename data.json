@@ -1318,6 +1318,21 @@
       "tawkeelImg": "",
       "notes": "",
       "createdAt": "2026-06-21T08:12:31.954Z"
+    },
+    {
+      "id": "_rzvo4w52jmqniguop",
+      "name": "محمد علي احمد محمد علي",
+      "phone": "",
+      "idNum": "",
+      "email": "",
+      "address": "",
+      "photo": "",
+      "tawkeelNum": "00",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "createdAt": "2026-06-21T08:14:53.659Z"
     }
   ],
   "staff": [
@@ -1684,6 +1699,14 @@
     "officeEmail": ""
   },
   "activityLog": [
+    {
+      "action": "إضافة توكيل: 00 مع 1 موكلين",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٤:٥٣ ص"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ١:١٣:٥٨ ص"
+    },
     {
       "action": "إضافة قضية: 00000",
       "time": "٢١‏/٦‏/٢٠٢٦، ١:١٣:٥٣ ص"
@@ -2067,6 +2090,26 @@
         }
       ],
       "mainClientId": "_5na7adl7rmqnidtlr"
+    },
+    {
+      "id": "_2mhgozgshmqnigvrv",
+      "tawkeelNum": "00",
+      "tawkeelType": "عام",
+      "tawkeelDate": "",
+      "tawkeelImg": "",
+      "notes": "",
+      "clients": [
+        {
+          "id": "_rzvo4w52jmqniguop",
+          "name": "محمد علي احمد محمد علي",
+          "phone": "",
+          "idNum": "",
+          "email": "",
+          "address": "",
+          "photo": ""
+        }
+      ],
+      "mainClientId": "_rzvo4w52jmqniguop"
     }
   ],
   "version": "8.0"

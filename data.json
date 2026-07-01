@@ -4166,6 +4166,17 @@
       "deductReason": "غياب ٥ ايام",
       "status": "مدفوع",
       "note": ""
+    },
+    {
+      "id": "_ssqfm9bgnmr2gyg0t",
+      "staffId": "_hwyzl17xumqm4rgrl",
+      "month": "2026-07",
+      "base": 3000,
+      "bonus": 0,
+      "deduct": 5,
+      "deductReason": "غياب ٥ ايام",
+      "status": "مدفوع",
+      "note": ""
     }
   ],
   "sessionLogs": [
@@ -5110,10 +5121,14 @@
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": false,
-    "lastSync": "١‏/٧‏/٢٠٢٦، ١٠:٢٨:٤٦ م",
-    "lastSyncCommit": "fd22ebec63864c2b1438e3aab35c5b0f8dc87991"
+    "lastSync": "١‏/٧‏/٢٠٢٦، ١٠:٢٩:٠١ م",
+    "lastSyncCommit": "5f7ff942aa95d422bb3d5ad9d4e7cd9efa8c2305"
   },
   "activityLog": [
+    {
+      "action": "صرف راتب",
+      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٩:٠٦ م"
+    },
     {
       "action": "صرف راتب",
       "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٨:٥٥ م"

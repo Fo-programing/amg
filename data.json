@@ -4044,37 +4044,6 @@
       "note": ""
     }
   ],
-  "settings": {},
-  "activityLog": [
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٥٤:٢٨ م"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٩:٣٧ م"
-    },
-    {
-      "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٩:٣٠ م"
-    },
-    {
-      "action": "إضافة قضية: 3782",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٧:٢٥ م"
-    },
-    {
-      "action": "تعديل قضية: 3780",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:١٧ م"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:٠٧ م"
-    },
-    {
-      "action": "إضافة قضية: 3780",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:٠١ م"
-    }
-  ],
   "sessionLogs": [
     {
       "id": "_5457m87dqmqnhsjva",
@@ -5007,5 +4976,54 @@
       "mainClientId": "_5vl9ydglamqnsi5to"
     }
   ],
-  "version": "8.0"
+  "settings": {
+    "officeName": "مجموعه المصطفي للمحاماة والاستشارات القانونية",
+    "officeManager": "مصطفي محمد",
+    "officeAddress": "",
+    "officePhone": "",
+    "officeEmail": "",
+    "storageMode": "local",
+    "githubRepo": "Fo-programing/amg",
+    "githubFilePath": "data.json",
+    "autoSync": true
+  },
+  "activityLog": [
+    {
+      "action": "حفظ إعدادات",
+      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٥:١٦ م"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٥٤:٢٨ م"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٩:٣٧ م"
+    },
+    {
+      "action": "إضافة جلسة",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٩:٣٠ م"
+    },
+    {
+      "action": "إضافة قضية: 3782",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٧:٢٥ م"
+    },
+    {
+      "action": "تعديل قضية: 3780",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:١٧ م"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:٠٧ م"
+    },
+    {
+      "action": "إضافة قضية: 3780",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:٠١ م"
+    }
+  ],
+  "importantLinks": [],
+  "courts": [],
+  "version": "8.0",
+  "expenses": [],
+  "notifications": []
 }

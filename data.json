@@ -8,6 +8,8 @@
   "documents": [],
   "attendance": [],
   "salaries": [],
+  "sessionLogs": [],
+  "clientGroups": [],
   "settings": {
     "officeName": "AMG -  للمحاماة والاستشارات القانونية",
     "officeManager": "مصطفي محمد -  AMG",
@@ -17,7 +19,9 @@
     "storageMode": "github",
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
-    "autoSync": false
+    "autoSync": false,
+    "lastSync": "٢‏/٧‏/٢٠٢٦، ٥:٥٣:٥٤ م",
+    "lastSyncCommit": "fc39330d1adb1d0e78e7d10683a94346873dbb2f"
   },
   "activityLog": [
     {
@@ -25,11 +29,9 @@
       "time": "٢‏/٧‏/٢٠٢٦، ٥:٥٣:٥١ م"
     }
   ],
-  "sessionLogs": [],
-  "clientGroups": [],
   "importantLinks": [],
   "courts": [],
+  "version": "2.0",
   "expenses": [],
-  "notifications": [],
-  "version": "2.0"
+  "notifications": []
 }

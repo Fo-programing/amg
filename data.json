@@ -5105,16 +5105,14 @@
   ],
   "settings": {
     "officeName": "مجموعه المصطفي للمحاماة والاستشارات القانونية",
-    "officeManager": "مصطفي محمد",
+    "officeManager": "مصطفي محمد - AMG",
     "officeAddress": "",
     "officePhone": "",
     "officeEmail": "",
     "storageMode": "github",
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
-    "autoSync": true,
-    "lastSync": "٢‏/٧‏/٢٠٢٦، ٥:٥٦:٥٧ م",
-    "lastSyncCommit": "af9223dfa1d6aacbc2d8bb80401695560bcaa03b"
+    "autoSync": true
   },
   "activityLog": [
     {

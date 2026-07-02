@@ -5132,10 +5132,14 @@
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": false,
-    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٢:٤٦ م",
-    "lastSyncCommit": "d4110db714850436b9ae3063f97731b0188153a3"
+    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٣:٥٠ م",
+    "lastSyncCommit": "e2210b0e0dd03e00bb7d93aec479620921f4fa98"
   },
   "activityLog": [
+    {
+      "action": "إضافة محكمة: محكمه الحسنيه",
+      "time": "١‏/٧‏/٢٠٢٦، ٤:٥٣:٥٤ م"
+    },
     {
       "action": "إضافة محكمة: محكمه جنايات الزقازيق",
       "time": "١‏/٧‏/٢٠٢٦، ٤:٥٣:٤٦ م"
@@ -5242,6 +5246,10 @@
     {
       "id": "_2ypy5kmvrmr2sjyoa",
       "name": "محكمه جنايات الزقازيق"
+    },
+    {
+      "id": "_onwh8hbl7mr2sk4ru",
+      "name": "محكمه الحسنيه"
     }
   ],
   "version": "8.0",

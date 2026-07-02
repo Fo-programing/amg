@@ -4196,12 +4196,12 @@
     "officeAddress": "",
     "officePhone": "",
     "officeEmail": "",
-    "storageMode": "local",
+    "storageMode": "github",
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": false,
-    "lastSync": "١‏/٧‏/٢٠٢٦، ٢:٥١:٥٥ م",
-    "lastSyncCommit": "6f5eda5315b8ffa4f6a9c54de57fff5a4af66e63"
+    "lastSync": "٢‏/٧‏/٢٠٢٦، ٦:٤٧:٠٣ ص",
+    "lastSyncCommit": "4fb63e285ee01a8af1580eb878b327d12c26abde"
   },
   "activityLog": [
     {

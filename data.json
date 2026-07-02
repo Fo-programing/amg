@@ -4190,77 +4190,6 @@
       "note": ""
     }
   ],
-  "settings": {
-    "officeName": "AMG - النظام المتكامل للمحاماة",
-    "officeManager": "مصطفي محمد",
-    "officeAddress": "",
-    "officePhone": "",
-    "officeEmail": "",
-    "storageMode": "github",
-    "githubRepo": "Fo-programing/amg",
-    "githubFilePath": "data.json",
-    "autoSync": true,
-    "lastSync": "٢‏/٧‏/٢٠٢٦، ٦:٤٧:٠٥ ص",
-    "lastSyncCommit": "81393f6ae613eb0fe86390917730ced41dc7cfa3"
-  },
-  "activityLog": [
-    {
-      "action": "صرف راتب",
-      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٩:٢٣ م"
-    },
-    {
-      "action": "صرف راتب",
-      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٩:٠٦ م"
-    },
-    {
-      "action": "صرف راتب",
-      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٨:٥٥ م"
-    },
-    {
-      "action": "صرف راتب",
-      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٨:٤٠ م"
-    },
-    {
-      "action": "صرف راتب",
-      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٨:١٢ م"
-    },
-    {
-      "action": "حفظ إعدادات",
-      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٥:٢١ م"
-    },
-    {
-      "action": "حفظ إعدادات",
-      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٥:١٦ م"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٥٤:٢٨ م"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٩:٣٧ م"
-    },
-    {
-      "action": "إضافة جلسة",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٩:٣٠ م"
-    },
-    {
-      "action": "إضافة قضية: 3782",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٧:٢٥ م"
-    },
-    {
-      "action": "تعديل قضية: 3780",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:١٧ م"
-    },
-    {
-      "action": "مزامنة مع GitHub",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:٠٧ م"
-    },
-    {
-      "action": "إضافة قضية: 3780",
-      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:٠١ م"
-    }
-  ],
   "sessionLogs": [
     {
       "id": "_5457m87dqmqnhsjva",
@@ -5193,9 +5122,80 @@
       "mainClientId": "_5vl9ydglamqnsi5to"
     }
   ],
+  "settings": {
+    "officeName": "AMG - النظام المتكامل للمحاماة",
+    "officeManager": "مصطفي محمد",
+    "officeAddress": "",
+    "officePhone": "",
+    "officeEmail": "",
+    "storageMode": "github",
+    "githubRepo": "Fo-programing/amg",
+    "githubFilePath": "data.json",
+    "autoSync": true,
+    "lastSync": "٢‏/٧‏/٢٠٢٦، ٦:٤٧:٤٦ ص",
+    "lastSyncCommit": "afb6758d895f303e770f5d4db8853809059f737f"
+  },
+  "activityLog": [
+    {
+      "action": "صرف راتب",
+      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٩:٢٣ م"
+    },
+    {
+      "action": "صرف راتب",
+      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٩:٠٦ م"
+    },
+    {
+      "action": "صرف راتب",
+      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٨:٥٥ م"
+    },
+    {
+      "action": "صرف راتب",
+      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٨:٤٠ م"
+    },
+    {
+      "action": "صرف راتب",
+      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٨:١٢ م"
+    },
+    {
+      "action": "حفظ إعدادات",
+      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٥:٢١ م"
+    },
+    {
+      "action": "حفظ إعدادات",
+      "time": "١‏/٧‏/٢٠٢٦، ١٠:٢٥:١٦ م"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٥٤:٢٨ م"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٩:٣٧ م"
+    },
+    {
+      "action": "إضافة جلسة",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٩:٣٠ م"
+    },
+    {
+      "action": "إضافة قضية: 3782",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٧:٢٥ م"
+    },
+    {
+      "action": "تعديل قضية: 3780",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:١٧ م"
+    },
+    {
+      "action": "مزامنة مع GitHub",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:٠٧ م"
+    },
+    {
+      "action": "إضافة قضية: 3780",
+      "time": "٢١‏/٦‏/٢٠٢٦، ٤:٢٤:٠١ م"
+    }
+  ],
   "importantLinks": [],
   "courts": [],
+  "version": "8.0",
   "expenses": [],
-  "notifications": [],
-  "version": "8.0"
+  "notifications": []
 }

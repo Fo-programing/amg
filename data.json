@@ -5132,10 +5132,14 @@
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": false,
-    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٣:٥٠ م",
-    "lastSyncCommit": "e2210b0e0dd03e00bb7d93aec479620921f4fa98"
+    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٣:٥٧ م",
+    "lastSyncCommit": "b50313d994c4f72410a1b39e166c848c6704a327"
   },
   "activityLog": [
+    {
+      "action": "إضافة محكمة: مجمع محاكم مجلس الدوله الزقازيق",
+      "time": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٠٠ م"
+    },
     {
       "action": "إضافة محكمة: محكمه الحسنيه",
       "time": "١‏/٧‏/٢٠٢٦، ٤:٥٣:٥٤ م"
@@ -5250,6 +5254,10 @@
     {
       "id": "_onwh8hbl7mr2sk4ru",
       "name": "محكمه الحسنيه"
+    },
+    {
+      "id": "_h1fvy0d80mr2ska2b",
+      "name": "مجمع محاكم مجلس الدوله الزقازيق"
     }
   ],
   "version": "8.0",

@@ -5132,10 +5132,14 @@
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": false,
-    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٣٨ م",
-    "lastSyncCommit": "735acecc14a8b9bdfcdf9d2971df181ae1d66f03"
+    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٤٨ م",
+    "lastSyncCommit": "699381b8459a9c7fabb4f1625ddd15b1be88b04c"
   },
   "activityLog": [
+    {
+      "action": "إضافة محكمة: محكمه الاسره العاشر من رمضان",
+      "time": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٥٣ م"
+    },
     {
       "action": "إضافة محكمة: مجمع مكاكم العاشر من رمضان الجديده",
       "time": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٤٥ م"
@@ -5306,6 +5310,10 @@
     {
       "id": "_zioektp8amr2sl893",
       "name": "مجمع مكاكم العاشر من رمضان الجديده"
+    },
+    {
+      "id": "_1425gbc4kmr2sleh7",
+      "name": "محكمه الاسره العاشر من رمضان"
     }
   ],
   "version": "8.0",

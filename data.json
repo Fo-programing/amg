@@ -19,9 +19,9 @@
     "storageMode": "github",
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
-    "autoSync": false,
-    "lastSync": "٢‏/٧‏/٢٠٢٦، ٥:٥٤:١٠ م",
-    "lastSyncCommit": "92a117f19eb6a04fa904edc2683a5a92edf6c7ac"
+    "autoSync": true,
+    "lastSync": "٢‏/٧‏/٢٠٢٦، ٥:٥٤:٥٠ م",
+    "lastSyncCommit": "b0eac94c64eee37d12a680e27b3c487dbd5920de"
   },
   "activityLog": [
     {

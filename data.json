@@ -5132,10 +5132,14 @@
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": false,
-    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٤:١٠ م",
-    "lastSyncCommit": "9a3dfd6d5a1917d5bbb3d273d9b37760bef0285d"
+    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٤:١٧ م",
+    "lastSyncCommit": "d0179e53332eeaba2e71d991dabafd8dd3d92764"
   },
   "activityLog": [
+    {
+      "action": "إضافة محكمة: محكمه العاشر من رمضان",
+      "time": "١‏/٧‏/٢٠٢٦، ٤:٥٤:١٩ م"
+    },
     {
       "action": "إضافة محكمة: محكمه ابو حماد الجزئيه",
       "time": "١‏/٧‏/٢٠٢٦، ٤:٥٤:١٣ م"
@@ -5274,6 +5278,10 @@
     {
       "id": "_gnsap741emr2skjlr",
       "name": "محكمه ابو حماد الجزئيه"
+    },
+    {
+      "id": "_9edctsdl0mr2skoa9",
+      "name": "محكمه العاشر من رمضان"
     }
   ],
   "version": "8.0",

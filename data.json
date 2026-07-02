@@ -4092,16 +4092,7 @@
   ],
   "tasks": [],
   "payments": [],
-  "documents": [
-    {
-      "id": "_t82x4dpv1mqnpgdff",
-      "name": "تنزيل (4).jpg",
-      "cat": "أخرى",
-      "size": 29781,
-      "caseId": "",
-      "uploadedAt": "2026-06-21T11:30:27.196Z"
-    }
-  ],
+  "documents": [],
   "attendance": [],
   "salaries": [
     {
@@ -5122,8 +5113,8 @@
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": true,
-    "lastSync": "٢‏/٧‏/٢٠٢٦، ٣:٥١:٣٥ ص",
-    "lastSyncCommit": "2bcef95c231bd94adafd850d3707053ed5f98483"
+    "lastSync": "٢‏/٧‏/٢٠٢٦، ٣:٥١:٣٦ ص",
+    "lastSyncCommit": "05033bdcf25f1a8af01b30e378335cc66c56d025"
   },
   "activityLog": [
     {

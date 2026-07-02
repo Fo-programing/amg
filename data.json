@@ -4090,17 +4090,7 @@
       "notes": ""
     }
   ],
-  "tasks": [
-    {
-      "id": "_3rogb87q1mqnpcx3f",
-      "title": "تسليم اعلان جسه 22 تنسابلنشسي",
-      "priority": "عادية",
-      "due": "2026-06-21",
-      "ownerId": "_nwv6fpcxzmqm4z7xg",
-      "caseId": "_t0l3pkjy1mqnhfm44",
-      "status": "done"
-    }
-  ],
+  "tasks": [],
   "payments": [],
   "documents": [
     {
@@ -5132,8 +5122,8 @@
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": true,
-    "lastSync": "٢‏/٧‏/٢٠٢٦، ٣:٤٧:٠٩ ص",
-    "lastSyncCommit": "336e7f378e89b9e023116f3668dff5a12644d945"
+    "lastSync": "٢‏/٧‏/٢٠٢٦، ٣:٤٨:٥٤ ص",
+    "lastSyncCommit": "7d50764eb640cc1d033a62e9a55301b41cd1751c"
   },
   "activityLog": [
     {

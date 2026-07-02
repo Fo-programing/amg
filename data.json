@@ -5132,10 +5132,14 @@
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": false,
-    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٤:١٧ م",
-    "lastSyncCommit": "d0179e53332eeaba2e71d991dabafd8dd3d92764"
+    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٢٢ م",
+    "lastSyncCommit": "0e38efe19e3793ce61431a70670ebcdbabce54df"
   },
   "activityLog": [
+    {
+      "action": "إضافة محكمة: مجمع محاكم فاقوس",
+      "time": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٢٥ م"
+    },
     {
       "action": "إضافة محكمة: محكمه العاشر من رمضان",
       "time": "١‏/٧‏/٢٠٢٦، ٤:٥٤:١٩ م"
@@ -5282,6 +5286,10 @@
     {
       "id": "_9edctsdl0mr2skoa9",
       "name": "محكمه العاشر من رمضان"
+    },
+    {
+      "id": "_0rdih0en3mr2sktcy",
+      "name": "مجمع محاكم فاقوس"
     }
   ],
   "version": "8.0",

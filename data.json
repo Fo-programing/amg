@@ -5132,10 +5132,14 @@
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": false,
-    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٠٤ م",
-    "lastSyncCommit": "e22285134cac6a429ba0c1191244f7db76fc8830"
+    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٤:١٠ م",
+    "lastSyncCommit": "9a3dfd6d5a1917d5bbb3d273d9b37760bef0285d"
   },
   "activityLog": [
+    {
+      "action": "إضافة محكمة: محكمه ابو حماد الجزئيه",
+      "time": "١‏/٧‏/٢٠٢٦، ٤:٥٤:١٣ م"
+    },
     {
       "action": "إضافة محكمة: محكمه ههيا الابتدائيه",
       "time": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٠٦ م"
@@ -5266,6 +5270,10 @@
     {
       "id": "_b30djzcf7mr2skejo",
       "name": "محكمه ههيا الابتدائيه"
+    },
+    {
+      "id": "_gnsap741emr2skjlr",
+      "name": "محكمه ابو حماد الجزئيه"
     }
   ],
   "version": "8.0",

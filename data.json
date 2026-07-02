@@ -5132,10 +5132,14 @@
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": false,
-    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٤٨ م",
-    "lastSyncCommit": "699381b8459a9c7fabb4f1625ddd15b1be88b04c"
+    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٥٦ م",
+    "lastSyncCommit": "de0921ece508358ff922a5449ac917e049273814"
   },
   "activityLog": [
+    {
+      "action": "إضافة محكمة: مجمع محاكم ميت غمر",
+      "time": "١‏/٧‏/٢٠٢٦، ٤:٥٥:٠١ م"
+    },
     {
       "action": "إضافة محكمة: محكمه الاسره العاشر من رمضان",
       "time": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٥٣ م"
@@ -5314,6 +5318,10 @@
     {
       "id": "_1425gbc4kmr2sleh7",
       "name": "محكمه الاسره العاشر من رمضان"
+    },
+    {
+      "id": "_5q71dn2comr2slklp",
+      "name": "مجمع محاكم ميت غمر"
     }
   ],
   "version": "8.0",

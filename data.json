@@ -4090,7 +4090,17 @@
       "notes": ""
     }
   ],
-  "tasks": [],
+  "tasks": [
+    {
+      "id": "_2vilv8ajimr3n9wjp",
+      "title": "AMG",
+      "priority": "عاجلة",
+      "due": "",
+      "ownerId": "",
+      "caseId": "",
+      "status": "pending"
+    }
+  ],
   "payments": [],
   "documents": [],
   "attendance": [],
@@ -5113,10 +5123,14 @@
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": true,
-    "lastSync": "٢‏/٧‏/٢٠٢٦، ٦:١١:٣٤ م",
-    "lastSyncCommit": "44058ac7530decfa686ec54a16b6785452e00f0e"
+    "lastSync": "٢‏/٧‏/٢٠٢٦، ٦:١١:٥٩ م",
+    "lastSyncCommit": "421b2f5b390b37de6fca9b032208a0e3d82c9095"
   },
   "activityLog": [
+    {
+      "action": "إضافة مهمة: AMG",
+      "time": "٢‏/٧‏/٢٠٢٦، ٦:١٣:٤٤ م"
+    },
     {
       "action": "إضافة محكمة: مجمع محاكم ميت غمر",
       "time": "١‏/٧‏/٢٠٢٦، ٤:٥٥:٠١ م"

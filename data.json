@@ -5132,10 +5132,14 @@
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": false,
-    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٣:٥٧ م",
-    "lastSyncCommit": "b50313d994c4f72410a1b39e166c848c6704a327"
+    "lastSync": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٠٤ م",
+    "lastSyncCommit": "e22285134cac6a429ba0c1191244f7db76fc8830"
   },
   "activityLog": [
+    {
+      "action": "إضافة محكمة: محكمه ههيا الابتدائيه",
+      "time": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٠٦ م"
+    },
     {
       "action": "إضافة محكمة: مجمع محاكم مجلس الدوله الزقازيق",
       "time": "١‏/٧‏/٢٠٢٦، ٤:٥٤:٠٠ م"
@@ -5258,6 +5262,10 @@
     {
       "id": "_h1fvy0d80mr2ska2b",
       "name": "مجمع محاكم مجلس الدوله الزقازيق"
+    },
+    {
+      "id": "_b30djzcf7mr2skejo",
+      "name": "محكمه ههيا الابتدائيه"
     }
   ],
   "version": "8.0",

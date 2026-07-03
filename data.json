@@ -5123,8 +5123,8 @@
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": false,
-    "lastSync": "٣‏/٧‏/٢٠٢٦، ٤:٣٣:٢٥ ص",
-    "lastSyncCommit": "1a41618f5ca0aeca0f192e7286f85e94e358841d"
+    "lastSync": "٣‏/٧‏/٢٠٢٦، ٤:٣٣:٢٧ ص",
+    "lastSyncCommit": "5c5f6170127ef9e348520d00d273d3dc572ef7cb"
   },
   "activityLog": [
     {
@@ -5321,10 +5321,6 @@
     {
       "id": "_5q71dn2comr2slklp",
       "name": "مجمع محاكم ميت غمر"
-    },
-    {
-      "id": "_l0o63ukcrmr498vfb",
-      "name": "جنوب"
     }
   ],
   "version": "8.0",

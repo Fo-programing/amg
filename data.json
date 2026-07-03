@@ -5122,15 +5122,11 @@
     "storageMode": "github",
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
-    "autoSync": false,
-    "lastSync": "٣‏/٧‏/٢٠٢٦، ٤:٣٢:٢٨ ص",
-    "lastSyncCommit": "767c0cf04e6f18bb96342763dad2a541e60cbde5"
+    "autoSync": true,
+    "lastSync": "٢‏/٧‏/٢٠٢٦، ٥:٢٩:٤٣ م",
+    "lastSyncCommit": "f74cd3472db19eef2506450239bf1f0ee11f3fa9"
   },
   "activityLog": [
-    {
-      "action": "إضافة محكمة: جنوب",
-      "time": "٣‏/٧‏/٢٠٢٦، ٤:٢٨:٤٨ ص"
-    },
     {
       "action": "إضافة مهمة: AMG",
       "time": "٢‏/٧‏/٢٠٢٦، ٦:١٣:٤٤ م"
@@ -5321,10 +5317,6 @@
     {
       "id": "_5q71dn2comr2slklp",
       "name": "مجمع محاكم ميت غمر"
-    },
-    {
-      "id": "_l0o63ukcrmr498vfb",
-      "name": "جنوب"
     }
   ],
   "version": "8.0",

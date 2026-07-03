@@ -1,0 +1,25 @@
+{
+  "cases": [],
+  "clients": [],
+  "staff": [],
+  "sessions": [],
+  "tasks": [],
+  "payments": [],
+  "documents": [],
+  "attendance": [],
+  "salaries": [],
+  "settings": {
+    "storageMode": "local",
+    "githubRepo": "Fo-programing/amg",
+    "githubFilePath": "data.json",
+    "autoSync": true
+  },
+  "activityLog": [],
+  "sessionLogs": [],
+  "clientGroups": [],
+  "importantLinks": [],
+  "courts": [],
+  "expenses": [],
+  "notifications": [],
+  "version": "2.0"
+}

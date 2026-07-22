@@ -5132,8 +5132,8 @@
     "githubRepo": "Fo-programing/amg",
     "githubFilePath": "data.json",
     "autoSync": false,
-    "lastSync": "٥‏/٧‏/٢٠٢٦، ٨:١٢:٠٩ م",
-    "lastSyncCommit": "70e0b71538cec51c19d65d6649dd2d6989a5fdc3"
+    "lastSync": "٤‏/٧‏/٢٠٢٦، ٥:٠٥:٤٤ م",
+    "lastSyncCommit": "5fca0a24a8dfa9e1cfc0f5fb62df96d1bc0ca209"
   },
   "activityLog": [
     {
@@ -5197,16 +5197,5 @@
   "courts": [],
   "version": "8.0",
   "expenses": [],
-  "notifications": [
-    {
-      "id": "_7vwpghgurmr81tfe7",
-      "title": "📅 جلسة غداً",
-      "message": "لديك جلسة غداً في القضية 3782 بمحكمة الاسره بندر الزقازيق",
-      "type": "reminder",
-      "link": "sessions",
-      "caseId": "session__jxmb1k2tpmqntphkp",
-      "time": "2026-07-05T17:11:55.183Z",
-      "read": false
-    }
-  ]
+  "notifications": []
 }
